@@ -21,7 +21,7 @@ const Navbar: FC = () => {
             Experiments
           </h4>
           <h4 className="link link-underline h-8 link-underline-black hover:text-[#1c1d25] cursor-pointer">
-            Contacts
+            Contact
           </h4>
           <h4 className="link link-underline h-8 link-underline-black hover:text-[#1c1d25] cursor-pointer">
             Dark

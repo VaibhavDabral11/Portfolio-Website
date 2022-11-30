@@ -1,6 +1,6 @@
 import { FC } from "react";
-import Navbar from "./Navbar";
-import Rightbar from "./Rightbar";
+import Navbar from "./Navbar/Navbar";
+import Rightbar from "./RightBar/Rightbar";
 
 interface Props {
   children: React.ReactNode;
