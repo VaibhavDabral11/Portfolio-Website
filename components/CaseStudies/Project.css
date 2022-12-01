@@ -1,0 +1,45 @@
+.img-section {
+  background: #222;
+  transition: box-shadow 2s;
+  box-shadow: inset -50rem 0 0 0 #111;
+}
+
+img {
+  filter: contrast(200%);
+  transition: filter 2s;
+  opacity: 0.3;
+}
+
+.img-section:hover {
+  box-shadow: inset 50rem 0 0 0 #1d2c4a;
+  transition: box-shadow 2s;
+}
+
+.number-text {
+  background: transparent;
+  opacity: 0;
+  transition: 1s;
+}
+
+.work-section:hover .project-text {
+  background: transparent;
+  opacity: 1;
+  transform: translateY(-1rem);
+  transition: 0.5s;
+  color: white;
+}
+
+.work-section:hover .number-text {
+  background: #fff;
+  color: transparent;
+  background-clip: text;
+  visibility: visible;
+  display: block;
+  transition: 2s;
+}
+
+img:hover {
+  filter: contrast(200%);
+  transition: all 2s;
+  opacity: 0.5;
+}

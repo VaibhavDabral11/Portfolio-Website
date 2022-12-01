@@ -31,7 +31,7 @@ const LatestWork: FC = () => {
       {/* Works */}
       <div className="w-1/2 h-1/2 flex absolute right-40">
         <Project
-          title="Cerasa Redesign"
+          title="Crypto_Dora"
           description="Leader in bathroom furniture since 1983"
           img={Img1}
           number={1}
