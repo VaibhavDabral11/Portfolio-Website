@@ -17,3 +17,13 @@
   background-size: 100% 3px;
   background-position: 0 100%;
 }
+
+.navbar-name {
+  transition: 1s;
+}
+
+.navbar-home:hover .navbar-name {
+  color: #878a8f;
+  scale: 104%;
+  transition: 1s;
+}

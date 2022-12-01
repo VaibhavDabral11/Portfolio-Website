@@ -5,9 +5,11 @@ const Navbar: FC = () => {
     <>
       <div className="justify-around mt-6 w-full flex">
         <div className="hover:text-gray-400 items-center flex bg-clip-text text-center">
-          <div>
-            <h2 className="text-black font-bold text-2xl">Yasindu Nethmina</h2>
-            <h4 className=" text-gray-800 tracking-wider font-semibold text-sm">
+          <div className="cursor-pointer  navbar-home">
+            <h2 className="text-black navbar-name font-bold text-2xl">
+              Yasindu Nethmina
+            </h2>
+            <h4 className=" text-gray-800 navbar-name tracking-wider font-semibold text-sm">
               Frontend Web & Mobile Developer
             </h4>
           </div>

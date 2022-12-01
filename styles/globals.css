@@ -28,3 +28,30 @@ a {
     background: black;
   }
 }
+
+/* Selections */
+
+.name-text::selection {
+  background: #878a8f;
+  color: #fff;
+}
+
+.title-text::selection {
+  background: #878a8f;
+  color: #fff;
+}
+
+.bio-text::selection {
+  background: #878a8f;
+  color: #fff;
+}
+
+.case-studies-text::selection {
+  background: #111;
+  color: #fff;
+}
+
+.latest-works-text::selection {
+  background: #111;
+  color: #fff;
+}

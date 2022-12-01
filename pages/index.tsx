@@ -16,24 +16,26 @@ export default function Home() {
         <main className={styles.main}>
           <div className="flex items-center h-screen relative bottom-10 w-full">
             <div className="w-7/12 relative">
-              <h4 className="text-[#878a8f] mb-4 tracking-widest leading-4">
+              <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
                 YASINDU NETHMINA
               </h4>
-              <h1 className="font-extrabold mb-4 text-[#0f141e] text-6xl">
-                Website and user <br /> interface designer
+              <h1 className="title-text font-extrabold mb-4 text-[#0f141e] text-6xl">
+                Interactive frontend
+                <br />
+                Web developer
               </h1>
-              <h6 className="font-semibold mb-4 text-[#878a8f]">
+              <h6 className="bio-text font-semibold mb-4 text-[#878a8f]">
                 Over the past 9 years, as an art director and designer, I’ve
                 worked with big companies and up-and-coming startups to
                 successfully help them reach their full potential and attract
                 new customers.
               </h6>
               <div className="flex items-center">
-                <button className="font-bold text-sm hover:underline decoration-2 transition-all hover:-translate-y-1 hover:scale-105 ease-in-out duration-300 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
+                <button className="font-bold text-sm hover:underline decoration-2 transition-all hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
                   View Projects
                 </button>
                 <h6 className="font-semibold text-[#878a8f] mx-4">or</h6>
-                <button className="font-bold text-sm hover:underline decoration-2 transition-all hover:-translate-y-1 hover:scale-105 ease-in-out duration-300 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
+                <button className="font-bold text-sm hover:underline decoration-2 transition-all hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
                   Read About Me
                 </button>
               </div>

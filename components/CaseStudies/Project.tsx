@@ -1,5 +1,6 @@
 import { FC } from "react";
 import Image from "next/image";
+import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 
 export interface Props {
   title: string;
@@ -12,18 +13,28 @@ export interface Props {
 const Project: FC<Props> = ({ title, description, img, number, link }) => {
   return (
     <div className="w-full h-full work-section cursor-pointer">
-      <h1 className="project-text number-text text-8xl absolute top-6 right-0 z-40 w-40 font-black text-white">
-        0{number}
-      </h1>
-      <h1 className="project-text text-5xl absolute bottom-0 z-40 left-10 w-40 font-bold text-white">
-        {title}
-      </h1>
-      <p className="project-text text-sm italic tracking-wider absolute text-left -bottom-7 left-10 z-40 w-full font-normal text-white">
-        {description}
-      </p>
+      <div className="fhfggfgh">
+        <h1 className="project-text number-text text-8xl absolute top-6 right-0 w-40 font-black text-white">
+          0{number}
+        </h1>
+        <h1 className="project-text text-5xl text-left absolute bottom-20  z-10 left-10 w-40 font-bold text-white">
+          {title}
+        </h1>
+        <p className="project-description text-sm italic tracking-wider absolute  z-10 text-left bottom-12 left-10 w-full font-normal text-white">
+          {description}
+        </p>
+        <div className="button-section bg-blue-500">
+          <button className="button-text text-sm tracking-wider z-10 absolute text-left bottom-0 left-10 w-full font-semibold text-white">
+            Case Study
+          </button>
+          <div className="text-sm button-icon absolute bottom-0 left-36 z-20 font-semibold text-white">
+            <TrendingFlatIcon style={{ fontSize: "40px" }} />
+          </div>
+        </div>
+      </div>
 
       <div className="img-section cursor-pointer">
-        <Image src={img} className="" alt="project-img" />
+        <Image src={img} className="img-cover" alt="project-img" />
       </div>
     </div>
   );
