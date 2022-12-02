@@ -6,6 +6,6 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: [""],
+    domains: ["cdn4.iconfinder.com"],
   },
 };
