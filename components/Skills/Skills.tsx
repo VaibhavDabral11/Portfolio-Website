@@ -7,18 +7,17 @@ const Skills: FC = () => {
   return (
     <div className="skills z-40">
       <div className="text-center relative top-16">
-        <h4 className="font-serif case-studies-text text-sm bottom-20 relative text-[#b19386]">
-          PROGRAMMING LANGUAGES
-        </h4>
-        <h1 className="text-3xl latest-works-text bottom-20 relative text-[#4a4a4a] font-bold">
-          My Journey
-        </h1>
-      </div>
-      <div className="top-10 w-full relative skills-img-div flex px-20 items-center">
-        <div className="mr-20">
-          <h1 className="text-3xl latest-works-text bottom-4 relative text-[#4a4a4a] font-bold">
+        <div className="contact-me-section text-left relative personal-project-section">
+          <h4 className="text-[#878a8f] name-text personal-projects-text mb-4 tracking-widest leading-4">
+            PROGRAMMING LANGUAGES & TOOLS
+          </h4>
+          <h1 className="title-text personal-projects-text font-extrabold -left-1 mb-4 text-[#0f141e] text-6xl">
             Skills
           </h1>
+        </div>
+      </div>
+      <div className="bottom-16 w-full relative skills-img-div flex px-20 items-center">
+        <div className="mr-20">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
             turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
@@ -52,11 +51,9 @@ const Skills: FC = () => {
           <div className="text-center">
             <h1 className="font-bold text-3xl text-[#4a4a4a]">React</h1>
             <p className="text-sm px-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
-              tellus. Sed dignissim, metus nec fringilla accumsan.
+              React is a free and open-source front-end JavaScript library for
+              building user interfaces based on UI components. It is maintained
+              by Meta and a community of individual developers and companies.
             </p>
           </div>
         </div>

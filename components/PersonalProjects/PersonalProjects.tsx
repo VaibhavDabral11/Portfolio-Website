@@ -8,7 +8,7 @@ import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 
 const WorkTogether: FC = () => {
   return (
-    <div className="personal-project-section w-full relative top-20 mt-16">
+    <div className="personal-project-section w-full relative">
       <h4 className="text-[#878a8f] name-text personal-projects-text text-left mb-4 tracking-widest leading-4">
         VIDEO GAMES & ARTS
       </h4>
