@@ -1,5 +1,6 @@
 import Head from "next/head";
 import CaseStudies from "../components/CaseStudies/CaseStudies";
+import Skills from "../components/Skills/Skills";
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
 
@@ -52,7 +53,11 @@ export default function Home() {
           <div className="border-2 justify-center items-center flex border-black h-6 absolute bottom-7 w-4 rounded-full">
             <span className="animate-bounce">•</span>
           </div>
-          <CaseStudies />
+          {/* Case Studies */}
+          <div className="case-studies-section w-full">
+            <CaseStudies />
+          </div>
+          <Skills />
         </main>
 
         <footer className={styles.footer}></footer>

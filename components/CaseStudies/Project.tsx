@@ -13,7 +13,7 @@ export interface Props {
 const Project: FC<Props> = ({ title, description, img, number, link }) => {
   return (
     <div className="w-full h-full work-section cursor-pointer">
-      <div className="fhfggfgh">
+      <div className="">
         <h1 className="project-text number-text text-8xl absolute top-6 right-0 w-40 font-black text-white">
           0{number}
         </h1>
@@ -28,7 +28,7 @@ const Project: FC<Props> = ({ title, description, img, number, link }) => {
             Case Study
           </button>
           <div className="text-sm button-icon absolute bottom-0 left-36 z-20 font-semibold text-white">
-            <TrendingFlatIcon style={{ fontSize: "40px" }} />
+            <TrendingFlatIcon style={{ fontSize: "40px", color: "#e5e7eb" }} />
           </div>
         </div>
       </div>
