@@ -9,6 +9,8 @@
 
 .react-inner {
   position: absolute;
+  top: 15%;
+  right: 13.1%;
   width: 30%;
   max-width: 30rem;
 }

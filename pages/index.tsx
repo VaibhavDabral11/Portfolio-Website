@@ -2,7 +2,10 @@ import Head from "next/head";
 import CaseStudies from "../components/CaseStudies/CaseStudies";
 import Skills from "../components/Skills/Skills";
 import Layout from "../components/Layout";
+import WorkTogether from "../components/PersonalProjects/PersonalProjects";
+import Footer from "../components/Footer/Footer";
 import styles from "../styles/Home.module.css";
+import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 
 export default function Home() {
   return (
@@ -58,6 +61,21 @@ export default function Home() {
             <CaseStudies />
           </div>
           <Skills />
+          <WorkTogether />
+
+          <div className="contact-me-section relative top-96">
+            <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
+              NEEDA FRONTEND DEVELOPER?
+            </h4>
+            <h1 className="title-text font-extrabold hover:underline transition ease-in-out delay-150 duration-700 my-4 text-[#0f141e] text-6xl">
+              LET'S WORK TOGETHER
+              <TrendingFlatIcon
+                className="animate-pulse"
+                style={{ fontSize: "4rem" }}
+              />
+            </h1>
+          </div>
+          <Footer />
         </main>
 
         <footer className={styles.footer}></footer>
