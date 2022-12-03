@@ -4,7 +4,7 @@ import Img1 from "../../images/website-main-dark.jpg";
 
 const LatestWork: FC = () => {
   return (
-    <div className="h-screen w-full text-center">
+    <div className="h-screen case-studies-section w-full text-center">
       <div
         style={{ width: "1px" }}
         className="hr-line h-screen m-0 absolute left-72 opacity-30 bg-[#b19386]"
@@ -35,27 +35,27 @@ const LatestWork: FC = () => {
           description="realtime cryptocurrency charts,news and track your winning portfolio!"
           img={Img1}
           number={1}
-          link="dffg"
+          link="https://example.com"
         />
       </div>
 
       <div className="w-1/2 h-1/2 work2 flex absolute left-60">
         <Project
           title="Crypto_Dora"
-          description="Leader in bathroom furniture since 1983"
+          description="realtime cryptocurrency charts,news and track your winning portfolio!"
           img={Img1}
           number={2}
-          link="dffg"
+          link="https://example.com"
         />
       </div>
 
       <div className="w-1/2 h-1/2 work3 flex absolute right-60">
         <Project
           title="Crypto_Dora"
-          description="Leader in bathroom furniture since 1983"
+          description="realtime cryptocurrency charts,news and track your winning portfolio!"
           img={Img1}
           number={3}
-          link="dffg"
+          link="https://example.com"
         />
       </div>
     </div>

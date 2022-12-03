@@ -30,7 +30,6 @@ a {
 }
 
 /* Selections */
-
 .name-text::selection {
   background: #878a8f;
   color: #fff;
@@ -56,6 +55,29 @@ a {
   color: #fff;
 }
 
-.contact-me-section {
-  position: relative;
+/* Hover underline animation effects */
+.view-projects-text::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+.view-projects-text:hover::after {
+  width: 100%;
+}
+
+.read-about-text::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+.read-about-text:hover::after {
+  width: 100%;
 }

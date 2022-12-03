@@ -1,11 +1,10 @@
 import Head from "next/head";
 import CaseStudies from "../components/CaseStudies/CaseStudies";
-import Skills from "../components/Skills/Skills";
 import Layout from "../components/Layout";
 import PersonalProjects from "../components/PersonalProjects/PersonalProjects";
+import WorkTogether from "../components/WorkTogether/WorkTogether";
 import Footer from "../components/Footer/Footer";
 import styles from "../styles/Home.module.css";
-import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 
 export default function Home() {
   return (
@@ -35,11 +34,13 @@ export default function Home() {
                 new customers.
               </h6>
               <div className="flex items-center">
-                <button className="font-bold text-sm hover:underline decoration-2 transition-all hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
+                <button className="font-bold text-sm view-projects-text name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
                   View Projects
                 </button>
-                <h6 className="font-semibold text-[#878a8f] mx-4">or</h6>
-                <button className="font-bold text-sm hover:underline decoration-2 transition-all hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
+                <h6 className="font-semibold text-[#878a8f] name-text mx-4">
+                  or
+                </h6>
+                <button className="font-bold read-about-text text-sm l name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
                   Read About Me
                 </button>
               </div>
@@ -54,24 +55,11 @@ export default function Home() {
 
           {/* Bounce */}
           <div className="border-2 justify-center items-center flex border-black h-6 absolute bottom-7 w-4 rounded-full">
-            <span className="animate-bounce">•</span>
+            <span className="animate-bounce name-text">•</span>
           </div>
-          {/* Case Studies */}
-          <div className="case-studies-section w-full">
-            <CaseStudies />
-          </div>
-          <Skills />
+          <CaseStudies />
           <PersonalProjects />
-
-          <div className="contact-me-section relative top-96">
-            <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
-              NEEDA FRONTEND DEVELOPER?
-            </h4>
-            <h1 className="title-text font-extrabold hover:underline transition ease-in-out delay-150 duration-700 my-4 text-[#0f141e] text-6xl">
-              LET'S WORK TOGETHER
-              <TrendingFlatIcon style={{ fontSize: "4rem" }} />
-            </h1>
-          </div>
+          <WorkTogether />
           <Footer />
         </main>
 

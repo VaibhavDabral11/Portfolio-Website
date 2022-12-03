@@ -1,37 +1,68 @@
 import { FC } from "react";
+import RemoveIcon from "@mui/icons-material/Remove";
 
 const Footer: FC = () => {
   return (
-    <div className="footer-section relative top-96 h-40 w-full">
-      <div className="hr-section w-full h-1 bg-gray-500"></div>
-      <div className="flex justify-between w-full">
-        <div className="w-2/5">
-          <h1 className="font-bold">Contact information</h1>
-          <p className="text-gray-500">
-            Feel free to reach out to me any time. I prefer to talk over email,
-            especially since we may be a few time zones away.
+    <div className="footer-section relative h-44 mt-28 w-full">
+      <div className="flex w-full">
+        <div className="w-2/5 mr-60">
+          <h1 className="font-bold name-text text-lg">
+            Contact <br /> information <RemoveIcon />
+          </h1>
+          <p className="text-gray-500 name-text text-xs mt-3">
+            Feel free to reach out to me any time. I prefer to talk over email
+            or discord, especially since we may be a few time zones away.
           </p>
-          <h4>Email:yasindunethmina1938096@gmail.com</h4>
-          <h4>Mobile:+94-719-947-798</h4>
+          <div className="mt-4">
+            <h4 className="font-semibold text-xs case-studies-text mb-1">
+              Email: yasindunethmina1938096@gmail.com
+            </h4>
+            <h4 className="font-semibold case-studies-text text-xs mb-1">
+              Mobile: +94-719-947-798
+            </h4>
+            <h4 className="font-semibold case-studies-text text-xs">
+              Discord: ZeroDeathzZ#0001
+            </h4>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-extralight name-text mt-3 mr-1 italic">
+              © 2022 Yasindu Nethmina. Made with in Galle, Sri Lanka.
+            </h4>
+          </div>
         </div>
 
-        <div className="w-1/5">
-          <h1 className="font-bold">Latest projects</h1>
-          <h4>Iceland</h4>
-        </div>
+        <div className="flex w-4/5 justify-between">
+          <div className="w-1/3">
+            <h1 className="font-bold name-text text-lg">
+              Latest <br /> projects <RemoveIcon />
+            </h1>
+            <h4 className="transition-all case-studies-text mt-3 cursor-pointer hover:underline text-sm underline-offset-4">
+              Iceland
+            </h4>
+          </div>
 
-        <div className="w-1/5">
-          <h1 className="font-bold">Current availability</h1>
-          <p className="text-gray-500">
-            I usually work on several projects but I’ll be happy to discuss new
-            opportunities. Let’s get in touch!
-          </p>
-        </div>
+          <div className="w-1/3 mx-32">
+            <h1 className="font-bold text-lg name-text">
+              Current <br /> availability <RemoveIcon />
+            </h1>
+            <p className="text-gray-500 name-text text-xs pr-16 name-text mt-3">
+              I usually work on several projects but I’ll be happy to discuss
+              new opportunities. Let’s get in touch!
+            </p>
+          </div>
 
-        <div className="w-1/5">
-          <h1 className="font-bold">Follow me on</h1>
-          <h4>Twitter</h4>
-          <h4>Facebook</h4>
+          <div className="w-1/3">
+            <h1 className="font-bold text-lg name-text">
+              Follow <br /> me on <RemoveIcon />
+            </h1>
+            <h4 className="transition-all case-studies-text mt-3 text-sm cursor-pointer hover:underline underline-offset-4">
+              Twitter
+            </h4>
+            <h4 className="transition-all case-studies-text text-sm cursor-pointer hover:underline underline-offset-4">
+              Facebook
+            </h4>
+          </div>
         </div>
       </div>
     </div>
