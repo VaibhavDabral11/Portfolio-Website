@@ -21,7 +21,7 @@ const Navbar: FC = () => {
             Case Studies
           </h4>
           <h4 className="link link-underline h-8 link-underline-black name-text hover:text-[#1c1d25] cursor-pointer">
-            Experiments
+            About Me
           </h4>
           <h4 className="link link-underline h-8 link-underline-black name-text hover:text-[#1c1d25] cursor-pointer">
             Contact

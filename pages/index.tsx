@@ -5,6 +5,7 @@ import PersonalProjects from "../components/PersonalProjects/PersonalProjects";
 import WorkTogether from "../components/WorkTogether/WorkTogether";
 import Footer from "../components/Footer/Footer";
 import styles from "../styles/Home.module.css";
+import AboutMe from "../components/AboutMe/AboutMe";
 
 export default function Home() {
   return (
@@ -58,6 +59,7 @@ export default function Home() {
             <span className="animate-bounce name-text">•</span>
           </div>
           <CaseStudies />
+          <AboutMe />
           <PersonalProjects />
           <WorkTogether />
           <Footer />
