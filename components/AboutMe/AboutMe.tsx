@@ -53,6 +53,21 @@ const AboutMe: FC = () => {
           </div>
 
           <div>
+            <div className="relative top-1/2">
+              <ArrowCircleLeftIcon className="relative left-60 top-1/3" />
+            </div>
+            <Image
+              src={Game1Img}
+              alt="me"
+              className="about-me-cover cover-img-1 cursor-move hidden object-cover flex justify-left min-w-40 mt-20 px-40"
+            />
+
+            <Image
+              src={Game1Img}
+              alt="me"
+              className="about-me-cover cover-img-2 cursor-move hidden object-cover flex justify-left min-w-40 mt-20 px-40"
+            />
+
             <Image
               src={Game1Img}
               alt="me"
