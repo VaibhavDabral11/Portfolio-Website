@@ -10,18 +10,18 @@ const WorkTogether: FC = () => {
   return (
     <>
       <div className="personal-project-section name-text mt-10">
-        <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-left mb-4 tracking-widest leading-4">
+        <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4">
           VIDEO GAMES & ARTS
         </h4>
-        <h1 className="title-text personal-projects-text name-text font-extrabold -left-1 mb-4 text-[#0f141e] text-6xl">
+        <h1 className="title-text text-center personal-projects-text name-text font-extrabold -left-1 mb-4 text-[#0f141e] text-6xl">
           Personal projects
         </h1>
 
-        <h1 className="title-text personal-projects-text font-semibold italic mt-8 -left-1 text-[#878a8f] text-sm">
+        <h1 className="title-text text-center personal-projects-text font-semibold italic mt-8 -left-1 text-[#878a8f] text-sm">
           *Back in 2021 summer, I switched my 5 years of game development career
-          into Software Engineering, specially for Web Development 👨‍💻👾 <br />
+          into Software Engineering, specially for Web Development! <br />
         </h1>
-        <h1 className="title-text personal-projects-text font-semibold ml-1 mb-4 text-[#878a8f] text-sm">
+        <h1 className="title-text text-center personal-projects-text font-semibold ml-1 mb-4 text-[#878a8f] text-sm">
           These are some of my game design work, that I've done in the past...
         </h1>
 

@@ -1,3 +1,5 @@
+import Image from "next/image";
+import BgMainImg from "../images/bg_img.png";
 import Head from "next/head";
 import CaseStudies from "../components/CaseStudies/CaseStudies";
 import Layout from "../components/Layout";
@@ -18,7 +20,12 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <div className="flex items-center h-screen relative bottom-10 w-full">
+          <div className="overflow-x-hidden flex items-center h-screen relative bottom-10 w-full">
+            <Image
+              className="bg-home-img w-1/3 z-50 absolute object-cover bottom-10 right-4"
+              alt="yasindu-nethmina"
+              src={BgMainImg}
+            />
             <div className="w-7/12 relative">
               <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
                 YASINDU NETHMINA
@@ -35,13 +42,13 @@ export default function Home() {
                 new customers.
               </h6>
               <div className="flex items-center">
-                <button className="font-bold text-sm view-projects-text name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
+                <button className="font-bold text-sm case-studies-text view-projects-text name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
                   View Projects
                 </button>
                 <h6 className="font-semibold text-[#878a8f] name-text mx-4">
                   or
                 </h6>
-                <button className="font-bold read-about-text text-sm l name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
+                <button className="font-bold read-about-text case-studies-text text-sm l name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]">
                   Read About Me
                 </button>
               </div>

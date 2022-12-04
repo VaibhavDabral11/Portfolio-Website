@@ -23,7 +23,6 @@ const AboutMe: FC = () => {
   {
     return (
       <>
-        <hr className="w-full mt-16" />
         <div className="my-20">
           <h4 className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4">
             A FEW WORDS ABOUT ME
@@ -53,29 +52,14 @@ const AboutMe: FC = () => {
           </div>
 
           <div>
-            <div className="relative top-1/2">
-              <ArrowCircleLeftIcon className="relative left-60 top-80" />
-            </div>
             <Image
               src={Game1Img}
               alt="me"
-              className="about-me-cover cover-img-1 cursor-move hidden object-cover flex justify-left min-w-40 mt-20 px-40"
-            />
-
-            <Image
-              src={Game1Img}
-              alt="me"
-              className="about-me-cover cover-img-2 cursor-move hidden object-cover flex justify-left min-w-40 mt-20 px-40"
-            />
-
-            <Image
-              src={Game1Img}
-              alt="me"
-              className="about-me-cover cursor-move object-cover flex justify-left min-w-40 mt-20 px-40"
+              className="about-me-cover cursor-move object-cover flex justify-left min-w-40 mt-16 px-40"
             />
           </div>
 
-          <div className="mt-20 flex justify-around">
+          <div className="mt-16 flex justify-around">
             <div>
               <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4">
                 DESIGN SERVICES
@@ -168,7 +152,7 @@ const AboutMe: FC = () => {
             </div>
           </div>
 
-          <h4 className="text-[#878a8f] mt-20 name-text name-text personal-projects-text text-sm text-center tracking-widest leading-4">
+          <h4 className="text-[#878a8f] mt-16 name-text name-text personal-projects-text text-sm text-center tracking-widest leading-4">
             SKILLS
           </h4>
           <div className="flex justify-evenly cursor-pointer flex-wrap">
@@ -253,8 +237,7 @@ const AboutMe: FC = () => {
               alt="redux-logo"
             />
           </div>
-
-          <hr className="w-full mt-24" />
+          <hr className="w-full mt-16" />
         </div>
       </>
     );

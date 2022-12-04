@@ -29,6 +29,10 @@ a {
   }
 }
 
+.bg-home-img {
+  filter: grayscale(100%);
+}
+
 /* Selections */
 .name-text::selection {
   background: #878a8f;

@@ -19,6 +19,21 @@
   background: #0f141e;
 }
 
+.lets-work-text {
+  left: 69%;
+  transition: 1s;
+}
+
+.lets-work-text:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
 .google-map {
   opacity: 0.3;
+}
+
+.map-container {
+  width: 100%;
+  height: 24rem;
 }
