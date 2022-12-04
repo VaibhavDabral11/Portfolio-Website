@@ -25,7 +25,7 @@ const AboutMe: FC = () => {
       <>
         <hr className="w-full mt-16" />
         <div className="my-20">
-          <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4">
+          <h4 className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4">
             A FEW WORDS ABOUT ME
           </h4>
           <div className="flex justify-center">
@@ -54,7 +54,7 @@ const AboutMe: FC = () => {
 
           <div>
             <div className="relative top-1/2">
-              <ArrowCircleLeftIcon className="relative left-60 top-1/3" />
+              <ArrowCircleLeftIcon className="relative left-60 top-80" />
             </div>
             <Image
               src={Game1Img}

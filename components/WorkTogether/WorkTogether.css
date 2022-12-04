@@ -10,3 +10,15 @@
 .work-together-text:hover::after {
   width: 100%;
 }
+
+.lets-work-text {
+  width: 70%;
+}
+
+.map-section {
+  background: #0f141e;
+}
+
+.google-map {
+  opacity: 0.3;
+}
