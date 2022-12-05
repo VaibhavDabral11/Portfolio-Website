@@ -21,7 +21,7 @@ const Map = () => {
         options={options}
         mapContainerClassName="map-container"
       >
-        <Marker position={{ lat: 8.8, lng: 80.5 }} />
+        <Marker position={{ lat: 8.5, lng: 80.5 }} />
       </GoogleMap>
       <h4 className="mt-16 italic font-semibold text-sm name-text">
         (I work Full-Time Remote & flexible for US/UK working hours)

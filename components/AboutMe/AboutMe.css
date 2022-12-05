@@ -1,3 +1,22 @@
 .about-me-cover {
   height: 32rem;
+  transition: 1s;
+}
+
+.about-me-cover:hover {
+  scale: 102%;
+  transition: 1s;
+}
+
+.slide-animation {
+  animation: slideAnim 1s;
+}
+
+@keyframes slideAnim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

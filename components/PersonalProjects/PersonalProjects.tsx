@@ -27,60 +27,84 @@ const WorkTogether: FC = () => {
 
         <div className="flex flex-wrap w-full h-screen top-10 relative justify-center">
           <div className="game-artwork w-2/5 h-96 cursor-pointer mx-10  mb-20">
-            <h1 className="project-text z-10 absolute p-4  name-text text-white font-black text-4xl">
-              Monkey Empire Vol.01
-            </h1>
-            <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
-              View Project <TrendingFlatIcon className="view-project-arrow" />
-            </h4>
+            <a
+              href="https://www.artstation.com/artwork/Ea5yqv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h1 className="project-text z-10 absolute p-4  name-text text-white font-black text-4xl">
+                Monkey Empire Vol.01
+              </h1>
+              <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
+                View Project <TrendingFlatIcon className="view-project-arrow" />
+              </h4>
 
-            <Image
-              src={GameArtwork1}
-              className="cursor-pointer artwork-img w-full h-full object-cover"
-              alt="game-work"
-            />
+              <Image
+                src={GameArtwork1}
+                className="cursor-pointer artwork-img w-full h-full object-cover"
+                alt="game-work"
+              />
+            </a>
           </div>
 
           <div className="game-artwork1 cursor-pointer w-2/5 h-96 mx-10 mb-20">
-            <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
-              Monkey Empire Vol.02
-            </h1>
-            <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
-              View Project <TrendingFlatIcon className="view-project-arrow" />
-            </h4>
-            <Image
-              src={GameArtwork2}
-              className="cursor-pointer artwork-img w-full h-full object-cover"
-              alt="game-work"
-            />
+            <a
+              href="https://www.artstation.com/artwork/VyxXgZ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
+                Monkey Empire Vol.02
+              </h1>
+              <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
+                View Project <TrendingFlatIcon className="view-project-arrow" />
+              </h4>
+              <Image
+                src={GameArtwork2}
+                className="cursor-pointer artwork-img w-full h-full object-cover"
+                alt="game-work"
+              />
+            </a>
           </div>
 
           <div className="game-artwork2 cursor-pointer w-2/5 h-96 mx-10 mb-20">
-            <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
-              Forest Environment Design
-            </h1>
-            <h4 className="view-project-text z-10 name-text view-projects-bottom absolute p-4 -bottom-4 text-white font-bold text-xl">
-              View Project <TrendingFlatIcon className="view-project-arrow" />
-            </h4>
-            <Image
-              src={GameArtwork3}
-              className="cursor-pointer artwork-img w-full h-full object-cover"
-              alt="game-work"
-            />
+            <a
+              href="https://www.artstation.com/artwork/48KKG1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
+                Forest Environment Design
+              </h1>
+              <h4 className="view-project-text z-10 name-text view-projects-bottom -bottom-28 absolute p-4 text-white font-bold text-xl">
+                View Project <TrendingFlatIcon className="view-project-arrow" />
+              </h4>
+              <Image
+                src={GameArtwork3}
+                className="cursor-pointer artwork-img w-full h-full object-cover"
+                alt="game-work"
+              />
+            </a>
           </div>
 
           <div className="game-artwork3 cursor-pointer w-2/5 h-96 mx-10">
-            <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
-              Panama Lands Artwork
-            </h1>
-            <h4 className="view-project-text name-text z-10 absolute p-4 -bottom-4 text-white font-bold text-xl">
-              View Project <TrendingFlatIcon className="view-project-arrow" />
-            </h4>
-            <Image
-              src={GameArtwork5}
-              className="cursor-pointer artwork-img w-full h-full object-cover"
-              alt="game-work"
-            />
+            <a
+              href="https://www.artstation.com/artwork/lR5wgV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
+                Panama Lands Artwork
+              </h1>
+              <h4 className="view-project-text name-text z-10 absolute p-4 -bottom-28 text-white font-bold text-xl">
+                View Project <TrendingFlatIcon className="view-project-arrow" />
+              </h4>
+              <Image
+                src={GameArtwork5}
+                className="cursor-pointer artwork-img w-full h-full object-cover"
+                alt="game-work"
+              />
+            </a>
           </div>
         </div>
       </div>

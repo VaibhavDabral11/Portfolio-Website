@@ -4,7 +4,7 @@
   height: 0.25rem;
   display: block;
   background: black;
-  transition: 300ms;
+  transition: 0.75s;
 }
 
 .work-together-text:hover::after {

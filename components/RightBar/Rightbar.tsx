@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Rightbar: FC = () => {
   return (
-    <div className="fixed top-1/2 right-0 z-50 flex justify-end items-center">
+    <div className="fixed top-1/2 mt-4 right-0 z-50 flex justify-end items-center">
       <div>
         <div>
           <LinkedInIcon

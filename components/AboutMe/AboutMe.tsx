@@ -1,5 +1,7 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import Image from "next/image";
+import CarouselImg1 from "../../images/aboutme-img1.jpg";
+import CarouselImg2 from "../../images/aboutme-img2.jpg";
 import HTMLImg from "../../images/html-5.png";
 import JavascriptImg from "../../images/javascript.png";
 import SASSImg from "../../images/scss.png";
@@ -15,11 +17,13 @@ import ReactImg from "../../images/react-native.png";
 import MongoDB from "../../images/mongodb-brand.png";
 import ReduxImg from "../../images/redux.png";
 import TailwindImg from "../../images/tailwind-logo.png";
-import Game1Img from "../../images/games2.jpg";
 import NextjsImg from "../../images/nextjs-logo.png";
-import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
+import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 const AboutMe: FC = () => {
+  const [active, setActive] = useState(false);
+
   {
     return (
       <>
@@ -51,11 +55,39 @@ const AboutMe: FC = () => {
             </p>
           </div>
 
-          <div>
+          <div className="w-full">
+            <div className="justify-between px-32 relative top-80 flex">
+              <button
+                className="z-20 slide-btn"
+                onClick={() => setActive(!active)}
+              >
+                <KeyboardArrowLeftIcon className="w-10 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-10 rounded-full" />
+              </button>
+              <button
+                className="z-20 slide-btn"
+                onClick={() => setActive(!active)}
+              >
+                <KeyboardArrowRightIcon className="w-10 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-10 rounded-full" />
+              </button>
+            </div>
             <Image
-              src={Game1Img}
-              alt="me"
-              className="about-me-cover cursor-move object-cover flex justify-left min-w-40 mt-16 px-40"
+              src={CarouselImg1}
+              alt="workflow"
+              className={
+                active
+                  ? "about-me-cover cover-img1 cursor-move object-contain flex justify-left mt-16"
+                  : "about-me-cover cover-img1 cursor-move hidden slide-animation object-contain flex justify-left mt-16"
+              }
+            />
+
+            <Image
+              src={CarouselImg2}
+              alt="workflow"
+              className={
+                active
+                  ? "about-me-cover cover-img1 cursor-move hidden slide-animation object-contain flex justify-left mt-16"
+                  : "about-me-cover cover-img2 cursor-move object-contain flex justify-left mt-16"
+              }
             />
           </div>
 
