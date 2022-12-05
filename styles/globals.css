@@ -85,3 +85,35 @@ a {
 .read-about-text:hover::after {
   width: 100%;
 }
+
+/* Typing animation */
+.heading-text {
+  animation: typing 3s steps(250, end) alternate;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes animate-waving-text {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.waving-text {
+  animation: animate-waving-text 1s linear infinite;
+}

@@ -1,8 +1,14 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import Project from "./Project";
 import Img1 from "../../images/website-main-dark.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const LatestWork: FC = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="h-screen case-studies-section w-full text-center">
       <div
@@ -20,16 +26,25 @@ const LatestWork: FC = () => {
 
       <hr className="rotate-90 absolute bottom-40 z-40" />
       <div>
-        <h4 className="font-serif case-studies-text text-sm bottom-20 relative text-[#b19386]">
+        <h4
+          className="font-serif case-studies-text text-sm bottom-20 relative text-[#b19386]"
+          data-aos="fade-up"
+        >
           CASE STUDIES
         </h4>
-        <h1 className="text-3xl latest-works-text bottom-20 relative text-[#4a4a4a] font-bold">
+        <h1
+          className="text-3xl latest-works-text bottom-20 relative text-[#4a4a4a] font-bold"
+          data-aos="fade-down"
+        >
           Latest Works
         </h1>
       </div>
 
       {/* Works */}
-      <div className="w-1/2 h-1/2 flex work1 absolute right-60">
+      <div
+        className="w-1/2 h-1/2 flex work1 absolute right-60"
+        animate-aos="fade-up"
+      >
         <Project
           title="CryptoDora"
           description="realtime cryptocurrency charts,news and track your winning portfolio!"

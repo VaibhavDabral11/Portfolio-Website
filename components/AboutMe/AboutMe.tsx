@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useState, useEffect } from "react";
 import Image from "next/image";
 import CarouselImg1 from "../../images/aboutme-img1.jpg";
 import CarouselImg2 from "../../images/aboutme-img2.jpg";
@@ -20,26 +20,38 @@ import TailwindImg from "../../images/tailwind-logo.png";
 import NextjsImg from "../../images/nextjs-logo.png";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutMe: FC = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const [active, setActive] = useState(false);
 
   {
     return (
       <>
         <div className="my-20">
-          <h4 className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4">
+          <h4
+            className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4"
+            data-aos="fade-up"
+          >
             A FEW WORDS ABOUT ME
           </h4>
-          <div className="flex justify-center">
-            <h1 className="title-text personal-projects-text name-text font-bold text-center leading-9 -left-1 mb-4 w-2/3 text-[#0f141e] text-3xl">
+          <div className="flex justify-center" data-aos="fade-up">
+            <h1
+              animate-aos="fade-up"
+              className="title-text personal-projects-text name-text font-bold text-center leading-9 -left-1 mb-4 w-2/3 text-[#0f141e] text-3xl"
+            >
               I’m Yasindu Nethmina, a multidisciplinary designer who focuses on
               telling my clients’ stories visually, through enjoyable and
               meaningful experiences. I specialize in responsive websites and
               functional user interfaces.
             </h1>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center" data-aos="zoom-out">
             <p className="mt-4 text-center text-lg font-semibold name-text w-1/2 text-[#878a8f]">
               Over the past 9 years I have been working with big companies and
               rising startups around the world as a designer and art director,
@@ -55,7 +67,7 @@ const AboutMe: FC = () => {
             </p>
           </div>
 
-          <div className="w-full">
+          <div className="w-full" data-aos="zoom-out" data-aos-duration="1000">
             <div className="justify-between px-32 relative top-80 flex">
               <button
                 className="z-20 slide-btn"
@@ -92,7 +104,7 @@ const AboutMe: FC = () => {
           </div>
 
           <div className="mt-16 flex justify-around">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="1000">
               <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4">
                 DESIGN SERVICES
               </h4>
@@ -135,7 +147,7 @@ const AboutMe: FC = () => {
               </div>
             </div>
 
-            <div>
+            <div data-aos="fade-left" data-aos-duration="1000">
               <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4">
                 DESIGN SERVICES
               </h4>
@@ -269,6 +281,7 @@ const AboutMe: FC = () => {
               alt="redux-logo"
             />
           </div>
+          <h2 className="waving-text"></h2>
           <hr className="w-full mt-16" />
         </div>
       </>

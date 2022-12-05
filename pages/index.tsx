@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Image from "next/image";
 import HomeImg from "../images/home_image.png";
 import Head from "next/head";
@@ -8,8 +9,14 @@ import WorkTogether from "../components/WorkTogether/WorkTogether";
 import Footer from "../components/Footer/Footer";
 import styles from "../styles/Home.module.css";
 import AboutMe from "../components/AboutMe/AboutMe";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <Layout>
       <div className={styles.container}>
@@ -25,12 +32,15 @@ export default function Home() {
               <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
                 YASINDU NETHMINA
               </h4>
-              <h1 className="title-text font-extrabold mb-4 text-[#0f141e] text-6xl">
+              <h1 className="title-text heading-text font-extrabold mb-4 text-[#0f141e] text-6xl">
                 Interactive frontend
                 <br />
                 Web developer
               </h1>
-              <h6 className="bio-text  font-semibold mb-4 drop-shadow-2xl text-[#878a8f]">
+              <h6
+                data-aos="fade-up"
+                className="bio-text font-semibold mb-4 drop-shadow-2xl text-[#878a8f]"
+              >
                 Over the past 9 years, as an art director and designer, I’ve
                 worked with big companies and up-and-coming startups to
                 successfully help them reach their full potential and attract
@@ -48,12 +58,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="">
-              {/* <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5q0FP74VV9wbfwP378_7kj7iDomHuKrxkXsxDdUT28V9dlVMNUe-EMzaLwaFhneeuZI&usqp=CAU"
-                alt="google"
-              /> */}
-            </div>
+
             <Image
               className="bg-home-img w-1/3 z-50 ml-12 object-cover"
               alt="yasindu-nethmina"
