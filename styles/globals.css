@@ -4,6 +4,9 @@
 
 html,
 body {
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -17,16 +20,6 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: white) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
 
 .bg-home-img {
@@ -88,7 +81,7 @@ a {
 
 /* Typing animation */
 .heading-text {
-  animation: typing 3s steps(250, end) alternate;
+  animation: typing 4s steps(250, end) alternate;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -100,20 +93,4 @@ a {
   100% {
     width: 100%;
   }
-}
-
-@keyframes animate-waving-text {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(-10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.waving-text {
-  animation: animate-waving-text 1s linear infinite;
 }

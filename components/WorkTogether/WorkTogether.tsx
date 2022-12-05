@@ -22,7 +22,7 @@ const WorkTogether: FC = () => {
         NEED A FRONTEND DEVELOPER?
       </h4>
       <button className="work-together-text name-text inline-block font-extrabold mt-4 my-28 text-[#0f141e] text-6xl">
-        LET'S WORK TOGETHER
+        LET&lsquo;S WORK TOGETHER
         <TrendingFlatIcon className="name-text" style={{ fontSize: "4rem" }} />
       </button>
       <div className="map-section absolute left-0 h-96 w-full">
@@ -34,7 +34,7 @@ const WorkTogether: FC = () => {
         <div className="flex justify-evenly text-[#0f141e]">
           <h4 className="name-text pr-20 text-[#0f141e]">L</h4>
           <h4 className="name-text pr-20 text-zinc-200">E</h4>
-          <h4 className="name-text pr-20 text-zinc-200">T'</h4>
+          <h4 className="name-text pr-20 text-zinc-200">T&lsquo;</h4>
           <h4 className="name-text pr-20 text-[#0f141e]">S</h4>
         </div>
 

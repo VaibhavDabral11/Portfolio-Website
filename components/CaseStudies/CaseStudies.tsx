@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const LatestWork: FC = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true });
   }, []);
 
   return (

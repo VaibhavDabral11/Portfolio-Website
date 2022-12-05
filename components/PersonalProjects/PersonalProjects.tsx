@@ -22,7 +22,8 @@ const WorkTogether: FC = () => {
           into Software Engineering, specially for Web Development! <br />
         </h1>
         <h1 className="title-text text-center personal-projects-text font-semibold ml-1 mb-4 text-[#878a8f] text-sm">
-          These are some of my game design work, that I've done in the past...
+          These are some of my game design work, that I&lsquo;ve done in the
+          past...
         </h1>
 
         <div className="flex flex-wrap w-full h-screen top-10 relative justify-center">
@@ -76,7 +77,7 @@ const WorkTogether: FC = () => {
               <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
                 Forest Environment Design
               </h1>
-              <h4 className="view-project-text z-10 name-text view-projects-bottom -bottom-28 absolute p-4 text-white font-bold text-xl">
+              <h4 className="view-project-text z-10 name-text view-projects-bottom -bottom-8 absolute p-4 text-white font-bold text-xl">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image
@@ -96,7 +97,7 @@ const WorkTogether: FC = () => {
               <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
                 Panama Lands Artwork
               </h1>
-              <h4 className="view-project-text name-text z-10 absolute p-4 -bottom-28 text-white font-bold text-xl">
+              <h4 className="view-project-text name-text z-10 absolute p-4 -bottom-8 text-white font-bold text-xl">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image
