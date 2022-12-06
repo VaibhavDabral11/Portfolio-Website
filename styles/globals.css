@@ -119,12 +119,10 @@ a {
 }
 
 .introduction-section {
-  position: absolute;
-  bottom: -26rem;
-  height: 30rem;
+  position:relative; top:68%;
 }
 
-.dfgdfggdgfg {
-  overflow-y: hidden;
-  height: 80vh;
+.footer-cryptodora {
+  position:relative;
+  top:60%;
 }
