@@ -58,3 +58,82 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2022-12-05T18:52:32.530Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
 [debug] [2022-12-05T18:52:33.241Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
 [debug] [2022-12-05T18:52:33.241Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-12-05T18:52:48.161Z] ----------------------------------------------------------------------
+[debug] [2022-12-05T18:52:48.163Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yasindu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-05T18:52:48.163Z] CLI Version:   11.16.1
+[debug] [2022-12-05T18:52:48.163Z] Platform:      win32
+[debug] [2022-12-05T18:52:48.163Z] Node Version:  v18.7.0
+[debug] [2022-12-05T18:52:48.164Z] Time:          Tue Dec 06 2022 00:22:48 GMT+0530 (India Standard Time)
+[debug] [2022-12-05T18:52:48.164Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-05T18:52:48.169Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-05T18:52:48.169Z] > authorizing via signed-in user (yasindunethmina1938096@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\MyWork\portfolio-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-12-05T18:53:08.019Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-12-05T18:53:08.019Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"yasindunethmina","name":"yasindunethmina"}
+[debug] [2022-12-05T18:53:08.937Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2022-12-05T18:53:08.937Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7119372819721173866"}
+[debug] [2022-12-05T18:53:08.938Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7119372819721173866 [none]
+[debug] [2022-12-05T18:53:10.389Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7119372819721173866 200
+[debug] [2022-12-05T18:53:10.389Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7119372819721173866 {"name":"operations/cp.7119372819721173866"}
+[debug] [2022-12-05T18:53:10.896Z] [Project Creation Poller] Retrying task index 0
+[debug] [2022-12-05T18:53:10.896Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7119372819721173866 [none]
+[debug] [2022-12-05T18:53:12.334Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7119372819721173866 200
+[debug] [2022-12-05T18:53:12.334Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7119372819721173866 {"name":"operations/cp.7119372819721173866","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"380903203711","projectId":"yasindunethmina","lifecycleState":"ACTIVE","name":"yasindunethmina","createTime":"2022-12-05T18:53:13.369Z"}}
+[debug] [2022-12-05T18:53:12.336Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/yasindunethmina:addFirebase [none]
+[debug] [2022-12-05T18:53:15.659Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/yasindunethmina:addFirebase 200
+[debug] [2022-12-05T18:53:15.659Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/yasindunethmina:addFirebase {"name":"operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4"}
+[debug] [2022-12-05T18:53:15.659Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 [none]
+[debug] [2022-12-05T18:53:16.947Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 200
+[debug] [2022-12-05T18:53:16.947Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 {"name":"operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4"}
+[debug] [2022-12-05T18:53:17.460Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-12-05T18:53:17.460Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 [none]
+[debug] [2022-12-05T18:53:18.565Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 200
+[debug] [2022-12-05T18:53:18.565Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 {"name":"operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4"}
+[debug] [2022-12-05T18:53:19.576Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-12-05T18:53:19.576Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 [none]
+[debug] [2022-12-05T18:53:20.852Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 200
+[debug] [2022-12-05T18:53:20.853Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 {"name":"operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4"}
+[debug] [2022-12-05T18:53:22.853Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-12-05T18:53:22.853Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 [none]
+[debug] [2022-12-05T18:53:23.911Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 200
+[debug] [2022-12-05T18:53:23.912Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 {"name":"operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4"}
+[debug] [2022-12-05T18:53:27.922Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-12-05T18:53:27.923Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 [none]
+[debug] [2022-12-05T18:53:29.457Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 200
+[debug] [2022-12-05T18:53:29.458Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4 {"name":"operations/workflows/ZGY0MjYyZTgtOGI4MS00OWExLTg4ODktMzU1Mzc1YmE2NDg4","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"yasindunethmina","projectNumber":"380903203711","displayName":"yasindunethmina","name":"projects/yasindunethmina","resources":{"hostingSite":"yasindunethmina"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: yasindunethmina
+[info]    - Project Name: yasindunethmina
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/yasindunethmina/overview
+[info] i  Using project yasindunethmina (yasindunethmina) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
