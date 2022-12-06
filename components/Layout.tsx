@@ -13,7 +13,6 @@ const Layout: FC<Props> = ({ children }) => {
       <Navbar />
       <Rightbar />
       <div>{children}</div>
-      <Footer />
     </>
   );
 };
