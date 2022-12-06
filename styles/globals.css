@@ -4,6 +4,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
@@ -81,7 +82,7 @@ a {
 
 /* Typing animation */
 .heading-text {
-  animation: typing 4s steps(250, end) alternate;
+  animation: typing 3s steps(250, end) alternate;
   overflow: hidden;
   white-space: nowrap;
 }

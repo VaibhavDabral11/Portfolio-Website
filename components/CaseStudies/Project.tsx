@@ -1,7 +1,8 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import Image from "next/image";
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 export interface Props {
   title: string;
   description: string;
@@ -11,6 +12,10 @@ export interface Props {
 }
 
 const Project: FC<Props> = ({ title, description, img, number, link }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="w-full h-full work-section cursor-pointer">
       <div className="">

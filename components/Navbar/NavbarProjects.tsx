@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const Navbar: FC = () => {
+const NavbarProjects: FC = () => {
   return (
     <>
       <div className="justify-around mt-6 w-full flex">
@@ -20,13 +20,13 @@ const Navbar: FC = () => {
             href="#case-studies"
             className="link link-underline h-8 link-underline-black name-text hover:text-[#1c1d25] cursor-pointer"
           >
-            Case Studies
+            Home
           </a>
           <a
             href="#about-me"
             className="link link-underline h-8 link-underline-black name-text hover:text-[#1c1d25] cursor-pointer"
           >
-            About Me
+            All Works
           </a>
           <a
             href="#contact"
@@ -40,4 +40,4 @@ const Navbar: FC = () => {
   );
 };
 
-export default Navbar;
+export default NavbarProjects;

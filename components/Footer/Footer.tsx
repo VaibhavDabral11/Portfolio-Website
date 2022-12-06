@@ -4,8 +4,8 @@ import RemoveIcon from "@mui/icons-material/Remove";
 const Footer: FC = () => {
   return (
     <>
-      <hr className="w-full mt-24" />
-      <div className="footer-section relative h-44 mt-10 w-full">
+      <hr className="w-full mt-24" id="footer" />
+      <div className="footer-section relative mt-10 w-full">
         <div className="flex justify-around px-32">
           <div className="w-2/5 mr-60">
             <h1 className="font-bold name-text text-lg">
@@ -29,7 +29,27 @@ const Footer: FC = () => {
 
             <div>
               <h4 className="text-sm font-extralight name-text mt-3 mr-1 italic">
-                © 2022 Yasindu Nethmina. Made with in Galle, Sri Lanka.
+                © 2022{" "}
+                <a
+                  className="transition-all hover:font-normal hover:underline underline-offset-4"
+                  href="https://github.com/YasinduNethmina"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Yasindu Nethmina.
+                </a>
+                Made with in Galle, Sri Lanka.
+              </h4>
+              <h4 className="text-sm font-extralight name-text mr-1 italic ">
+                Layout UI:
+                <a
+                  className="transition-all hover:font-normal hover:underline underline-offset-4"
+                  href="https://dribbble.com/damianwatracz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &nbsp;damianwatracz
+                </a>
               </h4>
             </div>
           </div>

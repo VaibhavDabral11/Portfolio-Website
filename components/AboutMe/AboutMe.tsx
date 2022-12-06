@@ -25,7 +25,7 @@ import "aos/dist/aos.css";
 
 const AboutMe: FC = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true });
   }, []);
 
   const [active, setActive] = useState(false);
@@ -33,7 +33,7 @@ const AboutMe: FC = () => {
   {
     return (
       <>
-        <div className="my-20">
+        <div className="my-20"      id="about-me">
           <h4
             className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4"
             data-aos="fade-up"
@@ -199,7 +199,11 @@ const AboutMe: FC = () => {
           <h4 className="text-[#878a8f] mt-16 name-text name-text personal-projects-text text-sm text-center tracking-widest leading-4">
             SKILLS
           </h4>
-          <div className="flex justify-evenly cursor-pointer flex-wrap">
+          <div
+            className="flex justify-evenly cursor-pointer flex-wrap mx-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <Image
               src={HTMLImg}
               className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"

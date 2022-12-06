@@ -8,22 +8,40 @@ const Rightbar: FC = () => {
     <div className="fixed top-1/2 mt-4 right-0 z-50 flex justify-end items-center">
       <div>
         <div>
-          <LinkedInIcon
-            style={{ fontSize: "2.5rem" }}
-            className="text-[#4c4f65] hover:scale-110 cursor-pointer relative transition-all duration-300 bottom-10 right-8 z-40 hover:text-black"
-          />
+          <a
+            href="https://www.linkedin.com/in/yasinduneth/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <LinkedInIcon
+              style={{ fontSize: "2.5rem" }}
+              className="text-[#4c4f65] hover:scale-110 cursor-pointer relative transition-all duration-300 bottom-10 right-8 z-40 hover:text-black"
+            />
+          </a>
         </div>
         <div>
-          <TwitterIcon
-            style={{ fontSize: "2.5rem" }}
-            className="text-[#4c4f65] my-2 relative hover:scale-110 cursor-pointer transition-all duration-300 right-8 z-40 bottom-10 hover:text-black"
-          />
+          <a
+            href="https://twitter.com/yasindu_neth"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <TwitterIcon
+              style={{ fontSize: "2.5rem" }}
+              className="text-[#4c4f65] my-2 relative hover:scale-110 cursor-pointer transition-all duration-300 right-8 z-40 bottom-10 hover:text-black"
+            />
+          </a>
         </div>
         <div>
-          <GitHubIcon
-            style={{ fontSize: "2.5rem" }}
-            className="text-[#4c4f65] relative hover:scale-110 cursor-pointer right-8 transition-all duration-300 z-40 bottom-10 hover:text-black"
-          />
+          <a
+            href="https://github.com/YasinduNethmina"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <GitHubIcon
+              style={{ fontSize: "2.5rem" }}
+              className="text-[#4c4f65] relative hover:scale-110 cursor-pointer right-8 transition-all duration-300 z-40 bottom-10 hover:text-black"
+            />
+          </a>
         </div>
       </div>
     </div>

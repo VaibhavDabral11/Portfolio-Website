@@ -27,16 +27,21 @@ const WorkTogether: FC = () => {
         </h1>
 
         <div className="flex flex-wrap w-full h-screen top-10 relative justify-center">
-          <div className="game-artwork w-2/5 h-96 cursor-pointer mx-10  mb-20">
+          <div
+            className="game-artwork w-2/5 h-96 cursor-pointer mx-10 mb-20"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-once="false"
+          >
             <a
               href="https://www.artstation.com/artwork/Ea5yqv"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h1 className="project-text z-10 absolute p-4  name-text text-white font-black text-4xl">
-                Monkey Empire Vol.01
+              <h1 className="project-text z-10 absolute p-4 name-text text-white font-black text-4xl">
+                Monkey Empire Vol.1
               </h1>
-              <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
+              <h4 className="view-project-text name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
 
@@ -48,14 +53,19 @@ const WorkTogether: FC = () => {
             </a>
           </div>
 
-          <div className="game-artwork1 cursor-pointer w-2/5 h-96 mx-10 mb-20">
+          <div
+            className="game-artwork1 cursor-pointer w-2/5 h-96 mx-10 mb-20"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-once="false"
+          >
             <a
               href="https://www.artstation.com/artwork/VyxXgZ"
               target="_blank"
               rel="noopener noreferrer"
             >
               <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
-                Monkey Empire Vol.02
+                Monkey Empire Vol.2
               </h1>
               <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
@@ -68,16 +78,21 @@ const WorkTogether: FC = () => {
             </a>
           </div>
 
-          <div className="game-artwork2 cursor-pointer w-2/5 h-96 mx-10 mb-20">
+          <div
+            className="game-artwork2 cursor-pointer w-2/5 h-96 mx-10 mb-20"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-once="false"
+          >
             <a
               href="https://www.artstation.com/artwork/48KKG1"
               target="_blank"
               rel="noopener noreferrer"
             >
               <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
-                Forest Environment Design
+                Lost Forest
               </h1>
-              <h4 className="view-project-text z-10 name-text view-projects-bottom -bottom-8 absolute p-4 text-white font-bold text-xl">
+              <h4 className="view-project-text z-10 name-text view-projects-bottom top-10 absolute p-4 text-white font-bold text-xl">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image
@@ -88,16 +103,21 @@ const WorkTogether: FC = () => {
             </a>
           </div>
 
-          <div className="game-artwork3 cursor-pointer w-2/5 h-96 mx-10">
+          <div
+            className="game-artwork3 cursor-pointer w-2/5 h-96 mx-10"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-once="false"
+          >
             <a
               href="https://www.artstation.com/artwork/lR5wgV"
               target="_blank"
               rel="noopener noreferrer"
             >
               <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
-                Panama Lands Artwork
+                Panama Lands
               </h1>
-              <h4 className="view-project-text name-text z-10 absolute p-4 -bottom-8 text-white font-bold text-xl">
+              <h4 className="view-project-text view-project-bottom name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image

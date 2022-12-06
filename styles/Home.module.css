@@ -5,6 +5,7 @@
 .main {
   background-image: url("../images/frontend dev_.svg");
   background-repeat: no-repeat;
+  overflow-y: hidden;
   background-size: 100%;
   background-position: bottom 99% right 2%;
   min-height: 100vh;
@@ -14,4 +15,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 2s;
 }

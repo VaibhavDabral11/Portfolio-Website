@@ -4,7 +4,7 @@
 
 .game-artwork {
   box-shadow: inset -100rem 0 0 0 #111;
-  transition: 1s;
+  transition: 2s;
 }
 
 .game-artwork:hover {
@@ -30,7 +30,7 @@
 
 .game-artwork2 {
   box-shadow: inset 0 100rem 0 0 #111;
-  transition: 1s;
+  transition: 2s;
 }
 
 .game-artwork2:hover {

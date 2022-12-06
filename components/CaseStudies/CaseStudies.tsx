@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const LatestWork: FC = () => {
   useEffect(() => {
-    AOS.init({ once: true });
+    AOS.init();
   }, []);
 
   return (
@@ -27,6 +27,7 @@ const LatestWork: FC = () => {
       <hr className="rotate-90 absolute bottom-40 z-40" />
       <div>
         <h4
+          id="case-studies"
           className="font-serif case-studies-text text-sm bottom-20 relative text-[#b19386]"
           data-aos="fade-up"
         >
@@ -43,7 +44,8 @@ const LatestWork: FC = () => {
       {/* Works */}
       <div
         className="w-1/2 h-1/2 flex work1 absolute right-60"
-        animate-aos="fade-up"
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
       >
         <Project
           title="CryptoDora"
@@ -54,7 +56,11 @@ const LatestWork: FC = () => {
         />
       </div>
 
-      <div className="w-1/2 h-1/2 work2 flex absolute left-60">
+      <div
+        className="w-1/2 h-1/2 work2 flex absolute left-60"
+        data-aos="zoom-out-down"
+        data-aos-duration="1000"
+      >
         <Project
           title="Crypto_Dora"
           description="realtime cryptocurrency charts,news and track your winning portfolio!"
@@ -64,7 +70,11 @@ const LatestWork: FC = () => {
         />
       </div>
 
-      <div className="w-1/2 h-1/2 work3 flex absolute right-60">
+      <div
+        className="w-1/2 h-1/2 work3 flex absolute right-60"
+        data-aos="zoom-out-down"
+        data-aos-duration="1000"
+      >
         <Project
           title="Crypto_Dora"
           description="realtime cryptocurrency charts,news and track your winning portfolio!"
