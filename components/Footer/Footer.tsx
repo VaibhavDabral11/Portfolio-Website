@@ -16,15 +16,33 @@ const Footer: FC = () => {
               or discord, especially since we may be a few time zones away.
             </p>
             <div className="mt-4">
-              <h4 className="font-semibold text-xs case-studies-text mb-1">
-                Email: yasindunethmina1938096@gmail.com
-              </h4>
-              <h4 className="font-semibold case-studies-text text-xs mb-1">
-                Mobile: +94-719-947-798
-              </h4>
-              <h4 className="font-semibold case-studies-text text-xs">
-                Discord: ZeroDeathzZ#0001
-              </h4>
+              <a
+                href="mailto:yasindunethmina1938096@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h4 className="font-semibold text-xs hover:scale-105 transition-all duration-500 case-studies-text mb-1">
+                  Email: yasindunethmina1938096@gmail.com
+                </h4>
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=94719947798"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h4 className="font-semibold case-studies-text hover:scale-105 transition-all duration-500 text-xs mb-1">
+                  Mobile: +94-719-947-798
+                </h4>
+              </a>
+              <a
+                href="https://discordapp.com/users/611447561215279115"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h4 className="font-semibold case-studies-text hover:scale-105 transition-all duration-500 text-xs">
+                  Discord: ZeroDeathzZ#0001
+                </h4>
+              </a>
             </div>
 
             <div>
@@ -36,11 +54,11 @@ const Footer: FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Yasindu Nethmina.
+                  Yasindu Nethmina.&nbsp;
                 </a>
                 Made with in Galle, Sri Lanka.
               </h4>
-              <h4 className="text-sm font-extralight name-text mr-1 italic ">
+              <h4 className="text-sm font-extralight name-text mb-4 mr-1 italic ">
                 Layout UI:
                 <a
                   className="transition-all hover:font-normal hover:underline underline-offset-4"
@@ -60,7 +78,7 @@ const Footer: FC = () => {
                 Latest <br /> projects <RemoveIcon />
               </h1>
               <h4 className="transition-all case-studies-text mt-3 cursor-pointer hover:underline text-sm underline-offset-4">
-                Iceland
+                <a href="">CryptoDora</a>
               </h4>
             </div>
 
@@ -79,10 +97,22 @@ const Footer: FC = () => {
                 Follow <br /> me on <RemoveIcon />
               </h1>
               <h4 className="transition-all case-studies-text mt-3 text-sm cursor-pointer hover:underline underline-offset-4">
-                Twitter
+                <a
+                  href="https://twitter.com/yasindu_neth"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Twitter
+                </a>
               </h4>
               <h4 className="transition-all case-studies-text text-sm cursor-pointer hover:underline underline-offset-4">
-                Facebook
+                <a
+                  href="https://www.linkedin.com/in/yasinduneth/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
               </h4>
             </div>
           </div>

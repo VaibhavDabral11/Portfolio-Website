@@ -53,6 +53,17 @@ a {
   color: #fff;
 }
 
+.role-text::selection {
+background:#111;
+}
+
+.role-title-text::selection {
+background:#111;
+color:#fff;
+}
+
+
+
 /* Hover underline animation effects */
 .view-projects-text::after {
   content: "";
@@ -96,10 +107,10 @@ a {
   }
 }
 
-/*project page styling */
+/*cryptodora project page styling */
 
 .cryptodora-img {
-  width: 50%;
+  width: 75%;
   position: absolute;
   top: 45%;
   left: 50%;
@@ -114,7 +125,7 @@ a {
 
 .visit-website-btn:hover .visit-website-arrow {
   transform: translateX(0.5rem);
-  color: #fff;
+  color: #0f141e;
   transition: 1s;
 }
 
@@ -125,4 +136,17 @@ a {
 .footer-cryptodora {
   position:relative;
   top:60%;
+}
+
+.cryptodora-svg-img {
+width:80%;
+}
+
+.hr-line-cryptodora {
+top:150%;
+}
+
+.analysis-heading-section {
+position:relative;
+top:27%;
 }
