@@ -10,7 +10,7 @@ import CryptoDoraSvg from "../images/CryptoDora.svg";
 export interface IAppProps {}
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 
-export const CryptoDora = (props: IAppProps) => {
+export const Portfolio = (props: IAppProps) => {
   return (
     <>
       <div className="bg-white relative h-screen w-full">
@@ -20,10 +20,11 @@ export const CryptoDora = (props: IAppProps) => {
           <div className="cryptodora-img flex justify-around items-center">
             <div>
               <h1 className="text-[#0f141e] name-text inline-block font-bold text-6xl">
-                CryptoDora
+                Poerfolio
               </h1>
               <h4 className="mt-4 text-center italic name-text font-serif text-[#878a8f]">
-                The Next generation Crypto Tracking System.
+                Amazing portfolio website with stunning & complex real-world
+                projects.
               </h4>
             </div>
             <a
@@ -220,5 +221,4 @@ export const CryptoDora = (props: IAppProps) => {
   );
 };
 
-export default CryptoDora;
-
+export default Portfolio;

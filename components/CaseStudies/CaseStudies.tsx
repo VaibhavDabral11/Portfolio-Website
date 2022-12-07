@@ -1,6 +1,8 @@
 import { FC, useEffect } from "react";
 import Project from "./Project";
 import Img1 from "../../images/website-main-dark.jpg";
+import Img4 from "../../images/coming-soon-img.png";
+import Img3 from "../../images/portfolio-img.jpg";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -51,7 +53,7 @@ const LatestWork: FC = () => {
         <Link href="/CryptoDora">
           <Project
             title="CryptoDora"
-            description="realtime cryptocurrency charts,news and track your winning portfolio!"
+            description="realtime cryptocurrency charts, news and track your winning portfolio!"
             img={Img1}
             number={1}
             link="https://example.com"
@@ -64,13 +66,15 @@ const LatestWork: FC = () => {
         data-aos="zoom-out-down"
         data-aos-duration="1000"
       >
+         <Link href="/Portfolio">
         <Project
-          title="Crypto_Dora"
-          description="realtime cryptocurrency charts,news and track your winning portfolio!"
-          img={Img1}
+          title="Portfolio_Website"
+          description="Amazing portfolio website with stunning & complex real-world projects!"
+          img={Img3}
           number={2}
           link="https://example.com"
         />
+        </Link>
       </div>
 
       <div
@@ -79,9 +83,9 @@ const LatestWork: FC = () => {
         data-aos-duration="1000"
       >
         <Project
-          title="Crypto_Dora"
-          description="realtime cryptocurrency charts,news and track your winning portfolio!"
-          img={Img1}
+          title="Coming_Soon..."
+          description="New amazing project coming soon on!"
+          img={Img4}
           number={3}
           link="https://example.com"
         />

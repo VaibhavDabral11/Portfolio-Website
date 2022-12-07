@@ -26,15 +26,23 @@ const WorkTogether: FC = () => {
       <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
         NEED A FRONTEND DEVELOPER?
       </h4>
-      <button
-        id="contact"
-        className="work-together-text name-text inline-block font-extrabold mt-4 my-28 text-[#0f141e] text-6xl"
-        data-aos="zoom-out"
-        data-aos-duration="2000"
+      <a
+        href="mailto:yasindunethmina1938096@gmail.com"
+
       >
-        LET&lsquo;S WORK TOGETHER
-        <TrendingFlatIcon className="name-text" style={{ fontSize: "4rem" }} />
-      </button>
+        <button
+          id="contact"
+          className="work-together-text name-text inline-block font-extrabold mt-4 my-28 text-[#0f141e] text-6xl"
+          data-aos="zoom-out"
+          data-aos-duration="2000"
+        >
+          LET&lsquo;S WORK TOGETHER
+          <TrendingFlatIcon
+            className="name-text"
+            style={{ fontSize: "4rem" }}
+          />
+        </button>
+      </a>
       <div className="map-section absolute left-0 h-96 w-full">
         <Map />
       </div>

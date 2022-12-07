@@ -33,7 +33,7 @@ const AboutMe: FC = () => {
   {
     return (
       <>
-        <div className="my-20"      id="about-me">
+        <div className="my-20" id="about-me">
           <h4
             className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4"
             data-aos="fade-up"
@@ -45,24 +45,25 @@ const AboutMe: FC = () => {
               animate-aos="fade-up"
               className="title-text personal-projects-text name-text font-bold text-center leading-9 -left-1 mb-4 w-2/3 text-[#0f141e] text-3xl"
             >
-              I’m Yasindu Nethmina, a multidisciplinary designer who focuses on
-              telling my clients’ stories visually, through enjoyable and
-              meaningful experiences. I specialize in responsive websites and
-              functional user interfaces.
+              I’m Yasindu Nethmina, a multidisciplinary developer who focuses on
+              making interactive websites & giving clients immersive results
+              through enjoyable and meaningful experiences. I specialize in
+              Frontend Web Develpment.
             </h1>
           </div>
           <div className="flex justify-center" data-aos="zoom-out">
             <p className="mt-4 text-center text-lg font-semibold name-text w-1/2 text-[#878a8f]">
-              Over the past 9 years I have been working with big companies and
-              rising startups around the world as a designer and art director,
-              working solo and leading small design teams. In my spare time I
-              enjoy{" "}
-              <span className="underline cursor-pointer hover:text-black duration-300 transition-all">
+              Over the past years, I&apos;ve been working as a front end web
+              developer, working solo and leading small development teams.
+              Before switching in to Software Engineering, I worked as a Game
+              Level Designer for 5 years. So I have a great knowledge even
+              working with larger technical teams. In spare time I enjoy&nbsp;
+              <span className="underline cursor-default hover:text-black duration-300 transition-all">
                 video games
               </span>{" "}
-              and{" "}
-              <span className="underline cursor-pointer hover:text-black duration-300 transition-all">
-                hiking.
+              and <br /> inventing{" "}
+              <span className="underline cursor-default hover:text-black duration-300 transition-all">
+                new technologies.
               </span>{" "}
             </p>
           </div>
@@ -106,24 +107,14 @@ const AboutMe: FC = () => {
           <div className="mt-16 flex justify-around">
             <div data-aos="fade-right" data-aos-duration="1000">
               <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4">
-                DESIGN SERVICES
+                EXPERIENCED IN
               </h4>
               <div className="">
                 <div className="flex items-center justify-center text-[##0f141e]">
-                  <h4 className="font-bold text-lg name-text">Art direction</h4>
-                  <span className="text-[#cfd0d2] name-text font-semibold">
-                    &nbsp;/&nbsp;
-                  </span>
-                  <h4 className="font-bold text-lg name-text">Web & mobile</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
-                    &nbsp;/&nbsp;
-                  </span>
-                </div>
-                <div className="flex items-center justify-center">
                   <h4 className="font-bold text-lg name-text">
-                    Brand identity
+                    Frontend Web & Mobile
                   </h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <span className="text-[#cfd0d2] name-text font-semibold">
                     &nbsp;/&nbsp;
                   </span>
                   <h4 className="font-bold text-lg name-text">UX & UI</h4>
@@ -132,65 +123,108 @@ const AboutMe: FC = () => {
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">Iconography</h4>
+                  <h4 className="font-bold text-lg name-text">CI/CD</h4>
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Animation</h4>
+                  <h4 className="font-bold text-lg name-text">Testing</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="font-bold text-lg name-text">APIs</h4>
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">Photography</h4>
+                  <h4 className="font-bold text-lg name-text">Cloud</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="font-bold text-lg name-text">Databases</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="font-bold text-lg name-text">Debugging</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                </div>
+                <div className="flex items-center justify-center">
+                  <h4 className="font-bold text-lg name-text">
+                    Game Development
+                  </h4>
                 </div>
               </div>
             </div>
 
             <div data-aos="fade-left" data-aos-duration="1000">
               <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4">
-                DESIGN SERVICES
+                TECH STACK
               </h4>
               <div className="">
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">Photoshop</h4>
+                  <h4 className="font-bold text-lg name-text">React</h4>
                   <span className="text-[#cfd0d2] name-text font-semibold">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold name-text text-lg">Illustrator</h4>
+                  <h4 className="font-bold name-text text-lg">Javascript</h4>
                   <span className="text-[#cfd0d2] name-text font-semibold">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Sketch</h4>
+                  <h4 className="font-bold text-lg name-text">Typescript</h4>
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">XD</h4>
+                  <h4 className="font-bold text-lg name-text">HTML</h4>
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">InVisio</h4>
+                  <h4 className="font-bold text-lg name-text">SASS</h4>
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">UXPin</h4>
+                  <h4 className="font-bold text-lg name-text">Tailwind CSS</h4>
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold name-text text-lg">After Effects</h4>
+                  <h4 className="font-bold text-lg name-text">Redux</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="font-bold name-text text-lg">Node Js</h4>
                   <span className="text-[#cfd0d2] name-text font-semibold">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">Premiere Pro</h4>
+                  <h4 className="font-bold text-lg name-text">GraphQL</h4>
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Lightroom</h4>
+                  <h4 className="font-bold text-lg name-text">MongoDB</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="font-bold text-lg name-text">AWS</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="font-bold text-lg name-text">Figma</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                </div>
+
+                <div className="flex items-center justify-center">
+                  <h4 className="font-bold text-lg name-text">Firebase</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="font-bold text-lg name-text">Next Js</h4>
                 </div>
               </div>
             </div>

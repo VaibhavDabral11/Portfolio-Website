@@ -49,10 +49,15 @@ export default function Home() {
                 data-aos-duration="1000"
                 className="bio-text font-semibold mb-4 drop-shadow-2xl text-[#878a8f]"
               >
-                Over the past 9 years, as an art director and designer, I’ve
-                worked with big companies and up-and-coming startups to
-                successfully help them reach their full potential and attract
-                new customers.
+                I&apos;m Yasindu, a frontend web developer with extensive
+                knowledge and experience in React, Javascript, Typescript, AWS,
+                Next Js, Node Js, GraphQL etc...
+                <br />
+                <br /> When I program, I&apos;m leveraging the work of millions
+                of other people, including code in libraries, compilers,
+                operating systems, computer networks, and the complex web of
+                hardware infrastructure that makes the whole thing run.
+                It&apos;s fun being 1 curious human among 8 billion others.
               </h6>
               <div className="flex items-center">
                 <a

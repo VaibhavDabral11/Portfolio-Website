@@ -16,11 +16,7 @@ const Footer: FC = () => {
               or discord, especially since we may be a few time zones away.
             </p>
             <div className="mt-4">
-              <a
-                href="mailto:yasindunethmina1938096@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="mailto:yasindunethmina1938096@gmail.com">
                 <h4 className="font-semibold text-xs hover:scale-105 transition-all duration-500 case-studies-text mb-1">
                   Email: yasindunethmina1938096@gmail.com
                 </h4>
@@ -78,7 +74,7 @@ const Footer: FC = () => {
                 Latest <br /> projects <RemoveIcon />
               </h1>
               <h4 className="transition-all case-studies-text mt-3 cursor-pointer hover:underline text-sm underline-offset-4">
-                <a href="">CryptoDora</a>
+                <a href="#case-studies">CryptoDora</a>
               </h4>
             </div>
 
