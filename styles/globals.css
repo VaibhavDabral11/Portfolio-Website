@@ -135,7 +135,7 @@ color:#fff;
 
 .footer-cryptodora {
   position:relative;
-  top:60%;
+  top:0;
 }
 
 .cryptodora-svg-img {
@@ -144,9 +144,39 @@ width:80%;
 
 .hr-line-cryptodora {
 top:150%;
+height:100%;
 }
 
 .analysis-heading-section {
 position:relative;
 top:27%;
+}
+
+.analysis-section {
+  position:relative;
+  top:35%;
+}
+
+.colors-section {
+  position:relative;
+  top:40%;
+}
+
+.work-section-arrow {
+transition:2s;
+}
+
+.next-work-section:hover .work-section-arrow {
+  transform:translateX(1rem);
+  transition:2s;
+}
+
+.analysis-outer-section {
+  height:170%;
+}
+
+@media (max-width:1300px) {
+.colors-section {
+    display:none;
+  }
 }

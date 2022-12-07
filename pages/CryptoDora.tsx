@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import NavbarProjects from "../components/Navbar/NavbarProjects";
 import Rightbar from "../components/RightBar/Rightbar";
@@ -7,6 +8,7 @@ import ProjectImg from "../images/all-devices-white.png";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import CryptoDoraSvg from "../images/CryptoDora.svg";
 export interface IAppProps {}
+import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 
 export const CryptoDora = (props: IAppProps) => {
   return (
@@ -97,31 +99,114 @@ export const CryptoDora = (props: IAppProps) => {
           ></Image>
         </div>
 
-        <div className="h-screen case-studies-section w-full text-center">
+        <div className="analysis-outer-section w-full text-center mb-20">
           <div className="analysis-heading-section">
-            <h4 className="font-serif text-sm  text-[#b19386]">
+            <h4 className="font-serif text-sm case-studies-text text-[#b19386]">
               ANALYSIS & PREPARATION
             </h4>
-            <h1 className="text-3xl text-[#4a4a4a] font-bold">Branding</h1>
+            <h1 className="text-3xl text-[#4a4a4a] case-studies-text font-bold">
+              Branding
+            </h1>
           </div>
 
-          <div className="flex justify-around">
-            <div>
-              <h1>Build with customers in mind, and Love.</h1>
+          <div className="analysis-section flex justify-center w-full items-center z-50">
+            <div className="w-1/3 mr-40">
+              <h1 className="font-bold text-[#0f141e] name-text text-left text-4xl">
+                Build with customers in mind, and Love.
+              </h1>
+              <div className="bg-[#0f141e] w-1/4 h-1 my-8"></div>
+              <p className="font-serif tracking-wider text-left leading-relaxed text-lg case-studies-text text-[#0f141e]">
+                First Lato is{" "}
+                <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
+                  modular
+                </span>
+                : every part of the application is a separate module with its
+                purpose.
+                <br /> <br /> As the{" "}
+                <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
+                  Lead Frontend Developer
+                </span>
+                , my main task is to build the{" "}
+                <span className="text-[#00c8e7] font-semibold tracking-normal underline case-studies-text">
+                  lato_view module
+                </span>
+                , which is responsible of the entire Look and Feel of the
+                application. <br /> <br /> I built the{" "}
+                <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
+                  entire CryptoDora app
+                </span>{" "}
+                including a responsive custom theme, a custom flex grid system,
+                custom form validation, dynamic themes and more.
+              </p>
+            </div>
+
+            <div className="">
+              <Image
+                src={ProjectImg}
+                className="w-96 scale-150"
+                alt="project-img"
+              ></Image>
             </div>
           </div>
+          <div className="w-full colors-section flex flex-wrap justify-evenly">
+            <div className="w-40 h-40 rounded-full z-20 bg-[#1b2028] hover:shadow-2xl hover:drop-shadow-2xl transition-all duration-500"></div>
+            <div className="w-40 h-40 rounded-full z-20 bg-[#00cccb] hover:shadow-2xl hover:drop-shadow-2xl transition-all duration-500"></div>
+            <div className="w-40 h-40 rounded-full z-20 bg-[#ffd910] hover:shadow-2xl hover:drop-shadow-2xl transition-all duration-500"></div>
+            <div className="w-40 h-40 rounded-full z-20 bg-[#f0f0f0] hover:shadow-2xl hover:drop-shadow-2xl transition-all duration-500"></div>
+            <div className="w-40 h-40 rounded-full z-20 bg-[#31353F] hover:shadow-2xl hover:drop-shadow-2xl transition-all duration-500"></div>
+          </div>
+
+          <div className="w-full colors-section flex flex-wrap justify-evenly">
+            <div className="w-40 h-4 rounded-full z-20 transition-all case-studies-text duration-500 font-serif mt-3 text-gray-500 hover:text-red-500">
+              $ebony-black
+            </div>
+            <div className="w-40 h-4 rounded-full z-20 transition-all case-studies-text duration-500 font-serif mt-3 text-gray-500 hover:text-red-500">
+              $egg-blue
+            </div>
+            <div className="w-40 h-4 rounded-full z-20 transition-all case-studies-text duration-500 font-serif mt-3 text-gray-500 hover:text-red-500">
+              $shiny-yellow
+            </div>
+            <div className="w-40 h-4 rounded-full z-20 transition-all case-studies-text duration-500 font-serif mt-3 text-gray-500 hover:text-red-500">
+              $catskill-white
+            </div>
+            <div className="w-40 h-4 rounded-full z-20 transition-all case-studies-text duration-500 font-serif mt-3 text-gray-500 hover:text-red-500">
+              $raw-gray
+            </div>
+          </div>
+
           <div
             style={{ width: "1px" }}
-            className="hr-line-cryptodora hr-line h-screen m-0 absolute left-72 opacity-30 bg-[#b19386]"
+            className="hr-line-cryptodora h-1/3 m-0 absolute left-72 opacity-30 bg-[#b19386]"
           ></div>
           <div
             style={{ width: "1px" }}
-            className="hr-line-cryptodora hr-line w-1 absolute left-1/2 opacity-30 bg-[#b19386]"
+            className="hr-line-cryptodora w-1 absolute left-1/2 opacity-30 bg-[#b19386]"
           ></div>
           <div
             style={{ width: "1px" }}
-            className="w-1 hr-line-cryptodora hr-line absolute right-72 opacity-30 bg-[#b19386]"
+            className="w-1 hr-line-cryptodora absolute right-72 opacity-30 bg-[#b19386]"
           ></div>
+        </div>
+
+        <div className="next-work-section w-full flex items-center justify-center h-40 transition-all duration-700">
+          <div>
+            <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4">
+              PORTFOLIO APP
+            </h4>
+
+            <div className="flex justify-between items-center w-full">
+              <Link href="/">
+                <h1 className="font-extrabold text-6xl work-together-text">
+                  {" "}
+                  SEE NEXT WORK
+                  <TrendingFlatIcon
+                    className="name-text work-section-arrow "
+                    style={{ fontSize: "4rem" }}
+                  />
+                </h1>
+              </Link>
+            </div>
+          </div>
         </div>
 
         <div className="footer-cryptodora">
