@@ -175,6 +175,16 @@ transition:2s;
   height:170%;
 }
 
+.email-me-text {
+  opacity:0;
+  transition:.1s;
+}
+
+.email-me-btn:hover .email-me-text {
+  opacity:1;
+  transition:1s;
+} 
+
 @media (max-width:1300px) {
 .colors-section {
     display:none;

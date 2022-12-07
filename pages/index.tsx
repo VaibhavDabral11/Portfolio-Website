@@ -5,6 +5,8 @@ import Head from "next/head";
 import CaseStudies from "../components/CaseStudies/CaseStudies";
 import Layout from "../components/Layout";
 import PersonalProjects from "../components/PersonalProjects/PersonalProjects";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import EmailIcon from "@mui/icons-material/Email";
 import WorkTogether from "../components/WorkTogether/WorkTogether";
 import Footer from "../components/Footer/Footer";
 import styles from "../styles/Home.module.css";
@@ -15,6 +17,17 @@ import "aos/dist/aos.css";
 export default function Home() {
   useEffect(() => {
     AOS.init({ once: true });
+  }, []);
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    scrollUp();
   }, []);
 
   return (

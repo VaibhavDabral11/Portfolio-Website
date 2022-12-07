@@ -3,6 +3,7 @@ import Project from "./Project";
 import Img1 from "../../images/website-main-dark.jpg";
 import Img4 from "../../images/coming-soon-img.png";
 import Img3 from "../../images/portfolio-img.jpg";
+import ProjectImg2 from "../../images/portfolio-app.jpg";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -66,14 +67,14 @@ const LatestWork: FC = () => {
         data-aos="zoom-out-down"
         data-aos-duration="1000"
       >
-         <Link href="/Portfolio">
-        <Project
-          title="Portfolio_Website"
-          description="Amazing portfolio website with stunning & complex real-world projects!"
-          img={Img3}
-          number={2}
-          link="https://example.com"
-        />
+        <Link href="/Portfolio">
+          <Project
+            title="Portfolio_Website"
+            description="Amazing portfolio website with stunning & complex real-world projects!"
+            img={ProjectImg2}
+            number={2}
+            link="https://example.com"
+          />
         </Link>
       </div>
 
@@ -82,13 +83,15 @@ const LatestWork: FC = () => {
         data-aos="zoom-out-down"
         data-aos-duration="1000"
       >
-        <Project
-          title="Coming_Soon..."
-          description="New amazing project coming soon on!"
-          img={Img4}
-          number={3}
-          link="https://example.com"
-        />
+        <Link href="/CryptoDora">
+          <Project
+            title="Coming_Soon..."
+            description="New amazing project coming soon on!"
+            img={Img4}
+            number={3}
+            link="https://example.com"
+          />
+        </Link>
       </div>
     </div>
   );

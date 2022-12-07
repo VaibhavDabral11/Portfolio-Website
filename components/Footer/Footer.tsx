@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Link from "next/link";
 import RemoveIcon from "@mui/icons-material/Remove";
 
 const Footer: FC = () => {
@@ -74,7 +75,10 @@ const Footer: FC = () => {
                 Latest <br /> projects <RemoveIcon />
               </h1>
               <h4 className="transition-all case-studies-text mt-3 cursor-pointer hover:underline text-sm underline-offset-4">
-                <a href="#case-studies">CryptoDora</a>
+                <Link href="CryptoDora">CryptoDora</Link>
+              </h4>
+              <h4 className="transition-all case-studies-text mt-3 cursor-pointer hover:underline text-sm underline-offset-4">
+                <Link href="Portfolio">Portfolio</Link>
               </h4>
             </div>
 

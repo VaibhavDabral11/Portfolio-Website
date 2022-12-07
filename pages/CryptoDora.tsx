@@ -1,4 +1,4 @@
-import * as React from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import NavbarProjects from "../components/Navbar/NavbarProjects";
@@ -9,10 +9,32 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import CryptoDoraSvg from "../images/CryptoDora.svg";
 export interface IAppProps {}
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import EmailIcon from "@mui/icons-material/Email";
 
 export const CryptoDora = (props: IAppProps) => {
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    scrollUp();
+  }, []);
+
   return (
     <>
+      {/* Email Me Btn */}
+      <a href="mailto:yasindunethmina1938096@gmail.com">
+        <div className="email-me-btn fixed cursor-pointer flex items-center bg-[#0f141e4d] hover:w-24 hover:bg-[#0f141e] text-white transition-all duration-500 z-50 bottom-8 left-10 rounded-full w-10 h-10">
+          <EmailIcon className="text-[#fff] relative left-2" />
+          <span className="email-me-text text-xs px-2 text-center font-semibold">
+            Contact Me
+          </span>
+        </div>
+      </a>
       <div className="bg-white relative h-screen w-full">
         <div className="flex">
           <NavbarProjects />
@@ -72,10 +94,17 @@ export const CryptoDora = (props: IAppProps) => {
               CryptoDora is an all in one stop for crypto users, which provies
               realtime cryptocurrency charts, news and market information. You
               can track your winning crypto portfolio anywhere you go even on
-              mobile. Also Don&apos;t forget to meet the amazing community in
-              Crypto Dora chat section. Also we provide ETH blockchain
-              transaction details, crypto bubble chats, heatmaps and much
-              more...
+              mobile. <br />
+              <br />I made this using React ⚛️ + Tailwind CSS. Also user React
+              Query for fetching, React Router for routing, Chart Js, Axios,
+              Jest ... MUI and also used firebase for hosting. If you&apos;re
+              interested in my work,{" "}
+              <a href="#footer">
+                <span className="font-semibold font-serif tracking-widest italic hover:underline underline-offset-4 cursor-pointer">
+                  Let&apos;s have a chat
+                </span>{" "}
+              </a>
+              😊
             </p>
           </div>
 
@@ -102,7 +131,10 @@ export const CryptoDora = (props: IAppProps) => {
           ></Image>
         </div>
 
-        <div className="analysis-outer-section w-full text-center mb-20">
+        <div
+          id="analysis-outer-section"
+          className="analysis-outer-section w-full text-center mb-20"
+        >
           <div className="analysis-heading-section">
             <h4 className="font-serif text-sm case-studies-text text-[#b19386]">
               ANALYSIS & PREPARATION
@@ -121,25 +153,25 @@ export const CryptoDora = (props: IAppProps) => {
               <p className="font-serif tracking-wider text-left leading-relaxed text-lg case-studies-text text-[#0f141e]">
                 First CryptoDora is a{" "}
                 <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
-                  modern website
+                  complex crypto website
                 </span>
-                : every part of the application is a separate module with its
-                purpose.
+                : which provides realtime crypto charts, news, alerts, chat
+                section and complex diagrams for users.
                 <br /> <br /> As the{" "}
-                <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
+                <span className="text-[#00c8e7] font-semibold tracking-normal underline case-studies-text">
                   Lead Frontend Developer
                 </span>
-                , my main task is to build the a
-                <span className="text-[#00c8e7] font-semibold tracking-normal underline case-studies-text">
+                , my main task is to build the&nbsp;
+                <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
                   entire application
                 </span>
-                , which is responsible of the entire Look, feel & the Logic of
-                the application. <br /> <br /> I built{" "}
+                , which means I&apos;m responsible of the entire Look, Feel &
+                the Logic of the application. <br /> <br /> I built{" "}
                 <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
                   CryptoDora
                 </span>{" "}
                 also considering it&apos;s responsive behavior, including a
-                light theme mode and much more filler features...
+                light theme mode and tons of filler features...
               </p>
             </div>
 
@@ -191,14 +223,20 @@ export const CryptoDora = (props: IAppProps) => {
           ></div>
         </div>
 
-        <div className="next-work-section w-full flex items-center justify-center h-40 transition-all duration-700">
+        <div
+          id="next-work-section"
+          className="next-work-section w-full flex items-center justify-center h-40 transition-all duration-700"
+        >
           <div>
             <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4">
               PORTFOLIO APP
             </h4>
 
-            <div className="flex justify-between items-center w-full">
-              <Link href="/">
+            <div
+              className="flex justify-between items-center w-full"
+              onClick={scrollUp}
+            >
+              <Link href="/Portfolio">
                 <h1 className="font-extrabold text-6xl work-together-text">
                   {" "}
                   SEE NEXT WORK
@@ -221,4 +259,3 @@ export const CryptoDora = (props: IAppProps) => {
 };
 
 export default CryptoDora;
-
