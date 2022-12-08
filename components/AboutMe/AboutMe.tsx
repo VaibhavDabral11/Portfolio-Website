@@ -74,17 +74,30 @@ const AboutMe: FC = () => {
                 className="z-20 slide-btn"
                 onClick={() => setActive(!active)}
               >
-                <KeyboardArrowLeftIcon className="w-12 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-12 rounded-full" />
+                <KeyboardArrowLeftIcon
+                  style={{
+                    width: "2.75rem",
+                    height: "2.75rem",
+                    borderRadius: "100px",
+                  }}
+                  className="relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100"
+                />
               </button>
               <button
                 className="z-20 slide-btn"
                 onClick={() => setActive(!active)}
               >
-                <KeyboardArrowRightIcon className="w-12 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-12 rounded-full" />
+                <KeyboardArrowRightIcon
+                  style={{
+                    width: "2.75rem",
+                    height: "2.75rem",
+                    borderRadius: "100px",
+                  }}
+                  className="w-12 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-12 rounded-full"
+                />
               </button>
             </div>
             <Image
-              placeholder="blur"
               src={CarouselImg1}
               alt="workflow"
               className={
