@@ -92,8 +92,8 @@ export const CryptoDora = (props: IAppProps) => {
           </h1>
           <div className="flex justify-center">
             <p className="font-serif w-1/3 pt-6 z-10 relative text-justify name-text tracking-widest text-[#0f141e]">
-              CryptoDora is an all in one stop for crypto users, which provies
-              realtime cryptocurrency charts, news and market information. You
+              CryptoDora is an all in one stop for crypto users, which provides
+              real-time cryptocurrency charts, news and market information. You
               can track your winning crypto portfolio anywhere you go even on
               mobile. <br />
               <br />I made this using React ⚛️ + Tailwind CSS. Also user React
