@@ -74,13 +74,13 @@ const AboutMe: FC = () => {
                 className="z-20 slide-btn"
                 onClick={() => setActive(!active)}
               >
-                <KeyboardArrowLeftIcon className="w-10 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-10 rounded-full" />
+                <KeyboardArrowLeftIcon className="w-12 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-12 rounded-full" />
               </button>
               <button
                 className="z-20 slide-btn"
                 onClick={() => setActive(!active)}
               >
-                <KeyboardArrowRightIcon className="w-10 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-10 rounded-full" />
+                <KeyboardArrowRightIcon className="w-12 relative top-5 bg-gray-300 hover:scale-110 duration-700 transition-all text-gray-100 h-12 rounded-full" />
               </button>
             </div>
             <Image

@@ -77,7 +77,7 @@ const Footer: FC = () => {
               <h4 className="transition-all case-studies-text mt-3 cursor-pointer hover:underline text-sm underline-offset-4">
                 <Link href="CryptoDora">CryptoDora</Link>
               </h4>
-              <h4 className="transition-all case-studies-text mt-3 cursor-pointer hover:underline text-sm underline-offset-4">
+              <h4 className="transition-all case-studies-text cursor-pointer mt-1 hover:underline text-sm underline-offset-4">
                 <Link href="Portfolio">Portfolio</Link>
               </h4>
             </div>
@@ -105,7 +105,7 @@ const Footer: FC = () => {
                   Twitter
                 </a>
               </h4>
-              <h4 className="transition-all case-studies-text text-sm cursor-pointer hover:underline underline-offset-4">
+              <h4 className="transition-all mt-1 case-studies-text text-sm cursor-pointer hover:underline underline-offset-4">
                 <a
                   href="https://www.linkedin.com/in/yasinduneth/"
                   target="_blank"
