@@ -5,11 +5,11 @@ import NavbarProjects from "../components/Navbar/NavbarProjects";
 import Rightbar from "../components/RightBar/Rightbar";
 import Footer from "../components/Footer/Footer";
 import ProjectImg from "../images/all-devices-white.png";
+import ProjectImg2 from "../images/ProjectImg4.png";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import CryptoDoraSvg from "../images/CryptoDora.svg";
 export interface IAppProps {}
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
-import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import EmailIcon from "@mui/icons-material/Email";
 
 export const CryptoDora = (props: IAppProps) => {
@@ -54,6 +54,7 @@ export const CryptoDora = (props: IAppProps) => {
               rel="noreferrer"
             >
               <Image
+                placeholder="blur"
                 src={ProjectImg}
                 alt="cryptodora img"
                 className="hover:scale-105 transition-all duration-1000 cursor-pointer"
@@ -177,7 +178,8 @@ export const CryptoDora = (props: IAppProps) => {
 
             <div className="">
               <Image
-                src={ProjectImg}
+                placeholder="blur"
+                src={ProjectImg2}
                 className="w-96 scale-150"
                 alt="project-img"
               ></Image>

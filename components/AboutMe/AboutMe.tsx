@@ -84,6 +84,7 @@ const AboutMe: FC = () => {
               </button>
             </div>
             <Image
+              placeholder="blur"
               src={CarouselImg1}
               alt="workflow"
               className={
