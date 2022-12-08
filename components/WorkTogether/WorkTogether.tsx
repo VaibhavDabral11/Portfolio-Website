@@ -10,11 +10,11 @@ const WorkTogether: FC = () => {
     AOS.init();
   }, []);
   interface isLoadedInterface {
-    googleMapsApiKey: string;
+    isLoaded: boolean;
   }
 
   const { isLoaded }: isLoadedInterface = useLoadScript({
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY as string,
   });
 
   if (!isLoaded) {

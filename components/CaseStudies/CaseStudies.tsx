@@ -86,7 +86,7 @@ const LatestWork: FC = () => {
         <Link href="/CryptoDora">
           <Project
             title="Coming_Soon..."
-            description="New amazing project coming soon on!"
+            description="New amazing project coming soon!"
             img={Img4}
             number={3}
             link="https://example.com"
