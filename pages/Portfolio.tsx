@@ -5,13 +5,13 @@ import NavbarProjects from "../components/Navbar/NavbarProjects";
 import Rightbar from "../components/RightBar/Rightbar";
 import Footer from "../components/Footer/Footer";
 import ProjectImg1 from "../images/PortfolioImg1.png";
-import ProjectImg2 from "../images/Portfolioimg2.png";
+import ProjectImg3 from "../images/PortfolioImg.png";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import PortfolioBgImg from "../images/Portfolio.svg";
-export interface IAppProps {}
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
-import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import EmailIcon from "@mui/icons-material/Email";
+
+export interface IAppProps {}
 
 export const Portfolio = (props: IAppProps) => {
   const scrollUp = () => {
@@ -190,7 +190,7 @@ export const Portfolio = (props: IAppProps) => {
 
             <div className="">
               <Image
-                src={ProjectImg2}
+                src={ProjectImg3}
                 className="w-96 scale-150"
                 alt="project-img"
               ></Image>
