@@ -92,8 +92,8 @@ export const Portfolio = (props: IAppProps) => {
               this to showcase my web development skills and projects to my
               stunning clients. <br />
               <br />I made this using Next js (Simply, React Js SUPERCHARGED ⚡)
-              + Tailwind CSS, also used firebase for hosting, MUI... If
-              you&apos;re interested in my work,{" "}
+              + Tailwind CSS, also used firebase for hosting, MUI, Framer
+              Motion... If you&apos;re interested in my work,{" "}
               <a href="#footer">
                 <span className="font-semibold font-serif tracking-widest italic hover:underline underline-offset-4 cursor-pointer">
                   Let&apos;s have a chat
