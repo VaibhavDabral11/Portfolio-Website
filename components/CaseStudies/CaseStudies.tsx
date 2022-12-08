@@ -48,7 +48,7 @@ const LatestWork: FC = () => {
       {/* Works */}
       <div
         className="w-1/2 h-1/2 flex work1 absolute right-60"
-        data-aos="zoom-in-up"
+        data-aos="fade-left"
         data-aos-duration="1000"
       >
         <Link href="/CryptoDora">
@@ -64,7 +64,7 @@ const LatestWork: FC = () => {
 
       <div
         className="w-1/2 h-1/2 work2 flex absolute left-60"
-        data-aos="zoom-out-down"
+        data-aos="fade-right"
         data-aos-duration="1000"
       >
         <Link href="/Portfolio">
@@ -80,7 +80,7 @@ const LatestWork: FC = () => {
 
       <div
         className="w-1/2 h-1/2 work3 flex absolute right-60"
-        data-aos="zoom-out-down"
+        data-aos="fade-up"
         data-aos-duration="1000"
       >
         <Link href="/CryptoDora">
