@@ -48,11 +48,11 @@ export default function Home() {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div className="w-7/12 relative">
+            <div className="w-7/12 sm:w-full relative">
               <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
                 YASINDU NETHMINA
               </h4>
-              <h1 className="title-text heading-text font-extrabold mb-4 text-[#0f141e] text-6xl">
+              <h1 className="sm:font-sm title-text heading-text font-extrabold mb-4 text-[#0f141e] text-6xl">
                 Interactive frontend
                 <br />
                 Web developer
@@ -93,7 +93,7 @@ export default function Home() {
 
             <Image
               priority
-              className="bg-home-img w-1/3 z-50 ml-12 object-cover"
+              className="bg-home-img w-1/3 z-50 ml-12 object-cover sm:relative sm:left-20"
               alt="yasindu-nethmina"
               src={HomeImg}
             />

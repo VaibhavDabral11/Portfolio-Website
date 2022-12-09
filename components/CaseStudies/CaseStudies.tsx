@@ -14,7 +14,7 @@ const LatestWork: FC = () => {
   }, []);
 
   return (
-    <div className="h-screen case-studies-section w-full text-center">
+    <div className="h-screen case-studies-section sm:hidden w-full text-center">
       <div
         style={{ width: "1px" }}
         className="hr-line h-screen m-0 absolute left-72 opacity-30 bg-[#b19386]"
