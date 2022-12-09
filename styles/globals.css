@@ -190,3 +190,22 @@ transition:2s;
     display:none;
   }
 }
+
+/* hover scale animation */
+.hover-animation {
+  transition:.7s
+}
+
+.hover-animation2 {
+  transition:.3s
+}
+
+.hover-animation:hover {
+  transform:scale(110%);
+  transition:.7s
+}
+
+.hover-animation2:hover {
+  transform:scale(110%);
+  transition:.3s
+}
