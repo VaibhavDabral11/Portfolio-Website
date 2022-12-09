@@ -9,37 +9,40 @@ const Rightbar: FC = () => {
       <div>
         <div>
           <a
+            className="hover-animation2"
             href="https://www.linkedin.com/in/yasinduneth/"
             target="_blank"
             rel="noreferrer noopener"
           >
             <LinkedInIcon
               style={{ fontSize: "2.5rem" }}
-              className="text-[#4c4f65]  cursor-pointer relative hover-animation2 bottom-10 right-8 z-40 hover:text-black"
+              className="text-[#4c4f65]  cursor-pointer relative bottom-10 right-8 z-40 hover:text-black"
             />
           </a>
         </div>
         <div>
-          <a
+          <a 
+            className="hover-animation2"
             href="https://twitter.com/yasindu_neth"
             target="_blank"
             rel="noreferrer noopener"
           >
             <TwitterIcon
               style={{ fontSize: "2.5rem" }}
-              className="text-[#4c4f65] my-2 relative cursor-pointer hover-animation2 right-8 z-40 bottom-10 hover:text-black"
+              className="text-[#4c4f65] my-2 relative cursor-pointer right-8 z-40 bottom-10 hover:text-black"
             />
           </a>
         </div>
         <div>
           <a
+            className="hover-animation2"
             href="https://github.com/YasinduNethmina"
             target="_blank"
             rel="noreferrer noopener"
           >
             <GitHubIcon
               style={{ fontSize: "2.5rem" }}
-              className="text-[#4c4f65] relative cursor-pointer right-8 hover-animation2 z-40 bottom-10 hover:text-black"
+              className="text-[#4c4f65] relative cursor-pointer right-8 z-40 bottom-10 hover:text-black"
             />
           </a>
         </div>
