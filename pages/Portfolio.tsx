@@ -52,7 +52,7 @@ export const Portfolio = (props: IAppProps) => {
             <Link href="/">
               <Image
                 placeholder="blur"
-                src={ProjectImg1}
+                src={ProjectImg3}
                 alt="cryptodora img"
                 className="hover:scale-105 transition-all duration-1000 cursor-pointer"
               />
@@ -193,7 +193,7 @@ export const Portfolio = (props: IAppProps) => {
             <div className="">
               <Image
                 placeholder="blur"
-                src={ProjectImg3}
+                src={ProjectImg1}
                 className="w-96 scale-150"
                 alt="project-img"
               ></Image>
