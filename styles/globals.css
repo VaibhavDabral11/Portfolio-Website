@@ -193,11 +193,13 @@ transition:2s;
 
 /* hover scale animation */
 .hover-animation {
+  transform:scale(100%);
   transition:.7s
 }
 
 .hover-animation2 {
-  transition:.3s
+  transform:scale(100%);
+  transition:.4s
 }
 
 .hover-animation:hover {
@@ -207,5 +209,5 @@ transition:2s;
 
 .hover-animation2:hover {
   transform:scale(110%);
-  transition:.3s
+  transition:.4s
 }
