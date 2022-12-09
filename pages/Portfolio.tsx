@@ -4,8 +4,8 @@ import Image from "next/image";
 import NavbarProjects from "../components/Navbar/NavbarProjects";
 import Rightbar from "../components/RightBar/Rightbar";
 import Footer from "../components/Footer/Footer";
-import ProjectImg1 from "../images/PortfolioImg1.png";
-import ProjectImg3 from "../images/PortfolioImg.png";
+import PortfolioImg1 from "../images/PortfolioImg.png";
+import PortfolioImg from "../images/PortfolioImg1.png";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import PortfolioBgImg from "../images/Portfolio.svg";
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
@@ -14,17 +14,6 @@ import EmailIcon from "@mui/icons-material/Email";
 export interface IAppProps {}
 
 export const Portfolio = (props: IAppProps) => {
-  const scrollUp = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
-  useEffect(() => {
-    scrollUp();
-  }, []);
-
   return (
     <>
       {/* Email Me Btn */}
@@ -36,12 +25,15 @@ export const Portfolio = (props: IAppProps) => {
           </span>
         </div>
       </a>
-      <div className="bg-white relative h-screen w-full">
+      <div
+        id="heading-portfolio-section"
+        className="bg-white relative h-screen w-full"
+      >
         <div className="flex">
           <NavbarProjects />
           <Rightbar />
           <div className="cryptodora-img flex justify-around items-center">
-            <div>
+            <div className="relative left-20">
               <h1 className="text-[#0f141e] name-text inline-block font-bold text-6xl">
                 Portfolio
               </h1>
@@ -51,10 +43,9 @@ export const Portfolio = (props: IAppProps) => {
             </div>
             <Link href="/">
               <Image
-                placeholder="blur"
-                src={ProjectImg3}
+                src={PortfolioImg}
                 alt="cryptodora img"
-                className="hover:scale-105 transition-all duration-1000 cursor-pointer"
+                className="hover:scale-105 w-3/4 relative left-28 transition-all duration-1000 cursor-pointer"
               />
             </Link>
           </div>
@@ -119,7 +110,6 @@ export const Portfolio = (props: IAppProps) => {
           </div>
 
           <Image
-            placeholder="blur"
             src={PortfolioBgImg}
             className="relative bottom-28 right-5 z-0 cryptodora-svg-img"
             alt="img-text"
@@ -192,8 +182,7 @@ export const Portfolio = (props: IAppProps) => {
 
             <div className="">
               <Image
-                placeholder="blur"
-                src={ProjectImg1}
+                src={PortfolioImg1}
                 className="w-96 scale-150"
                 alt="project-img"
               ></Image>
@@ -248,11 +237,11 @@ export const Portfolio = (props: IAppProps) => {
               CRYPTODORA APP
             </h4>
 
-            <div
-              className="flex justify-between items-center w-full"
-              onClick={scrollUp}
-            >
-              <Link href="/CryptoDora">
+            <div className="flex justify-between items-center w-full">
+              <Link
+                href="/heading-cryptodora-section"
+                as={`/CryptoDora/#heading-cryptodora-section`}
+              >
                 <h1 className="font-extrabold text-6xl work-together-text">
                   {" "}
                   SEE NEXT WORK

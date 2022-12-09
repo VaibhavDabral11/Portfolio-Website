@@ -13,17 +13,6 @@ import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 import EmailIcon from "@mui/icons-material/Email";
 
 export const CryptoDora = (props: IAppProps) => {
-  const scrollUp = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
-  useEffect(() => {
-    scrollUp();
-  }, []);
-
   return (
     <>
       {/* Email Me Btn */}
@@ -35,7 +24,10 @@ export const CryptoDora = (props: IAppProps) => {
           </span>
         </div>
       </a>
-      <div className="bg-white relative h-screen w-full">
+      <div
+        id="heading-cryptodora-section"
+        className="bg-white relative h-screen w-full"
+      >
         <div className="flex">
           <NavbarProjects />
           <Rightbar />
@@ -234,11 +226,11 @@ export const CryptoDora = (props: IAppProps) => {
               PORTFOLIO APP
             </h4>
 
-            <div
-              className="flex justify-between items-center w-full"
-              onClick={scrollUp}
-            >
-              <Link href="/Portfolio">
+            <div className="flex justify-between items-center w-full">
+              <Link
+                href="/heading-portfolio-section"
+                as={`/Portfolio/#heading-portfolio-section`}
+              >
                 <h1 className="font-extrabold text-6xl work-together-text">
                   {" "}
                   SEE NEXT WORK

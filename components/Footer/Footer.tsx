@@ -75,10 +75,20 @@ const Footer: FC = () => {
                 Latest <br /> projects <RemoveIcon />
               </h1>
               <h4 className="transition-all case-studies-text mt-3 cursor-pointer hover:underline text-sm underline-offset-4">
-                <Link href="CryptoDora">CryptoDora</Link>
+                <Link
+                  href="/heading-cryptodora-section"
+                  as={`/CryptoDora/#heading-cryptodora-section`}
+                >
+                  CryptoDora
+                </Link>
               </h4>
               <h4 className="transition-all case-studies-text cursor-pointer mt-1 hover:underline text-sm underline-offset-4">
-                <Link href="Portfolio">Portfolio</Link>
+                <Link
+                  href="/heading-portfolio-section"
+                  as={`/Portfolio/#heading-portfolio-section`}
+                >
+                  Portfolio
+                </Link>
               </h4>
             </div>
 
