@@ -26,11 +26,9 @@ const WorkTogether: FC = () => {
       <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
         NEED A FRONTEND DEVELOPER?
       </h4>
-      <a
-        href="mailto:yasindunethmina1938096@gmail.com"
-
-      >
+      <a href="mailto:yasindunethmina1938096@gmail.com">
         <button
+          aria-label="contact-yasindunethmina1938096@gmail.com"
           id="contact"
           className="work-together-text name-text inline-block font-extrabold mt-4 my-28 text-[#0f141e] text-6xl"
           data-aos="zoom-out"

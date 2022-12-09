@@ -71,6 +71,7 @@ const AboutMe: FC = () => {
           <div className="w-full" data-aos="zoom-out" data-aos-duration="1000">
             <div className="justify-between px-32 relative top-80 flex">
               <button
+                aria-label="slide"
                 className="z-20 slide-btn"
                 onClick={() => setActive(!active)}
               >
@@ -84,6 +85,7 @@ const AboutMe: FC = () => {
                 />
               </button>
               <button
+                aria-label="slide"
                 className="z-20 slide-btn"
                 onClick={() => setActive(!active)}
               >

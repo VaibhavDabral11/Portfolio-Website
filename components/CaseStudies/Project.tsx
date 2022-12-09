@@ -29,7 +29,10 @@ const Project: FC<Props> = ({ title, description, img, number, link }) => {
           {description}
         </p>
         <div className="button-section bg-blue-500">
-          <button className="button-text text-sm tracking-wider z-10 absolute case-studies-text text-left bottom-0 left-10 w-full font-semibold text-white">
+          <button
+            aria-label="case-study"
+            className="button-text text-sm tracking-wider z-10 absolute case-studies-text text-left bottom-0 left-10 w-full font-semibold text-white"
+          >
             Case Study
           </button>
           <div className="text-sm button-icon case-studies-text absolute bottom-0 left-36 z-20 font-semibold text-white">
