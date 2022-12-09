@@ -46,7 +46,6 @@ export const CryptoDora = (props: IAppProps) => {
               rel="noreferrer"
             >
               <Image
-                placeholder="blur"
                 src={ProjectImg}
                 alt="cryptodora img"
                 className="hover:scale-105 transition-all duration-1000 cursor-pointer"
@@ -170,7 +169,6 @@ export const CryptoDora = (props: IAppProps) => {
 
             <div className="">
               <Image
-                placeholder="blur"
                 src={ProjectImg2}
                 className="w-96 scale-150"
                 alt="project-img"

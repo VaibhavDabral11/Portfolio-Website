@@ -93,7 +93,6 @@ export default function Home() {
 
             <Image
               priority
-              placeholder="blur"
               className="bg-home-img w-1/3 z-50 ml-12 object-cover"
               alt="yasindu-nethmina"
               src={HomeImg}
