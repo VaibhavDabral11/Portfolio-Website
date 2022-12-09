@@ -72,7 +72,7 @@ const AboutMe: FC = () => {
             <div className="justify-between px-32 relative top-80 flex">
               <button
                 aria-label="slide"
-                className="z-20 slide-btn"
+                className="z-20 slide-btn hover-animation"
                 onClick={() => setActive(!active)}
               >
                 <KeyboardArrowLeftIcon
@@ -86,7 +86,7 @@ const AboutMe: FC = () => {
               </button>
               <button
                 aria-label="slide"
-                className="z-20 slide-btn"
+                className="z-20 slide-btn hover-animation"
                 onClick={() => setActive(!active)}
               >
                 <KeyboardArrowRightIcon
