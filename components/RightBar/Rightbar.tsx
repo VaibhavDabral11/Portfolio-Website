@@ -7,9 +7,8 @@ const Rightbar: FC = () => {
   return (
     <div className="fixed top-1/2 mt-4 right-0 z-50 flex justify-end items-center">
       <div>
-        <div>
+        <div className="hover-animation2">
           <a
-            className="hover-animation2"
             href="https://www.linkedin.com/in/yasinduneth/"
             target="_blank"
             rel="noreferrer noopener"
@@ -20,9 +19,8 @@ const Rightbar: FC = () => {
             />
           </a>
         </div>
-        <div>
+        <div className="hover-animation2">
           <a 
-            className="hover-animation2"
             href="https://twitter.com/yasindu_neth"
             target="_blank"
             rel="noreferrer noopener"
@@ -33,9 +31,8 @@ const Rightbar: FC = () => {
             />
           </a>
         </div>
-        <div>
+      <div className="hover-animation2">
           <a
-            className="hover-animation2"
             href="https://github.com/YasinduNethmina"
             target="_blank"
             rel="noreferrer noopener"
