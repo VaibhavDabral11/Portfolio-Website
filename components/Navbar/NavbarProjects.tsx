@@ -12,7 +12,7 @@ const NavbarProjects: FC = () => {
 
   return (
         <>
-      <div className="justify-around mt-6 w-full flex sm:pl-1 sm:pr-5">
+      <div className="justify-around mt-6 w-full flex sm:pl-1 sm:pr-5 z-50">
           <div className="hover:text-gray-400 flex items-center bg-clip-text text-center sm:-mt-2">
               <Link href="/">
             <div className="cursor-pointer navbar-home sm:px-4">
