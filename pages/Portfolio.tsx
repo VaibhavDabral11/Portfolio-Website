@@ -135,7 +135,7 @@ export const Portfolio = (props: IAppProps) => {
                 Build with amazing clients in mind, and Love.
               </h1>
                     <div className="bg-[#0f141e] w-1/4 h-1 my-8 sm:flex sm:relative sm:w-3/4 sm:px-10 sm:left-12"></div>
-                    <p className="font-serif tracking-wider text-left leading-relaxed text-lg case-studies-text text-[#0f141e] sm:w-full sm:text-center">
+                    <p className="font-serif tracking-wider text-left leading-relaxed text-lg case-studies-text text-[#0f141e] sm:w-full sm:text-center sm:px-2">
                 First this is a{" "}
                 <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
                   modern website
@@ -232,8 +232,8 @@ export const Portfolio = (props: IAppProps) => {
           id="next-work-section"
           className="next-work-section w-full flex items-center justify-center h-40 transition-all duration-700"
         >
-          <div>
-              <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4 sm:bottom-48 sm:relative">
+          <div className="mt-12">
+              <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4 sm:bottom-48 sm:relative ">
               CRYPTODORA APP
             </h4>
 
@@ -255,7 +255,7 @@ export const Portfolio = (props: IAppProps) => {
           </div>
         </div>
 
-          <div className="footer-cryptodora sm:-top-40">
+          <div className="footer-cryptodora sm:-top-40 sm:mt-10">
           <Footer />
         </div>
       </div>
