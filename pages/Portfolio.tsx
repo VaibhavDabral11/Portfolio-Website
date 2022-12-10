@@ -233,7 +233,7 @@ export const Portfolio = (props: IAppProps) => {
           className="next-work-section w-full flex items-center justify-center h-40 transition-all duration-700"
         >
           <div className="mt-12">
-              <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4 sm:bottom-48 sm:relative ">
+              <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4 sm:bottom-44 sm:relative ">
               CRYPTODORA APP
             </h4>
 

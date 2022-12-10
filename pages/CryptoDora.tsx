@@ -125,7 +125,7 @@ export const CryptoDora = (props: IAppProps) => {
 
         <div
           id="analysis-outer-section"
-          className="analysis-outer-section w-full text-center mb-20 sm:relative sm:-top-40"
+          className="analysis-outer-section w-full text-center mb-20 sm:relative sm:-top-40 sm:mt-4"
         >
           <div className="analysis-heading-section sm:my-8">
             <h4 className="font-serif text-sm case-studies-text text-[#b19386]">
