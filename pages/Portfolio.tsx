@@ -120,7 +120,7 @@ export const Portfolio = (props: IAppProps) => {
           id="analysis-outer-section"
             className="analysis-outer-section w-full text-center mb-20 sm:relative sm:-top-40"
         >
-            <div className="analysis-heading-section sm:my-8">
+            <div className="analysis-heading-section sm:mt-12 sm:mb-8">
             <h4 className="font-serif text-sm case-studies-text text-[#b19386]">
               ANALYSIS & PREPARATION
             </h4>
@@ -233,7 +233,7 @@ export const Portfolio = (props: IAppProps) => {
           className="next-work-section w-full flex items-center justify-center h-40 transition-all duration-700"
         >
           <div className="mt-12">
-              <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4 sm:bottom-48 sm:relative ">
+              <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4 sm:bottom-44 sm:relative ">
               CRYPTODORA APP
             </h4>
 
@@ -242,7 +242,7 @@ export const Portfolio = (props: IAppProps) => {
                 href="/heading-cryptodora-section"
                 as={`/CryptoDora/#heading-cryptodora-section`}
               >
-                  <h1 className="font-extrabold text-6xl work-together-text sm:relative sm:-top-48 sm:text-4xl">
+                  <h1 id="see-next-work" className="font-extrabold text-6xl work-together-text sm:relative sm:-top-48 sm:text-4xl">
                   {" "}
                   SEE NEXT WORK
                   <TrendingFlatIcon

@@ -12,7 +12,7 @@ const NavbarProjects: FC = () => {
 
   return (
         <>
-      <div className="justify-around mt-6 w-full flex sm:pl-1 sm:pr-5">
+      <div className="justify-around mt-6 w-full flex sm:pl-1 sm:pr-5 z-50">
           <div className="hover:text-gray-400 flex items-center bg-clip-text text-center sm:-mt-2">
               <Link href="/">
             <div className="cursor-pointer navbar-home sm:px-4">
@@ -52,13 +52,13 @@ const NavbarProjects: FC = () => {
 
       <div className={active ? "menu-bar-active absolute left-4 hidden text-left top-6 mt-12 mb-5 z-40" : "menu-bar hidden absolute left-4 text-left mt-12 z-40"}>
             <div className="z-40">
-                <Link href="#case-studies-mobile" className="text-[#0f141e] font-semibold">Case Studies</Link>
+                <Link href="/" className="text-[#0f141e] font-semibold">Home</Link>
             </div>
               <div className="my-1">
-                  <a href="#about-me" className="text-[#0f141e] font-semibold">About Me</a>
+                  <Link href="#analysis-outer-section" className="text-[#0f141e] font-semibold">Branding</Link>
               </div>
                 <div>
-                    <a href="#contact" className="text-[#0f141e] font-semibold">Contact</a>
+                    <Link href="#see-next-work" className="text-[#0f141e] font-semibold">Contact</Link>
                 </div>
           </div>
       </div>
