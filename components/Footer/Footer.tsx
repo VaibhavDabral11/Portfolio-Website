@@ -5,8 +5,8 @@ import RemoveIcon from "@mui/icons-material/Remove";
 const Footer: FC = () => {
   return (
     <>
-      <hr className="w-full mt-24 sm:mt-0" id="footer" />
-      <div className="footer-section relative mt-10 w-full sm:mt-5">
+      <hr className="w-full mt-24 sm:-mt-2" id="footer" />
+      <div className="footer-section relative mt-10 w-full sm:-mt-8">
         <div className="flex justify-around px-32 sm:px-0 sm:flex-wrap">
           <div className="w-2/5 mr-60 sm:w-full sm:mr-0">
             <h1 className="font-bold name-text text-lg sm:hidden">
@@ -15,7 +15,7 @@ const Footer: FC = () => {
               <h1 className="font-bold name-text text-lg sm:block hidden sm:text-center">
                   Contact information <RemoveIcon />
               </h1>
-            <p className="text-gray-500 name-text text-xs mt-3">
+            <p className="text-gray-500 name-text text-xs mt-3 sm:px-2">
               Feel free to reach out to me any time. I prefer to talk over email
               or discord, especially since we may be a few time zones away.
             </p>

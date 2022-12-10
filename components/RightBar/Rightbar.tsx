@@ -15,7 +15,7 @@ const Rightbar: FC = () => {
           >
             <LinkedInIcon
               style={{ fontSize: "2.5rem" }}
-              className="text-[#4c4f65]  cursor-pointer relative bottom-10 right-8 z-40 hover:text-black"
+              className="text-[#4c4f65] cursor-pointer relative bottom-10 right-8 z-40 hover:text-black sm:w-8 sm:right-2"
             />
           </a>
         </div>
@@ -27,7 +27,7 @@ const Rightbar: FC = () => {
           >
             <TwitterIcon
               style={{ fontSize: "2.5rem" }}
-              className="text-[#4c4f65] my-2 relative cursor-pointer right-8 z-40 bottom-10 hover:text-black"
+                className="text-[#4c4f65] my-2 relative cursor-pointer right-8 z-40 bottom-10 hover:text-black sm:w-8 sm:right-2"
             />
           </a>
         </div>
@@ -39,7 +39,7 @@ const Rightbar: FC = () => {
           >
             <GitHubIcon
               style={{ fontSize: "2.5rem" }}
-              className="text-[#4c4f65] relative cursor-pointer right-8 z-40 bottom-10 hover:text-black"
+                className="text-[#4c4f65] relative cursor-pointer right-8 z-40 bottom-10 hover:text-black sm:w-8 sm:right-2"
             />
           </a>
         </div>

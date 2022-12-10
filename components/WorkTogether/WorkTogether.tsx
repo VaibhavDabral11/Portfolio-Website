@@ -41,7 +41,7 @@ const WorkTogether: FC = () => {
           />
         </button>
       </a>
-      <div className="map-section absolute left-0 h-96 w-full sm:h-40 sm:w-full">
+      <div className="map-section absolute left-0 h-96 w-full sm:w-full">
         <Map />
       </div>
 

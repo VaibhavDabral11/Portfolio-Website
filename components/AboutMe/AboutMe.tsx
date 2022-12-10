@@ -43,7 +43,7 @@ const AboutMe: FC = () => {
           <div className="flex justify-center" data-aos="fade-up">
             <h1
               animate-aos="fade-up"
-              className="title-text personal-projects-text name-text font-bold text-center leading-9 -left-1 mb-4 w-2/3 text-[#0f141e] text-3xl sm:text-2xl sm:w-full sm:px-6"
+              className="title-text personal-projects-text name-text font-bold text-center leading-9 -left-1 mb-4 w-2/3 text-[#0f141e] text-2xl sm:text-xl sm:w-full sm:px-3"
             >
               I’m Yasindu Nethmina, a multidisciplinary developer who focuses on
               making interactive websites & giving clients immersive results
@@ -72,7 +72,7 @@ const AboutMe: FC = () => {
             <div className="justify-between px-32 relative top-80 flex sm:top-24 sm:px-4">
               <button
                 aria-label="slide"
-                className="z-20 slide-btn hover-animation"
+                className="z-20 slide-btn hover-animation sm:hidden"
                 onClick={() => setActive(!active)}
               >
                 <KeyboardArrowLeftIcon
@@ -86,7 +86,7 @@ const AboutMe: FC = () => {
               </button>
               <button
                 aria-label="slide"
-                className="z-20 slide-btn hover-animation"
+                className="z-20 slide-btn hover-animation sm:hidden"
                 onClick={() => setActive(!active)}
               >
                 <KeyboardArrowRightIcon
@@ -104,7 +104,7 @@ const AboutMe: FC = () => {
               alt="workflow"
               className={
                 active
-                  ? "about-me-cover cover-img1 cursor-move object-contain flex justify-left mt-6 sm:-mt-40"
+                  ? "about-me-cover cover-img1 cursor-move object-contain flex justify-left mt-6 sm:-mt-28"
                   : "about-me-cover cover-img1 cursor-move hidden slide-animation object-contain flex justify-left mt-16"
               }
             />
@@ -115,7 +115,7 @@ const AboutMe: FC = () => {
               className={
                 active
                   ? "about-me-cover cover-img1 cursor-move hidden slide-animation object-contain flex justify-left mt-16"
-                  : "about-me-cover cover-img2 cursor-move object-contain flex justify-left mt-6 sm:-mt-40"
+                : "about-me-cover cover-img2 cursor-move object-contain flex justify-left mt-6 sm:-mt-28"
               }
             />
           </div>
@@ -202,7 +202,7 @@ const AboutMe: FC = () => {
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Tailwind CSS</h4>
+                  <h4 className="font-bold text-lg name-text">TailwindCSS</h4>
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
@@ -210,7 +210,7 @@ const AboutMe: FC = () => {
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold name-text text-lg">Node Js</h4>
+                  <h4 className="font-bold name-text text-lg">NodeJs</h4>
                   <span className="text-[#cfd0d2] name-text font-semibold">
                     &nbsp;/&nbsp;
                   </span>
@@ -240,7 +240,7 @@ const AboutMe: FC = () => {
                   <span className="text-[#cfd0d2] font-semibold name-text">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Next Js</h4>
+                  <h4 className="font-bold text-lg name-text">NextJs</h4>
                 </div>
               </div>
             </div>

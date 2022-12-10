@@ -72,7 +72,7 @@ export default function Home() {
                 hardware infrastructure that makes the whole thing run.
                 It&apos;s fun being 1 curious human among 8 billion others.
               </h6>
-              <div className="flex items-center sm:justify-center">
+              <div className="flex items-center sm:justify-center sm:mr-1">
                 <a
                   href="#case-studies"
                   className="font-bold text-sm case-studies-text view-projects-text name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e] sm:text-lg"
@@ -93,7 +93,7 @@ export default function Home() {
 
             <Image
               priority
-              className="bg-home-img w-1/3 z-50 ml-12 object-cover sm:absolute sm:right-4 sm:top-4 sm:w-3/4"
+              className="bg-home-img w-1/3 z-50 ml-12 object-cover sm:absolute sm:right-4 sm:top-4 sm:w-3/4 sm:hidden"
               alt="yasindu-nethmina"
               src={HomeImg}
             />

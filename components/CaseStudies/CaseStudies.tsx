@@ -1,8 +1,10 @@
 import { FC, useEffect } from "react";
+import Image from "next/image";
 import Project from "./Project";
 import Img1 from "../../images/website-main-dark.jpg";
 import Img4 from "../../images/coming-soon-img.png";
 import Img3 from "../../images/portfolio-img.jpg";
+import Img2 from "../../images/portfolio-app.jpg";
 import ProjectImg2 from "../../images/portfolio-app.jpg";
 import Link from "next/link";
 import AOS from "aos";
@@ -14,6 +16,7 @@ const LatestWork: FC = () => {
   }, []);
 
   return (
+<>
     <div className="h-screen case-studies-section sm:hidden w-full text-center">
       <div
         style={{ width: "1px" }}
@@ -94,6 +97,35 @@ const LatestWork: FC = () => {
         </Link>
       </div>
     </div>
+
+<div className="hidden sm:block">
+    <div className="text-center sm:-mt-40">
+        <h4
+            id="case-studies-mobile" 
+            className="font-serif case-studies-text text-sm text-[#b19386]"
+            data-aos="fade-up"
+            >
+            CASE STUDIES
+        </h4>
+        <h1
+            className="text-3xl latest-works-text text-[#4a4a4a] font-bold"
+            data-aos="fade-down"
+            >
+            Latest Works
+        </h1>
+    </div>
+
+    <div className="mt-8">
+        <Link href="/CryptoDora">
+            <Image src={Img1}className="w-full border-2 mt-12" data-aos="fade-up" data-aos-once="false" alt="project1" />
+        </Link>
+        <Link href="/Portfolio">
+            <Image src={Img2} className="w-full border-2 mt-12"  data-aos="fade-up" data-aos-once="false" alt="project2" />
+        </Link>
+    </div>
+
+</div>
+</>
   );
 };
 
