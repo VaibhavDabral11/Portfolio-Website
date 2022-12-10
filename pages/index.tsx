@@ -48,11 +48,11 @@ export default function Home() {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div className="w-7/12 sm:w-full relative">
+            <div className="w-7/12 sm:w-full relative z-40">
               <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
                 YASINDU NETHMINA
               </h4>
-              <h1 className="sm:font-sm title-text heading-text font-extrabold mb-4 text-[#0f141e] text-6xl">
+              <h1 className="title-text heading-text font-extrabold mb-4 text-[#0f141e] text-6xl sm:font-bold sm:text-4xl">
                 Interactive frontend
                 <br />
                 Web developer
@@ -72,19 +72,19 @@ export default function Home() {
                 hardware infrastructure that makes the whole thing run.
                 It&apos;s fun being 1 curious human among 8 billion others.
               </h6>
-              <div className="flex items-center">
+              <div className="flex items-center sm:justify-center">
                 <a
                   href="#case-studies"
-                  className="font-bold text-sm case-studies-text view-projects-text name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]"
+                  className="font-bold text-sm case-studies-text view-projects-text name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e] sm:text-lg"
                 >
                   View Projects
                 </a>
-                <h6 className="font-semibold text-[#878a8f] name-text mx-4 mb-1">
+                <h6 className="font-semibold text-[#878a8f] name-text mx-4 mb-1 sm:text-lg">
                   or
                 </h6>
                 <a
                   href="#about-me"
-                  className="font-bold read-about-text case-studies-text text-sm l name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e]"
+                  className="font-bold read-about-text case-studies-text text-sm l name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e] sm:text-lg"
                 >
                   Read About Me
                 </a>
@@ -93,14 +93,14 @@ export default function Home() {
 
             <Image
               priority
-              className="bg-home-img w-1/3 z-50 ml-12 object-cover sm:relative sm:left-20"
+              className="bg-home-img w-1/3 z-50 ml-12 object-cover sm:absolute sm:right-4 sm:top-4 sm:w-3/4"
               alt="yasindu-nethmina"
               src={HomeImg}
             />
           </div>
 
           {/* Bounce */}
-          <div className="border-2 justify-center items-center flex border-black h-6 absolute bottom-7 w-4 rounded-full">
+          <div className="border-2 justify-center items-center flex border-black h-6 absolute bottom-7 w-4 rounded-full sm:bottom-2">
             <span className="animate-bounce name-text">•</span>
           </div>
           <CaseStudies />

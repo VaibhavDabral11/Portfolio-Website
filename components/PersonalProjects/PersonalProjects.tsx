@@ -9,26 +9,26 @@ import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 const WorkTogether: FC = () => {
   return (
     <>
-      <div className="personal-project-section name-text mt-10">
-        <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4">
+      <div className="personal-project-section name-text mt-10 sm:-mt-8">
+        <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4 sm:mb-2">
           VIDEO GAMES & ARTS
         </h4>
-        <h1 className="title-text text-center personal-projects-text name-text font-extrabold -left-1 mb-4 text-[#0f141e] text-6xl">
+        <h1 className="title-text text-center personal-projects-text name-text font-extrabold -left-1 mb-4 text-[#0f141e] text-6xl sm:text-4xl sm:mb-2">
           Personal projects
         </h1>
 
-        <h1 className="title-text text-center personal-projects-text font-semibold italic mt-8 -left-1 text-[#878a8f] text-sm">
+        <h1 className="title-text text-center personal-projects-text font-semibold italic mt-8 -left-1 text-[#878a8f] text-sm sm:mt-4" >
           *Back in 2021 summer, I switched my 5 years of game development career
           into Software Engineering, specially for Web Development! <br />
         </h1>
-        <h1 className="title-text text-center personal-projects-text font-semibold ml-1 mb-4 text-[#878a8f] text-sm">
+        <h1 className="title-text text-center personal-projects-text font-semibold ml-1 mb-4 text-[#878a8f] text-sm sm:mt-4 sm:mb-0">
           These are some of my game design work, that I&lsquo;ve done in the
           past...
         </h1>
 
         <div className="flex flex-wrap w-full h-screen top-10 relative justify-center">
           <div
-            className="game-artwork w-2/5 h-96 cursor-pointer mx-10 mb-20"
+            className="game-artwork w-2/5 h-96 cursor-pointer mx-10 mb-20 sm:w-full sm:mx-0 sm:mb-0"
             data-aos="fade-right"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -41,7 +41,7 @@ const WorkTogether: FC = () => {
               <h1 className="project-text z-10 absolute p-4 name-text text-white font-black text-4xl">
                 Monkey Empire Vol.1
               </h1>
-              <h4 className="view-project-text name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
+              <h4 className="view-project-text name-text z-10 absolute p-4 top-10 text-white font-bold text-xl sm:top-20">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
 
@@ -54,7 +54,7 @@ const WorkTogether: FC = () => {
           </div>
 
           <div
-            className="game-artwork1 cursor-pointer w-2/5 h-96 mx-10 mb-20"
+              className="game-artwork1 cursor-pointer w-2/5 h-96 mx-10 mb-20 sm:w-full sm:mx-0 sm:hidden"
             data-aos="fade-left"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -67,7 +67,7 @@ const WorkTogether: FC = () => {
               <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
                 Monkey Empire Vol.2
               </h1>
-              <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
+                <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl sm:top-20">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image
@@ -79,7 +79,7 @@ const WorkTogether: FC = () => {
           </div>
 
           <div
-            className="game-artwork2 cursor-pointer w-2/5 h-96 mx-10 mb-20"
+              className="game-artwork2 cursor-pointer w-2/5 h-96 mx-10 mb-20 sm:w-full sm:mx-0 sm:hidden"
             data-aos="fade-right"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -92,7 +92,7 @@ const WorkTogether: FC = () => {
               <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
                 Lost Forest
               </h1>
-              <h4 className="view-project-text z-10 name-text view-projects-bottom top-10 absolute p-4 text-white font-bold text-xl">
+                <h4 className="view-project-text z-10 name-text view-projects-bottom top-10 absolute p-4 text-white font-bold text-xl sm:top-10">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image
@@ -104,7 +104,7 @@ const WorkTogether: FC = () => {
           </div>
 
           <div
-            className="game-artwork3 cursor-pointer w-2/5 h-96 mx-10"
+            className="game-artwork3 cursor-pointer w-2/5 h-96 mx-10 sm:mx-0 sm:w-full sm:mt-8"
             data-aos="fade-left"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -117,7 +117,7 @@ const WorkTogether: FC = () => {
               <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
                 Panama Lands
               </h1>
-              <h4 className="view-project-text view-project-bottom name-text z-10 absolute p-4 top-10 text-white font-bold text-xl">
+                <h4 className="view-project-text view-project-bottom name-text z-10 absolute p-4 top-10 text-white font-bold text-xl sm:top-10">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image

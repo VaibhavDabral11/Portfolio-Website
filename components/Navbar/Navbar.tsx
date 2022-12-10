@@ -1,15 +1,16 @@
 import { FC } from "react";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Navbar: FC = () => {
   return (
     <>
-      <div className="justify-around mt-6 w-full flex">
+      <div className="justify-around mt-6 w-full flex sm:pl-1 sm:pr-5">
         <div className="hover:text-gray-400 items-center flex bg-clip-text text-center">
           <div className="cursor-pointer navbar-home">
-            <h2 className="text-black name-text navbar-name font-bold text-2xl sm:text-md">
+            <h2 className="text-black name-text navbar-name font-bold text-2xl sm:text-sm">
               Yasindu&nbsp;Nethmina
             </h2>
-            <h4 className=" text-gray-800 name-text navbar-name tracking-wider font-semibold text-sm sm:text-xs">
+            <h4 className=" text-gray-800 name-text navbar-name tracking-wider font-semibold text-sm sm:text-xs sm:tracking-normal">
               Frontend Web & Mobile Developer
             </h4>
           </div>
@@ -35,6 +36,9 @@ const Navbar: FC = () => {
             Contact
           </a>
         </div>
+        <button className="hidden sm:visible">
+          <MenuIcon />
+        </button>
       </div>
     </>
   );

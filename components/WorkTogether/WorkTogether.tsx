@@ -22,31 +22,31 @@ const WorkTogether: FC = () => {
   }
 
   return (
-    <div className="contact-me-section text-center mt-20 mb-6" id="contact">
-      <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
+    <div className="contact-me-section text-center mt-20 mb-6 sm:-mt-10" id="contact">
+      <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4 sm:mb-0 sm:text-sm">
         NEED A FRONTEND DEVELOPER?
       </h4>
       <a href="mailto:yasindunethmina1938096@gmail.com">
         <button
           aria-label="contact-yasindunethmina1938096@gmail.com"
           id="contact"
-          className="work-together-text name-text inline-block font-extrabold mt-4 my-28 text-[#0f141e] text-6xl"
+          className="work-together-text name-text inline-block font-extrabold mt-4 my-28 text-[#0f141e] text-6xl sm:text-2xl sm:mt-0 sm:my-5"
           data-aos="zoom-out"
           data-aos-duration="2000"
         >
           LET&lsquo;S WORK TOGETHER
           <TrendingFlatIcon
-            className="name-text"
+            className="name-text sm:w-10"
             style={{ fontSize: "4rem" }}
           />
         </button>
       </a>
-      <div className="map-section absolute left-0 h-96 w-full">
+      <div className="map-section absolute left-0 h-96 w-full sm:h-40 sm:w-full">
         <Map />
       </div>
 
       {/* Text */}
-      <div className="lets-work-text text-justify text-6xl bottom-12 relative font-bold">
+      <div className="lets-work-text text-justify text-6xl bottom-12 relative font-bold sm:invisible">
         <div
           className="flex justify-evenly text-[#0f141e]"
           data-aos="zoom-out"

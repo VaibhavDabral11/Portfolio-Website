@@ -17,3 +17,13 @@
   align-items: center;
   transition: 2s;
 }
+
+@media (max-width: 640px) {
+  .main {
+    background-image:none;
+  }
+
+  .container {
+  padding: 0 1rem;
+  }
+}

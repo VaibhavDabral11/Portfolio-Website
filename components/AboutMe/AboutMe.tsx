@@ -35,7 +35,7 @@ const AboutMe: FC = () => {
       <>
         <div className="my-20" id="about-me">
           <h4
-            className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4"
+            className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4 sm:text-sm"
             data-aos="fade-up"
           >
             A FEW WORDS ABOUT ME
@@ -43,7 +43,7 @@ const AboutMe: FC = () => {
           <div className="flex justify-center" data-aos="fade-up">
             <h1
               animate-aos="fade-up"
-              className="title-text personal-projects-text name-text font-bold text-center leading-9 -left-1 mb-4 w-2/3 text-[#0f141e] text-3xl"
+              className="title-text personal-projects-text name-text font-bold text-center leading-9 -left-1 mb-4 w-2/3 text-[#0f141e] text-3xl sm:text-2xl sm:w-full sm:px-6"
             >
               I’m Yasindu Nethmina, a multidisciplinary developer who focuses on
               making interactive websites & giving clients immersive results
@@ -52,7 +52,7 @@ const AboutMe: FC = () => {
             </h1>
           </div>
           <div className="flex justify-center" data-aos="zoom-out">
-            <p className="mt-4 text-center text-lg font-semibold name-text w-1/2 text-[#878a8f]">
+            <p className="mt-4 text-center text-lg font-semibold name-text w-1/2 text-[#878a8f] sm:text-md sm:w-full sm:px-7">
               Over the past years, I&apos;ve been working as a front end web
               developer, working solo and leading small development teams.
               Before switching in to Software Engineering, I worked as a Game
@@ -69,7 +69,7 @@ const AboutMe: FC = () => {
           </div>
 
           <div className="w-full" data-aos="zoom-out" data-aos-duration="1000">
-            <div className="justify-between px-32 relative top-80 flex">
+            <div className="justify-between px-32 relative top-80 flex sm:top-24 sm:px-4">
               <button
                 aria-label="slide"
                 className="z-20 slide-btn hover-animation"
@@ -81,7 +81,7 @@ const AboutMe: FC = () => {
                     height: "2.75rem",
                     borderRadius: "100px",
                   }}
-                  className="relative top-5 bg-gray-300 text-gray-100"
+                  className="relative top-5 bg-gray-300 text-gray-100 sm:w-10"
                 />
               </button>
               <button
@@ -104,7 +104,7 @@ const AboutMe: FC = () => {
               alt="workflow"
               className={
                 active
-                  ? "about-me-cover cover-img1 cursor-move object-contain flex justify-left mt-16"
+                  ? "about-me-cover cover-img1 cursor-move object-contain flex justify-left mt-6 sm:-mt-40"
                   : "about-me-cover cover-img1 cursor-move hidden slide-animation object-contain flex justify-left mt-16"
               }
             />
@@ -115,12 +115,12 @@ const AboutMe: FC = () => {
               className={
                 active
                   ? "about-me-cover cover-img1 cursor-move hidden slide-animation object-contain flex justify-left mt-16"
-                  : "about-me-cover cover-img2 cursor-move object-contain flex justify-left mt-16"
+                  : "about-me-cover cover-img2 cursor-move object-contain flex justify-left mt-6 sm:-mt-40"
               }
             />
           </div>
 
-          <div className="mt-16 flex justify-around">
+          <div className="mt-16 flex justify-around sm:-mt-28 sm:flex-wrap">
             <div data-aos="fade-right" data-aos-duration="1000">
               <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4">
                 EXPERIENCED IN
@@ -175,7 +175,7 @@ const AboutMe: FC = () => {
             </div>
 
             <div data-aos="fade-left" data-aos-duration="1000">
-              <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4">
+              <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4 sm:mt-10">
                 TECH STACK
               </h4>
               <div className="">
@@ -246,7 +246,7 @@ const AboutMe: FC = () => {
             </div>
           </div>
 
-          <h4 className="text-[#878a8f] mt-16 name-text name-text personal-projects-text text-sm text-center tracking-widest leading-4">
+          <h4 className="text-[#878a8f] mt-16 name-text name-text personal-projects-text text-sm text-center tracking-widest leading-4 sm:mt-12">
             SKILLS
           </h4>
           <div
@@ -256,82 +256,82 @@ const AboutMe: FC = () => {
           >
             <Image
               src={HTMLImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="html-logo"
             />
             <Image
               src={JavascriptImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="html-logo"
             />
             <Image
               src={SASSImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="html-logo"
             />
             <Image
               src={NodeImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="node-logo"
             />
             <Image
               src={TailwindImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="tailwind-logo"
             />
             <Image
               src={FigmaImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="figma-logo"
             />
             <Image
               src={FirebaseImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="firebase-logo"
             />
             <Image
               src={GitImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="git-logo"
             />
             <Image
               src={CSSImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="css-logo"
             />
             <Image
               src={GraphQL}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="graphql-logo"
             />
             <Image
               src={AWS}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="aws-logo"
             />
             <Image
               src={TypescriptImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="html-logo"
             />
             <Image
               src={ReactImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="react-logo"
             />
             <Image
               src={MongoDB}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
               alt="mongodb-logo"
             />
             <Image
               src={NextjsImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 mr-1 p-1 case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 mr-1 p-1 case-studies-text sm:w-10 sm:h-10"
               alt="nextjs-logo"
             />
             <Image
               src={ReduxImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text case-studies-text"
+              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10 case-studies-text"
               alt="redux-logo"
             />
           </div>
