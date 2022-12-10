@@ -54,22 +54,22 @@ export const CryptoDora = (props: IAppProps) => {
           </div>
         </div>
 
-        <div className="flex justify-around relative top-2/3 w-full text-[#878a8f] font-bold tracking-wider sm:top-80 sm:block sm:text-center">
-          <h4 className="role-title-text">
-            <span className="text-[#00c8e7] role-text font-bold tracking-widest ">
+        <div className="flex justify-around relative top-2/3 w-full text-[#878a8f] font-bold tracking-wider sm:top-80 sm:block sm: sm:text-center">
+          <h4 className="role-title-text sm:w-full">
+            <span className="text-[#00c8e7] role-text font-bold tracking-widest">
               ROLE &nbsp;
             </span>
             FRONTEND DEVELOPER
           </h4>
 
-          <h4 className="role-title-text sm:my-4">
+            <h4 className="role-title-text sm:my-4 sm:w-full">
             <span className="text-[#00c8e7] role-text font-bold tracking-widest">
               CONTEXT &nbsp;
             </span>
             PERSONAL PROJECT
           </h4>
 
-          <h4 className="role-title-text">
+            <h4 className="role-title-text sm:w-full">
             <span className="text-[#00c8e7] role-text font-bold tracking-widest">
               PERIOD &nbsp;
             </span>
