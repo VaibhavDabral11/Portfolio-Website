@@ -120,7 +120,7 @@ export const Portfolio = (props: IAppProps) => {
           id="analysis-outer-section"
             className="analysis-outer-section w-full text-center mb-20 sm:relative sm:-top-40"
         >
-            <div className="analysis-heading-section sm:my-8">
+            <div className="analysis-heading-section sm:mt-12 sm:mb-8">
             <h4 className="font-serif text-sm case-studies-text text-[#b19386]">
               ANALYSIS & PREPARATION
             </h4>
