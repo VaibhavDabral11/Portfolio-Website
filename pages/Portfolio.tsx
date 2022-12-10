@@ -32,12 +32,12 @@ export const Portfolio = (props: IAppProps) => {
         <div className="flex">
           <NavbarProjects />
           <Rightbar />
-          <div className="cryptodora-img flex justify-around items-center">
-            <div className="relative left-20">
-              <h1 className="text-[#0f141e] name-text inline-block font-bold text-6xl">
+            <div className="cryptodora-img flex justify-around items-center sm:flex-wrap sm:top-60 sm:pt-10 sm:mt-2">
+            <div className="relative left-20 sm:left-5 sm:mt-16">
+              <h1 className="text-[#0f141e] name-text inline-block font-bold text-6xl sm:relative sm:left-2">
                 Portfolio
               </h1>
-              <h4 className="mt-4 text-center italic name-text font-serif text-[#878a8f]">
+              <h4 className="mt-4 text-center italic name-text font-serif text-[#878a8f] sm:relative sm:right-6">
                 Amazing portfolio website with stunning projects.
               </h4>
             </div>
@@ -45,13 +45,13 @@ export const Portfolio = (props: IAppProps) => {
               <Image
                 src={PortfolioImg}
                 alt="cryptodora img"
-                className="hover:scale-105 w-3/4 relative left-28 transition-all duration-1000 cursor-pointer"
+                  className="hover:scale-105 w-3/4 relative left-28 transition-all duration-1000 cursor-pointer sm:mt-8 sm:mb-20 sm:left-0 sm:mx-auto sm:w-full"
               />
             </Link>
           </div>
         </div>
 
-        <div className="flex justify-around relative top-2/3 w-full text-[#878a8f] font-bold tracking-wider">
+          <div className="flex justify-around relative top-2/3 w-full text-[#878a8f] font-bold tracking-wider sm:top-80 sm:mt-20 sm:flex-wrap">
           <h4 className="role-title-text">
             <span className="text-[#00c8e7] role-text font-bold tracking-widest">
               ROLE &nbsp;
@@ -59,8 +59,8 @@ export const Portfolio = (props: IAppProps) => {
             FRONTEND DEVELOPER
           </h4>
 
-          <h4 className="role-title-text">
-            <span className="text-[#00c8e7] role-text font-bold tracking-widest">
+          <h4 className="role-title-text sm:my-2">
+              <span className="text-[#00c8e7] role-text font-bold tracking-widest sm:my-4">
               CONTEXT &nbsp;
             </span>
             PERSONAL PROJECT
@@ -70,16 +70,16 @@ export const Portfolio = (props: IAppProps) => {
             <span className="text-[#00c8e7] role-text font-bold tracking-widest">
               PERIOD &nbsp;
             </span>
-            2022
+            2022 DECEMBER
           </h4>
         </div>
 
         <div className="w-full introduction-section bg-white">
-          <h1 className="text-6xl font-bold pt-12 text-center z-10 name-text text-[#0f141e]">
+            <h1 className="text-6xl font-bold pt-12 text-center z-10 name-text text-[#0f141e] sm:bottom-56 sm:text-4xl sm:relative sm:-mt-2">
             Introduction
           </h1>
           <div className="flex justify-center">
-            <p className="font-serif w-1/3 pt-6 z-10 relative text-justify name-text tracking-widest text-[#0f141e]">
+              <p className="font-serif w-1/3 pt-6 z-10 relative text-justify name-text tracking-widest text-[#0f141e] sm:w-full sm:px-10 sm:bottom-56">
               This is the website that you&apos;re viewing right now, I made
               this to showcase my web development skills and projects to my
               stunning clients. <br />
@@ -95,8 +95,8 @@ export const Portfolio = (props: IAppProps) => {
             </p>
           </div>
 
-          <div className="flex justify-center pt-6 pb-10 z-10">
-            <div className="visit-website-btn bg-transparent z-10 flex justify-center hover:bg-[#0f141e] hover:text-white transition-all duration-300 w-40 font-semibold text-[#0f141e] border-2 border-[#0f141e]">
+            <div className="flex justify-center pt-6 pb-10 z-10 sm:block">
+                <div className="sm:hidden visit-website-btn bg-transparent z-10 flex justify-center hover:bg-[#0f141e] hover:text-white transition-all duration-300 w-40 font-semibold text-[#0f141e] border-2 border-[#0f141e]">
               <Link
                 className="flex items-center relative z-10 tracking-wider left-5 name-text font-bold justify-center"
                 href="/"
@@ -118,24 +118,24 @@ export const Portfolio = (props: IAppProps) => {
 
         <div
           id="analysis-outer-section"
-          className="analysis-outer-section w-full text-center mb-20"
+            className="analysis-outer-section w-full text-center mb-20 sm:relative sm:-top-40"
         >
-          <div className="analysis-heading-section">
+            <div className="analysis-heading-section sm:my-8">
             <h4 className="font-serif text-sm case-studies-text text-[#b19386]">
               ANALYSIS & PREPARATION
             </h4>
-            <h1 className="text-3xl text-[#4a4a4a] case-studies-text font-bold">
+                <h1 className="text-3xl text-[#4a4a4a] case-studies-text font-bold sm:mt-2">
               Branding
             </h1>
           </div>
 
-          <div className="analysis-section flex justify-center w-full items-center z-50">
-            <div className="w-1/3 mr-40">
-              <h1 className="font-bold text-[#0f141e] name-text text-left text-4xl">
+            <div className="analysis-section flex justify-center w-full items-center z-50 sm:block">
+                <div className="w-1/3 mr-40 sm:w-full sm:m-0 sm:-top-24 sm:relative">
+                    <h1 className="font-bold text-[#0f141e] name-text text-left text-4xl sm:w-full sm:text-center">
                 Build with amazing clients in mind, and Love.
               </h1>
-              <div className="bg-[#0f141e] w-1/4 h-1 my-8"></div>
-              <p className="font-serif tracking-wider text-left leading-relaxed text-lg case-studies-text text-[#0f141e]">
+                    <div className="bg-[#0f141e] w-1/4 h-1 my-8 sm:flex sm:relative sm:w-3/4 sm:px-10 sm:left-12"></div>
+                    <p className="font-serif tracking-wider text-left leading-relaxed text-lg case-studies-text text-[#0f141e] sm:w-full sm:text-center">
                 First this is a{" "}
                 <span className="text-[#00c8e7] font-semibold tracking-normal case-studies-text">
                   modern website
@@ -183,12 +183,12 @@ export const Portfolio = (props: IAppProps) => {
             <div className="">
               <Image
                 src={PortfolioImg1}
-                className="w-96 scale-150"
+                  className="w-96 scale-150 sm:w-2/3 sm:mx-auto"
                 alt="project-img"
               ></Image>
             </div>
           </div>
-          <div className="w-full colors-section flex flex-wrap justify-evenly">
+            <div className="w-full colors-section flex flex-wrap justify-evenly sm:hidden">
             <div className="w-40 h-40 rounded-full z-20 bg-[#1b2028] hover:shadow-2xl hover:drop-shadow-2xl transition-all duration-500"></div>
             <div className="w-40 h-40 rounded-full z-20 bg-[#00cccb] hover:shadow-2xl hover:drop-shadow-2xl transition-all duration-500"></div>
             <div className="w-40 h-40 rounded-full z-20 bg-[#fff] hover:shadow-2xl drop-shadow-2xl transition-all duration-500"></div>
@@ -196,7 +196,7 @@ export const Portfolio = (props: IAppProps) => {
             <div className="w-40 h-40 rounded-full z-20 bg-[#878e8f] hover:shadow-2xl hover:drop-shadow-2xl transition-all duration-500"></div>
           </div>
 
-          <div className="w-full colors-section flex flex-wrap justify-evenly">
+            <div className="w-full colors-section flex flex-wrap justify-evenly sm:hidden">
             <div className="w-40 h-4 rounded-full z-20 transition-all case-studies-text duration-500 font-serif mt-3 text-gray-500 hover:text-red-500">
               $ebony-black
             </div>
@@ -216,15 +216,15 @@ export const Portfolio = (props: IAppProps) => {
 
           <div
             style={{ width: "1px" }}
-            className="hr-line-cryptodora h-1/3 m-0 absolute left-72 opacity-30 bg-[#b19386]"
+              className="hr-line-cryptodora h-1/3 m-0 absolute left-72 opacity-30 bg-[#b19386] sm:hidden"
           ></div>
           <div
             style={{ width: "1px" }}
-            className="hr-line-cryptodora w-1 absolute left-1/2 opacity-30 bg-[#b19386]"
+              className="hr-line-cryptodora w-1 absolute left-1/2 opacity-30 bg-[#b19386] sm:hidden"
           ></div>
           <div
             style={{ width: "1px" }}
-            className="w-1 hr-line-cryptodora absolute right-72 opacity-30 bg-[#b19386]"
+              className="w-1 hr-line-cryptodora absolute right-72 opacity-30 bg-[#b19386] sm:hidden"
           ></div>
         </div>
 
@@ -233,7 +233,7 @@ export const Portfolio = (props: IAppProps) => {
           className="next-work-section w-full flex items-center justify-center h-40 transition-all duration-700"
         >
           <div>
-            <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4">
+              <h4 className="text-[#878a8f] text-center name-text mb-4 tracking-widest leading-4 sm:bottom-48 sm:relative">
               CRYPTODORA APP
             </h4>
 
@@ -242,7 +242,7 @@ export const Portfolio = (props: IAppProps) => {
                 href="/heading-cryptodora-section"
                 as={`/CryptoDora/#heading-cryptodora-section`}
               >
-                <h1 className="font-extrabold text-6xl work-together-text">
+                  <h1 className="font-extrabold text-6xl work-together-text sm:relative sm:-top-48 sm:text-4xl">
                   {" "}
                   SEE NEXT WORK
                   <TrendingFlatIcon
@@ -255,7 +255,7 @@ export const Portfolio = (props: IAppProps) => {
           </div>
         </div>
 
-        <div className="footer-cryptodora">
+          <div className="footer-cryptodora sm:-top-40">
           <Footer />
         </div>
       </div>

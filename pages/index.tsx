@@ -37,7 +37,7 @@ export default function Home() {
           <title>Portfolio | Yasindu Nethmina - Frontend Web Developer</title>
           <meta
             name="description"
-            content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"
+              content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; '
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -49,9 +49,11 @@ export default function Home() {
             data-aos-duration="1000"
           >
             <div className="w-7/12 sm:w-full relative z-40">
-              <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4">
+
+              <h4 className="text-[#878a8f] name-text tracking-widest leading-4 sm:text-lg">
                 YASINDU NETHMINA
               </h4>
+
               <h1 className="title-text heading-text font-extrabold mb-4 text-[#0f141e] text-6xl sm:font-bold sm:text-4xl">
                 Interactive frontend
                 <br />
@@ -93,7 +95,7 @@ export default function Home() {
 
             <Image
               priority
-              className="bg-home-img w-1/3 z-50 ml-12 object-cover sm:absolute sm:right-4 sm:top-4 sm:w-3/4 sm:hidden"
+              className="bg-home-img w-1/3 ml-12 object-cover sm:absolute sm:right-0 sm:top-4 sm:w-1/2"
               alt="yasindu-nethmina"
               src={HomeImg}
             />

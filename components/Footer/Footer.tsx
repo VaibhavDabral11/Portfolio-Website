@@ -8,7 +8,7 @@ const Footer: FC = () => {
       <hr className="w-full mt-24 sm:-mt-2" id="footer" />
       <div className="footer-section relative mt-10 w-full sm:-mt-8">
         <div className="flex justify-around px-32 sm:px-0 sm:flex-wrap">
-          <div className="w-2/5 mr-60 sm:w-full sm:mr-0">
+          <div className="w-2/5 mr-60 sm:w-full sm:mr-0 sm:ml-1">
             <h1 className="font-bold name-text text-lg sm:hidden">
               Contact <br /> information <RemoveIcon />
             </h1>
@@ -137,7 +137,7 @@ const Footer: FC = () => {
             </div>
           </div>
             <h4 className="text-sm font-extralight name-text mt-5 italic sm:block hidden">
-                Layout UI:
+                LayoutUI:
                 <a
                     className="transition-all hover:font-normal hover:underline underline-offset-4"
                     href="https://dribbble.com/damianwatracz"
@@ -147,7 +147,7 @@ const Footer: FC = () => {
                     &nbsp;damianwatracz
                 </a>
             </h4>
-            <h4 className="text-sm font-extralight name-text mt-3 mr-1 italic sm:block hidden sm:mt-1">
+            <h4 className="text-sm font-extralight name-text mt-3 mr-1 italic sm:block hidden sm:text-center sm:mt-1">
                 © 2022{" "}
                 <a
                     className="transition-all hover:font-normal hover:underline underline-offset-4"

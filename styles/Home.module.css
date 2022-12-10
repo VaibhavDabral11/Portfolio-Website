@@ -20,7 +20,8 @@
 
 @media (max-width: 640px) {
   .main {
-    background-image:none;
+      background-size: 100%;
+      background-image: url("../images/frontend_dev_mobile.svg");
   }
 
   .container {

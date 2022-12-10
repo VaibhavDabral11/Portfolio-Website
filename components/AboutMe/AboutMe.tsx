@@ -194,8 +194,8 @@ const AboutMe: FC = () => {
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">HTML</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="font-bold text-lg name-text sm:hidden">HTML</h4>
+                  <span className="text-[#cfd0d2] font-semibold name-text sm:hidden">
                     &nbsp;/&nbsp;
                   </span>
                   <h4 className="font-bold text-lg name-text">SASS</h4>

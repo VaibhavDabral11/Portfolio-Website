@@ -48,11 +48,11 @@ const Navbar: FC = () => {
             <MenuIcon style={{fontSize: "2rem", color: "#0f141e"}} />
         </button>
 
-          <div className={active ? "menu-bar-active absolute right-2 hidden text-center mt-12 z-40" : "menu-bar hidden absolute right-2 text-center mt-12"}>
+      <div className={active ? "menu-bar-active absolute left-4 hidden text-left top-6 mt-12 mb-5 z-40" : "menu-bar hidden absolute left-4 text-left mt-12"}>
             <div className="z-40">
                 <Link href="#case-studies-mobile" className="text-[#0f141e] font-semibold">Case Studies</Link>
             </div>
-              <div className="my-3">
+              <div className="my-1">
                   <a href="#about-me" className="text-[#0f141e] font-semibold">About Me</a>
               </div>
                 <div>
