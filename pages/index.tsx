@@ -102,7 +102,7 @@ export default function Home() {
           </div>
 
           {/* Bounce */}
-          <div className="border-2 justify-center items-center flex border-black h-6 absolute bottom-7 w-4 rounded-full sm:bottom-2">
+          <div className="border-2 justify-center items-center flex border-black h-6 absolute bottom-7 w-4 rounded-full sm:bottom-2 sm:hidden">
             <span className="animate-bounce name-text">•</span>
           </div>
           <CaseStudies />

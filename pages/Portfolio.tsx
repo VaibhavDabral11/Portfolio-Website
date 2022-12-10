@@ -51,7 +51,7 @@ export const Portfolio = (props: IAppProps) => {
           </div>
         </div>
 
-          <div className="flex justify-around relative top-2/3 w-full text-[#878a8f] font-bold tracking-wider sm:top-80 sm:mt-20 sm:flex-wrap">
+          <div className="flex justify-around relative top-2/3 w-full text-[#878a8f] font-bold tracking-wider sm:top-80 sm:mt-20 sm:block sm:text-center">
           <h4 className="role-title-text">
             <span className="text-[#00c8e7] role-text font-bold tracking-widest">
               ROLE &nbsp;

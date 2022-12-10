@@ -15,7 +15,7 @@ const Footer: FC = () => {
               <h1 className="font-bold name-text text-lg sm:block hidden sm:text-center">
                   Contact information <RemoveIcon />
               </h1>
-            <p className="text-gray-500 name-text text-xs mt-3 sm:px-2">
+            <p className="text-gray-500 name-text text-xs mt-3 sm:px-2 sm:text-center">
               Feel free to reach out to me any time. I prefer to talk over email
               or discord, especially since we may be a few time zones away.
             </p>

@@ -81,7 +81,7 @@ const AboutMe: FC = () => {
                     height: "2.75rem",
                     borderRadius: "100px",
                   }}
-                  className="relative top-5 bg-gray-300 text-gray-100 sm:w-10"
+                  className="relative -top-3 bg-gray-300 text-gray-100 sm:w-10"
                 />
               </button>
               <button
@@ -95,7 +95,7 @@ const AboutMe: FC = () => {
                     height: "2.75rem",
                     borderRadius: "100px",
                   }}
-                  className="w-12 relative top-5 bg-gray-300 text-gray-100 h-12 rounded-full"
+                  className="w-12 relative -top-3 bg-gray-300 text-gray-100 h-12 rounded-full"
                 />
               </button>
             </div>
