@@ -58,7 +58,7 @@ const NavbarProjects: FC = () => {
                   <Link href="#analysis-outer-section" className="text-[#0f141e] font-semibold">Branding</Link>
               </div>
                 <div>
-                    <Link href="#footer" className="text-[#0f141e] font-semibold">Contact</Link>
+                    <Link href="#see-next-work" className="text-[#0f141e] font-semibold">Contact</Link>
                 </div>
           </div>
       </div>

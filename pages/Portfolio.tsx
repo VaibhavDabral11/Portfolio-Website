@@ -242,7 +242,7 @@ export const Portfolio = (props: IAppProps) => {
                 href="/heading-cryptodora-section"
                 as={`/CryptoDora/#heading-cryptodora-section`}
               >
-                  <h1 className="font-extrabold text-6xl work-together-text sm:relative sm:-top-48 sm:text-4xl">
+                  <h1 id="see-next-work" className="font-extrabold text-6xl work-together-text sm:relative sm:-top-48 sm:text-4xl">
                   {" "}
                   SEE NEXT WORK
                   <TrendingFlatIcon

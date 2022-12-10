@@ -229,7 +229,7 @@ export const CryptoDora = (props: IAppProps) => {
                 href="/heading-portfolio-section"
                 as={`/Portfolio/#heading-portfolio-section`}
               >
-                <h1 className="font-extrabold text-6xl work-together-text sm:relative sm:-top-48 sm:text-4xl">
+                <h1 id="see-next-work" className="font-extrabold text-6xl work-together-text sm:relative sm:-top-48 sm:text-4xl">
                   {" "}
                   SEE NEXT WORK
                   <TrendingFlatIcon
