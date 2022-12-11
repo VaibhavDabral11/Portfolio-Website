@@ -115,7 +115,7 @@ const WorkTogether: FC = () => {
               rel="noopener noreferrer"
             >
               <h1 className="project-text name-text absolute z-10 p-4 text-4xl font-black text-white">
-                Panama Lands
+                North Lands
               </h1>
               <h4 className="view-project-text view-project-bottom name-text absolute top-10 z-10 p-4 text-xl font-bold text-white sm:top-10">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
