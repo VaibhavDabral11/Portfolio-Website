@@ -241,6 +241,10 @@ const AboutMe: FC = () => {
                     &nbsp;/&nbsp;
                   </span>
                   <h4 className="font-bold text-lg name-text">NextJs</h4>
+                    <span className="text-[#cfd0d2] font-semibold name-text">
+                        &nbsp;/&nbsp;
+                    </span>
+                    <h4 className="font-bold text-lg name-text">Jest</h4>
                 </div>
               </div>
             </div>
