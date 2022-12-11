@@ -183,7 +183,7 @@ export const Portfolio = (props: IAppProps) => {
             <div className="">
               <Image
                 src={PortfolioImg1}
-                className="w-96 scale-150 sm:mx-auto sm:w-2/3"
+                className="z-50 w-96 scale-150 sm:mx-auto sm:w-2/3"
                 alt="project-img"
               ></Image>
             </div>

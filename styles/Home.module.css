@@ -5,7 +5,6 @@
 .main {
   background-image: url("../images/frontend dev_.svg");
   background-repeat: no-repeat;
-  overflow-y: hidden;
   background-size: 100%;
   background-position: bottom 99% right 2%;
   min-height: 100vh;
@@ -20,11 +19,11 @@
 
 @media (max-width: 640px) {
   .main {
-      background-size: 100%;
-      background-image: url("../images/frontend_dev_mobile.svg");
+    background-size: 100%;
+    background-image: url("../images/frontend_dev_mobile.svg");
   }
 
   .container {
-  padding: 0 1rem;
+    padding: 0 1rem;
   }
 }

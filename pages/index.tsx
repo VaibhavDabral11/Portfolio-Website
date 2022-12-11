@@ -45,7 +45,7 @@ export default function Home() {
 
         <main className={styles.main}>
           <div
-            className="relative bottom-20 flex h-screen w-full items-center overflow-x-hidden"
+            className="relative bottom-20 flex h-screen w-full items-center"
             data-aos="fade-up"
             data-aos-duration="1000"
           >

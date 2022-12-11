@@ -99,7 +99,7 @@ const LatestWork: FC = () => {
       </div>
 
       <div className="hidden sm:block">
-        <div className="text-center sm:-mt-40">
+        <div className="text-center sm:-mt-44">
           <h4
             id="case-studies-mobile"
             className="case-studies-text font-serif text-sm text-[#b19386]"

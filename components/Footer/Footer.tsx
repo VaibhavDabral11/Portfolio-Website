@@ -72,7 +72,7 @@ const Footer: FC = () => {
             </div>
           </div>
 
-          <div className="flex w-3/5 justify-around sm:w-full sm:px-0">
+          <div className="flex w-3/5 justify-around sm:hidden sm:w-full sm:px-0">
             <div className="w-1/3 sm:w-1/2">
               <h1 className="name-text text-lg font-bold sm:mt-4 sm:hidden">
                 Latest <br /> projects <RemoveIcon />

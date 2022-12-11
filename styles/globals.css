@@ -7,7 +7,6 @@ body {
   scroll-behavior: smooth;
   height: auto;
   overflow-x: hidden;
-  overflow-y: auto;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -54,15 +53,13 @@ a {
 }
 
 .role-text::selection {
-background:#111;
+  background: #111;
 }
 
 .role-title-text::selection {
-background:#111;
-color:#fff;
+  background: #111;
+  color: #fff;
 }
-
-
 
 /* Hover underline animation effects */
 .view-projects-text::after {
@@ -94,7 +91,6 @@ color:#fff;
 /* Typing animation */
 .heading-text {
   animation: typing 3s steps(250, end) alternate;
-  overflow: hidden;
   white-space: nowrap;
 }
 
@@ -130,84 +126,85 @@ color:#fff;
 }
 
 .introduction-section {
-  position:relative; top:68%;
+  position: relative;
+  top: 68%;
 }
 
 .footer-cryptodora {
-  position:relative;
-  top:0;
+  position: relative;
+  top: 0;
 }
 
 .cryptodora-svg-img {
-width:80%;
+  width: 80%;
 }
 
 .hr-line-cryptodora {
-top:150%;
-height:100%;
+  top: 150%;
+  height: 100%;
 }
 
 .analysis-heading-section {
-position:relative;
-top:27%;
+  position: relative;
+  top: 27%;
 }
 
 .analysis-section {
-  position:relative;
-  top:35%;
+  position: relative;
+  top: 35%;
 }
 
 .colors-section {
-  position:relative;
-  top:40%;
+  position: relative;
+  top: 40%;
 }
 
 .work-section-arrow {
-transition:2s;
+  transition: 2s;
 }
 
 .next-work-section:hover .work-section-arrow {
-  transform:translateX(1rem);
-  transition:2s;
+  transform: translateX(1rem);
+  transition: 2s;
 }
 
 .analysis-outer-section {
-  height:170%;
+  height: 170%;
 }
 
 .email-me-text {
-  opacity:0;
-  transition:.1s;
+  opacity: 0;
+  transition: 0.1s;
 }
 
 .email-me-btn:hover .email-me-text {
-  opacity:1;
-  transition:1s;
-} 
+  opacity: 1;
+  transition: 1s;
+}
 
-@media (max-width:1300px) {
-.colors-section {
-    display:none;
+@media (max-width: 1300px) {
+  .colors-section {
+    display: none;
   }
 }
 
 /* hover scale animation */
 .hover-animation {
-  transform:scale(100%);
-  transition:.7s
+  transform: scale(100%);
+  transition: 0.7s;
 }
 
 .hover-animation2 {
-  transform:scale(100%);
-  transition:.4s
+  transform: scale(100%);
+  transition: 0.4s;
 }
 
 .hover-animation:hover {
-  transform:scale(110%);
-  transition:.7s
+  transform: scale(110%);
+  transition: 0.7s;
 }
 
 .hover-animation2:hover {
-  transform:scale(110%);
-  transition:.4s
+  transform: scale(110%);
+  transition: 0.4s;
 }
