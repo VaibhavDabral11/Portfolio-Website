@@ -23,7 +23,7 @@ const WorkTogether: FC = () => {
 
   return (
     <div
-      className="contact-me-section mt-20 mb-6 text-center sm:-mt-6"
+      className="contact-me-section mt-20 mb-6 text-center sm:-mt-10"
       id="contact"
     >
       <h4 className="name-text mb-4 leading-4 tracking-widest text-[#878a8f] sm:mb-0 sm:text-sm">
