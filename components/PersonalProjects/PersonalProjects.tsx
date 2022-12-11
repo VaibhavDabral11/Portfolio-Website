@@ -14,7 +14,7 @@ const WorkTogether: FC = () => {
           VIDEO GAMES & ARTS
         </h4>
         <h1 className="title-text personal-projects-text name-text -left-1 mb-4 text-center text-6xl font-extrabold text-[#0f141e] sm:mb-2 sm:text-4xl">
-          Personal projects
+          Level design projects
         </h1>
 
         <h1 className="title-text personal-projects-text -left-1 mt-8 text-center text-sm font-semibold italic text-[#878a8f] sm:mt-4">
