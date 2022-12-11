@@ -22,15 +22,18 @@ const WorkTogether: FC = () => {
   }
 
   return (
-    <div className="contact-me-section text-center mt-20 mb-6 sm:-mt-10" id="contact">
-      <h4 className="text-[#878a8f] name-text mb-4 tracking-widest leading-4 sm:mb-0 sm:text-sm">
+    <div
+      className="contact-me-section mt-20 mb-6 text-center sm:-mt-10"
+      id="contact"
+    >
+      <h4 className="name-text mb-4 leading-4 tracking-widest text-[#878a8f] sm:mb-0 sm:text-sm">
         NEED A FRONTEND DEVELOPER?
       </h4>
       <a href="mailto:yasindunethmina1938096@gmail.com">
         <button
           aria-label="contact-yasindunethmina1938096@gmail.com"
           id="contact"
-          className="work-together-text name-text inline-block font-extrabold mt-4 my-28 text-[#0f141e] text-6xl sm:text-2xl sm:mt-0 sm:my-5"
+          className="work-together-text name-text my-28 mt-4 inline-block text-6xl font-extrabold text-[#0f141e] sm:my-5 sm:mt-0 sm:text-2xl"
           data-aos="zoom-out"
           data-aos-duration="2000"
         >
@@ -46,7 +49,7 @@ const WorkTogether: FC = () => {
       </div>
 
       {/* Text */}
-      <div className="lets-work-text text-justify text-6xl bottom-12 relative font-bold sm:invisible">
+      <div className="lets-work-text relative bottom-12 text-justify text-6xl font-bold sm:invisible">
         <div
           className="flex justify-evenly text-[#0f141e]"
           data-aos="zoom-out"
@@ -60,27 +63,27 @@ const WorkTogether: FC = () => {
         </div>
 
         <div
-          className="flex justify-evenly text-[#fafafa] mr-2 my-20"
+          className="my-20 mr-2 flex justify-evenly text-[#fafafa]"
           data-aos="zoom-out"
           data-aos-duration="1500"
           data-aos-once="false"
         >
           <h4 className="name-text pr-20">W</h4>
-          <h4 className="text-zinc-200 name-text pr-20">O</h4>
+          <h4 className="name-text pr-20 text-zinc-200">O</h4>
           <h4 className="name-text pr-20">R</h4>
-          <h4 className="name-text text-[#fafafa] pr-20">K</h4>
+          <h4 className="name-text pr-20 text-[#fafafa]">K</h4>
         </div>
 
         <div
-          className="flex justify-evenly my-20 text-zinc-200"
+          className="my-20 flex justify-evenly text-zinc-200"
           data-aos="zoom-out"
           data-aos-duration="1500"
           data-aos-once="false"
         >
           <h4 className="name-text pr-20">T</h4>
-          <h4 className="text-[#fafafa] name-text pr-20">O</h4>
+          <h4 className="name-text pr-20 text-[#fafafa]">O</h4>
           <h4 className="name-text pr-20">G</h4>
-          <h4 className="text-[#fafafa] name-text pr-20">E</h4>
+          <h4 className="name-text pr-20 text-[#fafafa]">E</h4>
         </div>
 
         <div

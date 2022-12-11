@@ -35,7 +35,7 @@ const AboutMe: FC = () => {
       <>
         <div className="my-20" id="about-me">
           <h4
-            className="text-[#878a8f] about-me-section name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4 sm:text-sm"
+            className="about-me-section name-text name-text personal-projects-text mb-4 text-center leading-4 tracking-widest text-[#878a8f] sm:text-sm"
             data-aos="fade-up"
           >
             A FEW WORDS ABOUT ME
@@ -43,7 +43,7 @@ const AboutMe: FC = () => {
           <div className="flex justify-center" data-aos="fade-up">
             <h1
               animate-aos="fade-up"
-              className="title-text personal-projects-text name-text font-bold text-center leading-9 -left-1 mb-4 w-2/3 text-[#0f141e] text-2xl sm:text-xl sm:w-full sm:px-3"
+              className="title-text personal-projects-text name-text -left-1 mb-4 w-2/3 text-center text-2xl font-bold leading-9 text-[#0f141e] sm:w-full sm:px-3 sm:text-xl"
             >
               I’m Yasindu Nethmina, a multidisciplinary developer who focuses on
               making interactive websites & giving clients immersive results
@@ -52,27 +52,27 @@ const AboutMe: FC = () => {
             </h1>
           </div>
           <div className="flex justify-center" data-aos="zoom-out">
-            <p className="mt-4 text-center text-lg font-semibold name-text w-1/2 text-[#878a8f] sm:text-md sm:w-full sm:px-7">
+            <p className="name-text sm:text-md mt-4 w-1/2 text-center text-lg font-semibold text-[#878a8f] sm:w-full sm:px-7">
               Over the past years, I&apos;ve been working as a front end web
               developer, working solo and leading small development teams.
               Before switching in to Software Engineering, I worked as a Game
               Level Designer for 5 years. So I have a great knowledge even
               working with larger technical teams. In spare time I enjoy&nbsp;
-              <span className="underline cursor-default hover:text-black duration-300 transition-all">
+              <span className="cursor-default underline transition-all duration-300 hover:text-black">
                 video games
               </span>{" "}
               and <br /> inventing{" "}
-              <span className="underline cursor-default hover:text-black duration-300 transition-all">
+              <span className="cursor-default underline transition-all duration-300 hover:text-black">
                 new technologies.
               </span>{" "}
             </p>
           </div>
 
           <div className="w-full" data-aos="zoom-out" data-aos-duration="1000">
-            <div className="justify-between px-32 relative top-80 flex sm:top-24 sm:px-4">
+            <div className="relative top-80 flex justify-between px-32 sm:top-24 sm:px-4">
               <button
                 aria-label="slide"
-                className="z-20 slide-btn hover-animation sm:hidden"
+                className="slide-btn hover-animation z-20 sm:hidden"
                 onClick={() => setActive(!active)}
               >
                 <KeyboardArrowLeftIcon
@@ -86,7 +86,7 @@ const AboutMe: FC = () => {
               </button>
               <button
                 aria-label="slide"
-                className="z-20 slide-btn hover-animation sm:hidden"
+                className="slide-btn hover-animation z-20 sm:hidden"
                 onClick={() => setActive(!active)}
               >
                 <KeyboardArrowRightIcon
@@ -95,7 +95,7 @@ const AboutMe: FC = () => {
                     height: "2.75rem",
                     borderRadius: "100px",
                   }}
-                  className="w-12 relative -top-3 bg-gray-300 text-gray-100 h-12 rounded-full"
+                  className="relative -top-3 h-12 w-12 rounded-full bg-gray-300 text-gray-100"
                 />
               </button>
             </div>
@@ -104,8 +104,8 @@ const AboutMe: FC = () => {
               alt="workflow"
               className={
                 active
-                  ? "about-me-cover cover-img1 cursor-move object-contain flex justify-left mt-6 sm:-mt-28"
-                  : "about-me-cover cover-img1 cursor-move hidden slide-animation object-contain flex justify-left mt-16"
+                  ? "about-me-cover cover-img1 justify-left mt-6 flex cursor-move object-contain sm:-mt-28"
+                  : "about-me-cover cover-img1 slide-animation justify-left mt-16 flex hidden cursor-move object-contain"
               }
             />
 
@@ -114,60 +114,60 @@ const AboutMe: FC = () => {
               alt="workflow"
               className={
                 active
-                  ? "about-me-cover cover-img1 cursor-move hidden slide-animation object-contain flex justify-left mt-16"
-                : "about-me-cover cover-img2 cursor-move object-contain flex justify-left mt-6 sm:-mt-28"
+                  ? "about-me-cover cover-img1 slide-animation justify-left mt-16 flex hidden cursor-move object-contain"
+                  : "about-me-cover cover-img2 justify-left mt-6 flex cursor-move object-contain sm:-mt-28"
               }
             />
           </div>
 
           <div className="mt-16 flex justify-around sm:-mt-28 sm:flex-wrap">
             <div data-aos="fade-right" data-aos-duration="1000">
-              <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4">
+              <h4 className="name-text name-text personal-projects-text mb-4 text-center text-xs leading-4 tracking-widest text-[#878a8f]">
                 EXPERIENCED IN
               </h4>
               <div className="">
                 <div className="flex items-center justify-center text-[##0f141e]">
-                  <h4 className="font-bold text-lg name-text">
+                  <h4 className="name-text text-lg font-bold">
                     Frontend Web & Mobile
                   </h4>
-                  <span className="text-[#cfd0d2] name-text font-semibold">
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">UX & UI</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
-                    &nbsp;/&nbsp;
-                  </span>
-                </div>
-                <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">CI/CD</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
-                    &nbsp;/&nbsp;
-                  </span>
-                  <h4 className="font-bold text-lg name-text">Testing</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
-                    &nbsp;/&nbsp;
-                  </span>
-                  <h4 className="font-bold text-lg name-text">APIs</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">UX & UI</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">Cloud</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">CI/CD</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Databases</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">Testing</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Debugging</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">APIs</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">
+                  <h4 className="name-text text-lg font-bold">Cloud</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">Databases</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">Debugging</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                </div>
+                <div className="flex items-center justify-center">
+                  <h4 className="name-text text-lg font-bold">
                     Game Development
                   </h4>
                 </div>
@@ -175,172 +175,174 @@ const AboutMe: FC = () => {
             </div>
 
             <div data-aos="fade-left" data-aos-duration="1000">
-              <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-xs text-center mb-4 tracking-widest leading-4 sm:mt-10">
+              <h4 className="name-text name-text personal-projects-text mb-4 text-center text-xs leading-4 tracking-widest text-[#878a8f] sm:mt-10">
                 TECH STACK
               </h4>
               <div className="">
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">React</h4>
-                  <span className="text-[#cfd0d2] name-text font-semibold">
+                  <h4 className="name-text text-lg font-bold">React</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold name-text text-lg">Javascript</h4>
-                  <span className="text-[#cfd0d2] name-text font-semibold">
+                  <h4 className="name-text text-lg font-bold">Javascript</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Typescript</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">Typescript</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text sm:hidden">HTML</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text sm:hidden">
+                  <h4 className="name-text text-lg font-bold sm:hidden">
+                    HTML
+                  </h4>
+                  <span className="name-text font-semibold text-[#cfd0d2] sm:hidden">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">SASS</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">SASS</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">TailwindCSS</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">TailwindCSS</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">Redux</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">Redux</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold name-text text-lg">NodeJs</h4>
-                  <span className="text-[#cfd0d2] name-text font-semibold">
-                    &nbsp;/&nbsp;
-                  </span>
-                </div>
-
-                <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">GraphQL</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
-                    &nbsp;/&nbsp;
-                  </span>
-                  <h4 className="font-bold text-lg name-text">MongoDB</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
-                    &nbsp;/&nbsp;
-                  </span>
-                  <h4 className="font-bold text-lg name-text">AWS</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
-                    &nbsp;/&nbsp;
-                  </span>
-                  <h4 className="font-bold text-lg name-text">Figma</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">NodeJs</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <h4 className="font-bold text-lg name-text">Firebase</h4>
-                  <span className="text-[#cfd0d2] font-semibold name-text">
+                  <h4 className="name-text text-lg font-bold">GraphQL</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="font-bold text-lg name-text">NextJs</h4>
-                    <span className="text-[#cfd0d2] font-semibold name-text">
-                        &nbsp;/&nbsp;
-                    </span>
-                    <h4 className="font-bold text-lg name-text">Jest</h4>
+                  <h4 className="name-text text-lg font-bold">MongoDB</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">AWS</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">Figma</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                </div>
+
+                <div className="flex items-center justify-center">
+                  <h4 className="name-text text-lg font-bold">Firebase</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">NextJs</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">Jest</h4>
                 </div>
               </div>
             </div>
           </div>
 
-          <h4 className="text-[#878a8f] mt-16 name-text name-text personal-projects-text text-sm text-center tracking-widest leading-4 sm:mt-12">
+          <h4 className="name-text name-text personal-projects-text mt-16 text-center text-sm leading-4 tracking-widest text-[#878a8f] sm:mt-12">
             SKILLS
           </h4>
           <div
-            className="flex justify-evenly cursor-pointer flex-wrap mx-4"
+            className="mx-4 flex cursor-pointer flex-wrap justify-evenly"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <Image
               src={HTMLImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="html-logo"
             />
             <Image
               src={JavascriptImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="html-logo"
             />
             <Image
               src={SASSImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="html-logo"
             />
             <Image
               src={NodeImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="node-logo"
             />
             <Image
               src={TailwindImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="tailwind-logo"
             />
             <Image
               src={FigmaImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="figma-logo"
             />
             <Image
               src={FirebaseImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="firebase-logo"
             />
             <Image
               src={GitImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="git-logo"
             />
             <Image
               src={CSSImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="css-logo"
             />
             <Image
               src={GraphQL}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="graphql-logo"
             />
             <Image
               src={AWS}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="aws-logo"
             />
             <Image
               src={TypescriptImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="html-logo"
             />
             <Image
               src={ReactImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="react-logo"
             />
             <Image
               src={MongoDB}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="mongodb-logo"
             />
             <Image
               src={NextjsImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 mr-1 p-1 case-studies-text sm:w-10 sm:h-10"
+              className="case-studies-text mt-4 mr-1 h-16 w-16 p-1 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="nextjs-logo"
             />
             <Image
               src={ReduxImg}
-              className="hover:scale-110 transition-all duration-300 w-16 h-16 mt-4 case-studies-text sm:w-10 sm:h-10 case-studies-text"
+              className="case-studies-text case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="redux-logo"
             />
           </div>
           <h2 className="waving-text"></h2>
-          <hr className="w-full mt-16" />
+          <hr className="mt-16 w-full" />
         </div>
       </>
     );

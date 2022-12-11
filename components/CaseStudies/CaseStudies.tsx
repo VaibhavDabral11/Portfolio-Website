@@ -16,116 +16,127 @@ const LatestWork: FC = () => {
   }, []);
 
   return (
-<>
-    <div className="h-screen case-studies-section sm:hidden w-full text-center">
-      <div
-        style={{ width: "1px" }}
-        className="hr-line h-screen m-0 absolute left-72 opacity-30 bg-[#b19386]"
-      ></div>
-      <div
-        style={{ width: "1px" }}
-        className="hr-line w-1 absolute left-1/2 opacity-30 bg-[#b19386]"
-      ></div>
-      <div
-        style={{ width: "1px" }}
-        className="w-1 hr-line absolute right-72 opacity-30 bg-[#b19386]"
-      ></div>
+    <>
+      <div className="case-studies-section h-screen w-full text-center sm:hidden">
+        <div
+          style={{ width: "1px" }}
+          className="hr-line absolute left-72 m-0 h-screen bg-[#b19386] opacity-30"
+        ></div>
+        <div
+          style={{ width: "1px" }}
+          className="hr-line absolute left-1/2 w-1 bg-[#b19386] opacity-30"
+        ></div>
+        <div
+          style={{ width: "1px" }}
+          className="hr-line absolute right-72 w-1 bg-[#b19386] opacity-30"
+        ></div>
 
-      <hr className="rotate-90 absolute bottom-40 z-40" />
-      <div>
-        <h4
-          id="case-studies"
-          className="font-serif case-studies-text text-sm bottom-20 relative text-[#b19386]"
-          data-aos="fade-up"
-        >
-          CASE STUDIES
-        </h4>
-        <h1
-          className="text-3xl latest-works-text bottom-20 relative text-[#4a4a4a] font-bold"
-          data-aos="fade-down"
-        >
-          Latest Works
-        </h1>
-      </div>
-
-      {/* Works */}
-      <div
-        className="w-1/2 h-1/2 flex work1 absolute right-60"
-        data-aos="fade-left"
-        data-aos-duration="1000"
-      >
-        <Link href="/CryptoDora">
-          <Project
-            title="CryptoDora"
-            description="realtime cryptocurrency charts, news and track your winning portfolio!"
-            img={Img1}
-            number={1}
-            link="https://example.com"
-          />
-        </Link>
-      </div>
-
-      <div
-        className="w-1/2 h-1/2 work2 flex absolute left-60"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
-        <Link href="/Portfolio">
-          <Project
-            title="Portfolio_Website"
-            description="Amazing portfolio website with stunning & complex real-world projects!"
-            img={ProjectImg2}
-            number={2}
-            link="https://example.com"
-          />
-        </Link>
-      </div>
-
-      <div
-        className="w-1/2 h-1/2 work3 flex absolute right-60"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
-        <Link href="/CryptoDora">
-          <Project
-            title="Coming_Soon..."
-            description="New amazing project coming soon!"
-            img={Img4}
-            number={3}
-            link="https://example.com"
-          />
-        </Link>
-      </div>
-    </div>
-
-<div className="hidden sm:block">
-    <div className="text-center sm:-mt-40">
-        <h4
-            id="case-studies-mobile" 
-            className="font-serif case-studies-text text-sm text-[#b19386]"
+        <hr className="absolute bottom-40 z-40 rotate-90" />
+        <div>
+          <h4
+            id="case-studies"
+            className="case-studies-text relative bottom-20 font-serif text-sm text-[#b19386]"
             data-aos="fade-up"
-            >
+          >
             CASE STUDIES
-        </h4>
-        <h1
-            className="text-3xl latest-works-text text-[#4a4a4a] font-bold"
+          </h4>
+          <h1
+            className="latest-works-text relative bottom-20 text-3xl font-bold text-[#4a4a4a]"
             data-aos="fade-down"
-            >
+          >
             Latest Works
-        </h1>
-    </div>
+          </h1>
+        </div>
 
-    <div className="mt-8">
-        <Link href="/CryptoDora">
-            <Image src={Img1}className="w-full border-2 mt-12" data-aos="fade-up" data-aos-once="false" alt="project1" />
-        </Link>
-        <Link href="/Portfolio">
-            <Image src={Img2} className="w-full border-2 mt-12"  data-aos="fade-up" data-aos-once="false" alt="project2" />
-        </Link>
-    </div>
+        {/* Works */}
+        <div
+          className="work1 absolute right-60 flex h-1/2 w-1/2"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <Link href="/CryptoDora">
+            <Project
+              title="CryptoDora"
+              description="realtime cryptocurrency charts, news and track your winning portfolio!"
+              img={Img1}
+              number={1}
+              link="https://example.com"
+            />
+          </Link>
+        </div>
 
-</div>
-</>
+        <div
+          className="work2 absolute left-60 flex h-1/2 w-1/2"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <Link href="/Portfolio">
+            <Project
+              title="Portfolio_Website"
+              description="Amazing portfolio website with stunning & complex real-world projects!"
+              img={ProjectImg2}
+              number={2}
+              link="https://example.com"
+            />
+          </Link>
+        </div>
+
+        <div
+          className="work3 absolute right-60 flex h-1/2 w-1/2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <Link href="/CryptoDora">
+            <Project
+              title="Coming_Soon..."
+              description="New amazing project coming soon!"
+              img={Img4}
+              number={3}
+              link="https://example.com"
+            />
+          </Link>
+        </div>
+      </div>
+
+      <div className="hidden sm:block">
+        <div className="text-center sm:-mt-40">
+          <h4
+            id="case-studies-mobile"
+            className="case-studies-text font-serif text-sm text-[#b19386]"
+            data-aos="fade-up"
+          >
+            CASE STUDIES
+          </h4>
+          <h1
+            className="latest-works-text text-3xl font-bold text-[#4a4a4a]"
+            data-aos="fade-down"
+          >
+            Latest Works
+          </h1>
+        </div>
+
+        <div className="mt-8">
+          <Link href="/CryptoDora">
+            <Image
+              src={Img1}
+              className="mt-12 w-full border-2"
+              data-aos="fade-up"
+              data-aos-once="false"
+              alt="project1"
+            />
+          </Link>
+          <Link href="/Portfolio">
+            <Image
+              src={Img2}
+              className="mt-12 w-full border-2"
+              data-aos="fade-up"
+              data-aos-once="false"
+              alt="project2"
+            />
+          </Link>
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -37,24 +37,23 @@ export default function Home() {
           <title>Portfolio | Yasindu Nethmina - Frontend Web Developer</title>
           <meta
             name="description"
-              content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; '
+            content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; "
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className={styles.main}>
           <div
-            className="overflow-x-hidden flex items-center h-screen relative bottom-20 w-full"
+            className="relative bottom-20 flex h-screen w-full items-center overflow-x-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div className="w-7/12 sm:w-full relative z-40">
-
-              <h4 className="text-[#878a8f] name-text tracking-widest leading-4 sm:text-lg">
+            <div className="relative z-40 w-7/12 sm:w-full">
+              <h4 className="name-text leading-4 tracking-widest text-[#878a8f] sm:text-lg">
                 YASINDU NETHMINA
               </h4>
 
-              <h1 className="title-text heading-text font-extrabold mb-4 text-[#0f141e] text-6xl sm:font-bold sm:text-4xl">
+              <h1 className="title-text heading-text mb-4 text-6xl font-extrabold text-[#0f141e] sm:text-4xl sm:font-bold">
                 Interactive frontend
                 <br />
                 Web developer
@@ -62,7 +61,7 @@ export default function Home() {
               <h6
                 data-aos="zoom-in"
                 data-aos-duration="1000"
-                className="bio-text font-semibold mb-4 drop-shadow-2xl text-[#878a8f]"
+                className="bio-text mb-4 font-semibold text-[#878a8f] drop-shadow-2xl"
               >
                 I&apos;m Yasindu, a frontend web developer with extensive
                 knowledge and experience in React, Javascript, Typescript, Next
@@ -74,19 +73,19 @@ export default function Home() {
                 hardware infrastructure that makes the whole thing run.
                 It&apos;s fun being 1 curious human among 8 billion others.
               </h6>
-              <div className="flex items-center sm:justify-center sm:mr-1">
+              <div className="flex items-center sm:mr-1 sm:justify-center">
                 <a
                   href="#case-studies"
-                  className="font-bold text-sm case-studies-text view-projects-text name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e] sm:text-lg"
+                  className="case-studies-text view-projects-text name-text text-sm font-bold text-[#0f141e] decoration-[#0f141e] underline-offset-4 duration-500 ease-in-out hover:-translate-y-1 hover:scale-105 sm:text-lg"
                 >
                   View Projects
                 </a>
-                <h6 className="font-semibold text-[#878a8f] name-text mx-4 mb-1 sm:text-lg">
+                <h6 className="name-text mx-4 mb-1 font-semibold text-[#878a8f] sm:text-lg">
                   or
                 </h6>
                 <a
                   href="#about-me"
-                  className="font-bold read-about-text case-studies-text text-sm l name-text hover:-translate-y-1 hover:scale-105 ease-in-out duration-500 underline-offset-4 decoration-[#0f141e] text-[#0f141e] sm:text-lg"
+                  className="read-about-text case-studies-text l name-text text-sm font-bold text-[#0f141e] decoration-[#0f141e] underline-offset-4 duration-500 ease-in-out hover:-translate-y-1 hover:scale-105 sm:text-lg"
                 >
                   Read About Me
                 </a>
@@ -95,15 +94,15 @@ export default function Home() {
 
             <Image
               priority
-              className="bg-home-img w-1/3 ml-12 object-cover sm:absolute sm:right-0 sm:top-4 sm:w-1/2"
+              className="bg-home-img ml-12 w-1/3 object-cover sm:absolute sm:right-0 sm:top-4 sm:w-1/2"
               alt="yasindu-nethmina"
               src={HomeImg}
             />
           </div>
 
           {/* Bounce */}
-          <div className="border-2 justify-center items-center flex border-black h-6 absolute bottom-7 w-4 rounded-full sm:bottom-2 sm:hidden">
-            <span className="animate-bounce name-text">•</span>
+          <div className="absolute bottom-7 flex h-6 w-4 items-center justify-center rounded-full border-2 border-black sm:bottom-2 sm:hidden">
+            <span className="name-text animate-bounce">•</span>
           </div>
           <CaseStudies />
           <AboutMe />

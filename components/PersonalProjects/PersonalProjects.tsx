@@ -10,25 +10,25 @@ const WorkTogether: FC = () => {
   return (
     <>
       <div className="personal-project-section name-text mt-10 sm:-mt-8">
-        <h4 className="text-[#878a8f] name-text name-text personal-projects-text text-center mb-4 tracking-widest leading-4 sm:mb-2">
+        <h4 className="name-text name-text personal-projects-text mb-4 text-center leading-4 tracking-widest text-[#878a8f] sm:mb-2">
           VIDEO GAMES & ARTS
         </h4>
-        <h1 className="title-text text-center personal-projects-text name-text font-extrabold -left-1 mb-4 text-[#0f141e] text-6xl sm:text-4xl sm:mb-2">
+        <h1 className="title-text personal-projects-text name-text -left-1 mb-4 text-center text-6xl font-extrabold text-[#0f141e] sm:mb-2 sm:text-4xl">
           Personal projects
         </h1>
 
-        <h1 className="title-text text-center personal-projects-text font-semibold italic mt-8 -left-1 text-[#878a8f] text-sm sm:mt-4" >
+        <h1 className="title-text personal-projects-text -left-1 mt-8 text-center text-sm font-semibold italic text-[#878a8f] sm:mt-4">
           *Back in 2021 summer, I switched my 5 years of game development career
           into Software Engineering, specially for Web Development! <br />
         </h1>
-        <h1 className="title-text text-center personal-projects-text font-semibold ml-1 mb-4 text-[#878a8f] text-sm sm:mt-4 sm:mb-0">
+        <h1 className="title-text personal-projects-text ml-1 mb-4 text-center text-sm font-semibold text-[#878a8f] sm:mt-4 sm:mb-0">
           These are some of my game design work, that I&lsquo;ve done in the
           past...
         </h1>
 
-        <div className="flex flex-wrap w-full h-screen top-10 relative justify-center">
+        <div className="relative top-10 flex h-screen w-full flex-wrap justify-center">
           <div
-            className="game-artwork w-2/5 h-96 cursor-pointer mx-10 mb-20 sm:w-full sm:mx-0 sm:mb-0"
+            className="game-artwork mx-10 mb-20 h-96 w-2/5 cursor-pointer sm:mx-0 sm:mb-0 sm:w-full"
             data-aos="fade-right"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -38,23 +38,23 @@ const WorkTogether: FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h1 className="project-text z-10 absolute p-4 name-text text-white font-black text-4xl">
+              <h1 className="project-text name-text absolute z-10 p-4 text-4xl font-black text-white">
                 Monkey Empire Vol.1
               </h1>
-              <h4 className="view-project-text name-text z-10 absolute p-4 top-10 text-white font-bold text-xl sm:top-20">
+              <h4 className="view-project-text name-text absolute top-10 z-10 p-4 text-xl font-bold text-white sm:top-20">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
 
               <Image
                 src={GameArtwork1}
-                className="cursor-pointer artwork-img w-full h-full object-cover"
+                className="artwork-img h-full w-full cursor-pointer object-cover"
                 alt="game-work"
               />
             </a>
           </div>
 
           <div
-              className="game-artwork1 cursor-pointer w-2/5 h-96 mx-10 mb-20 sm:w-full sm:mx-0 sm:hidden"
+            className="game-artwork1 mx-10 mb-20 h-96 w-2/5 cursor-pointer sm:mx-0 sm:hidden sm:w-full"
             data-aos="fade-left"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -64,22 +64,22 @@ const WorkTogether: FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
+              <h1 className="project-text name-text absolute z-10 p-4 text-4xl font-black text-white">
                 Monkey Empire Vol.2
               </h1>
-                <h4 className="view-project-text  name-text z-10 absolute p-4 top-10 text-white font-bold text-xl sm:top-20">
+              <h4 className="view-project-text  name-text absolute top-10 z-10 p-4 text-xl font-bold text-white sm:top-20">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image
                 src={GameArtwork2}
-                className="cursor-pointer artwork-img w-full h-full object-cover"
+                className="artwork-img h-full w-full cursor-pointer object-cover"
                 alt="game-work"
               />
             </a>
           </div>
 
           <div
-              className="game-artwork2 cursor-pointer w-2/5 h-96 mx-10 mb-20 sm:w-full sm:mx-0 sm:hidden"
+            className="game-artwork2 mx-10 mb-20 h-96 w-2/5 cursor-pointer sm:mx-0 sm:hidden sm:w-full"
             data-aos="fade-right"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -89,22 +89,22 @@ const WorkTogether: FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
+              <h1 className="project-text name-text absolute z-10 p-4 text-4xl font-black text-white">
                 Lost Forest
               </h1>
-                <h4 className="view-project-text z-10 name-text view-projects-bottom top-10 absolute p-4 text-white font-bold text-xl sm:top-10">
+              <h4 className="view-project-text name-text view-projects-bottom absolute top-10 z-10 p-4 text-xl font-bold text-white sm:top-10">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image
                 src={GameArtwork3}
-                className="cursor-pointer artwork-img w-full h-full object-cover"
+                className="artwork-img h-full w-full cursor-pointer object-cover"
                 alt="game-work"
               />
             </a>
           </div>
 
           <div
-            className="game-artwork3 cursor-pointer w-2/5 h-96 mx-10 sm:mx-0 sm:w-full sm:mt-8"
+            className="game-artwork3 mx-10 h-96 w-2/5 cursor-pointer sm:mx-0 sm:mt-8 sm:w-full"
             data-aos="fade-left"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -114,15 +114,15 @@ const WorkTogether: FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h1 className="project-text name-text z-10 absolute p-4 text-white font-black text-4xl">
+              <h1 className="project-text name-text absolute z-10 p-4 text-4xl font-black text-white">
                 Panama Lands
               </h1>
-                <h4 className="view-project-text view-project-bottom name-text z-10 absolute p-4 top-10 text-white font-bold text-xl sm:top-10">
+              <h4 className="view-project-text view-project-bottom name-text absolute top-10 z-10 p-4 text-xl font-bold text-white sm:top-10">
                 View Project <TrendingFlatIcon className="view-project-arrow" />
               </h4>
               <Image
                 src={GameArtwork5}
-                className="cursor-pointer artwork-img w-full h-full object-cover"
+                className="artwork-img h-full w-full cursor-pointer object-cover"
                 alt="game-work"
               />
             </a>

@@ -17,25 +17,25 @@ const Project: FC<Props> = ({ title, description, img, number, link }) => {
   }, []);
 
   return (
-    <div className="w-full h-full work-section cursor-pointer">
+    <div className="work-section h-full w-full cursor-pointer">
       <div className="">
-        <h1 className="project-text number-text text-8xl absolute top-6 right-0 w-40 case-studies-text font-black text-white">
+        <h1 className="project-text number-text case-studies-text absolute top-6 right-0 w-40 text-8xl font-black text-white">
           0{number}
         </h1>
-        <h1 className="project-text text-5xl text-left absolute bottom-20  z-10 case-studies-text left-10 w-40 font-bold text-white">
+        <h1 className="project-text case-studies-text absolute bottom-20 left-10  z-10 w-40 text-left text-5xl font-bold text-white">
           {title}
         </h1>
-        <p className="project-description text-sm italic tracking-wider absolute case-studies-text z-10 text-left bottom-12 left-10 w-full font-normal text-white">
+        <p className="project-description case-studies-text absolute bottom-12 left-10 z-10 w-full text-left text-sm font-normal italic tracking-wider text-white">
           {description}
         </p>
         <div className="button-section bg-blue-500">
           <button
             aria-label="case-study"
-            className="button-text text-sm tracking-wider z-10 absolute case-studies-text text-left bottom-0 left-10 w-full font-semibold text-white"
+            className="button-text case-studies-text absolute bottom-0 left-10 z-10 w-full text-left text-sm font-semibold tracking-wider text-white"
           >
             Case Study
           </button>
-          <div className="text-sm button-icon case-studies-text absolute bottom-0 left-36 z-20 font-semibold text-white">
+          <div className="button-icon case-studies-text absolute bottom-0 left-36 z-20 text-sm font-semibold text-white">
             <TrendingFlatIcon style={{ fontSize: "40px", color: "#e5e7eb" }} />
           </div>
         </div>
