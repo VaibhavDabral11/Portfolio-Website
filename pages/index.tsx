@@ -37,7 +37,8 @@ export default function Home() {
           <title>Portfolio | Yasindu Nethmina - Frontend Web Developer</title>
           <meta
             name="description"
-            content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; "
+            content="I'm Yasindu, a frontend web developer with extensive knowledge and experience in React, Javascript, Typescript, Next Js, Node Js, GraphQL, Cloud, etc... Over the past years, I've been working as a front end web developer, working solo and leading small development teams. Before switching in to Software Engineering, I worked as a Game Level Designer for 5 years. So I have a great knowledge even working with larger technical teams. In spare time I enjoy video games and
+            inventing new technologies."
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
