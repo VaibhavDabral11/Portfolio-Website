@@ -87,10 +87,11 @@ export const CryptoDora = (props: IAppProps) => {
               real-time cryptocurrency charts, news and market information. You
               can track your winning crypto portfolio anywhere you go even on
               mobile. <br />
-              <br />I made this using React ⚛️ + Tailwind CSS. Also user React
-              Query for fetching, React Router for routing, Chart Js, Axios,
-              Jest ... MUI and also used firebase for hosting. If you&apos;re
-              interested in my work,{" "}
+              <br />I made this using React Js ⚛️ + Tailwind CSS. In addition
+              used React Query for fetching, React Router for routing, Chart Js,
+              Axios, Jest, MUI, bunch of rest APIs and Firebase as my realtime
+              database, authentication & for hosting. If you&apos;re interested
+              in my work,{" "}
               <a href="#footer">
                 <span className="cursor-pointer font-serif font-semibold italic tracking-widest underline-offset-4 hover:underline">
                   Let&apos;s have a chat
@@ -147,23 +148,24 @@ export const CryptoDora = (props: IAppProps) => {
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
                   complex crypto website
                 </span>
-                : which provides realtime crypto charts, news, alerts, chat
+                : which provides realtime crypto charts, news, alerts, live chat
                 section and complex diagrams for users.
                 <br /> <br /> As the{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7] underline">
                   Lead Frontend Developer
                 </span>
-                , my main task is to build the&nbsp;
+                , my main task was to build the&nbsp;
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
                   entire application
                 </span>
                 , which means I&apos;m responsible of the entire Look, Feel &
-                the Logic of the application. <br /> <br /> I built{" "}
+                the Logic behind the application. <br /> <br /> I built{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
                   CryptoDora
                 </span>{" "}
-                also considering it&apos;s responsive behavior, including a
-                light theme mode and tons of filler features...
+                also considering it&apos;s responsive behavior for mobile
+                devices, including a light theme mode and tons of filler
+                features...
               </p>
             </div>
 

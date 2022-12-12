@@ -84,8 +84,8 @@ export const Portfolio = (props: IAppProps) => {
               this to showcase my web development skills and projects to my
               stunning clients. <br />
               <br />I made this using Next js (Simply, React Js SUPERCHARGED ⚡)
-              + Tailwind CSS, also used Vercel for hosting, MUI, Framer
-              Motion... If you&apos;re interested in my work,{" "}
+              with Typescript, also used Vercel for hosting, MUI, Framer Motion,
+              TailwindCSS... If you&apos;re interested in my work,{" "}
               <a href="#footer">
                 <span className="cursor-pointer font-serif font-semibold italic tracking-widest underline-offset-4 hover:underline">
                   Let&apos;s have a chat
@@ -136,7 +136,7 @@ export const Portfolio = (props: IAppProps) => {
               </h1>
               <div className="my-8 h-1 w-1/4 bg-[#0f141e] sm:relative sm:left-12 sm:flex sm:w-3/4 sm:px-10"></div>
               <p className="case-studies-text text-left font-serif text-lg leading-relaxed tracking-wider text-[#0f141e] sm:w-full sm:px-2 sm:text-center">
-                First this is a{" "}
+                This is a{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
                   modern website
                 </span>
@@ -144,7 +144,7 @@ export const Portfolio = (props: IAppProps) => {
                 showcase my skills.
                 <br /> <br /> As the{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
-                  Developer{" "}
+                  Lead Developer{" "}
                 </span>
                 of this website, my main goal was to build this website & show
                 my{" "}
@@ -155,7 +155,7 @@ export const Portfolio = (props: IAppProps) => {
                 amazing portfolio website right now 😎 Hah!
                 <br /> <br /> I built this website also considering it&apos;s{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
-                  responsive behavior
+                  responsive behavior with bunch of cool animations!
                 </span>{" "}
                 ,{" "}
                 <a
