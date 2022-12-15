@@ -64,8 +64,9 @@ export default function Home() {
                 className="bio-text mb-4 font-semibold text-[#878a8f] drop-shadow-2xl"
               >
                 I&apos;m Yasindu, a frontend web developer with extensive
-                knowledge and experience in React, Javascript, Typescript, Next
-                Js, Node Js, GraphQL, Cloud, etc...
+                knowledge and experience in React, Javascript, SCSS, Tailwind
+                CSS, Typescript, Next Js, Node Js, MongoDB, GraphQL, Jest,
+                etc...
                 <br />
                 <br /> When I program, I&apos;m leveraging the work of millions
                 of other people, including code in libraries, compilers,
