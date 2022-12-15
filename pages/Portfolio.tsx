@@ -96,7 +96,7 @@ export const Portfolio = (props: IAppProps) => {
           </div>
 
           <div className="z-10 flex justify-center pt-6 pb-10 sm:block">
-            <div className="visit-website-btn z-10 flex w-40 justify-center border-2 border-[#0f141e] bg-transparent font-semibold text-[#0f141e] transition-all duration-300 hover:bg-[#0f141e] hover:text-white sm:hidden">
+            <div className="visit-website-btn z-10 flex w-40 justify-center border-2 border-[#0f141e] bg-transparent font-semibold text-[#0f141e] transition-all duration-300 hover:bg-[#0f141e] hover:text-white sm:relative sm:bottom-48 sm:mx-auto sm:mb-10 sm:w-80 sm:p-0">
               <Link
                 className="name-text relative left-5 z-10 flex items-center justify-center font-bold tracking-wider"
                 href="/"
@@ -135,7 +135,7 @@ export const Portfolio = (props: IAppProps) => {
                 Build with amazing clients in mind, and Love.
               </h1>
               <div className="my-8 h-1 w-1/4 bg-[#0f141e] sm:relative sm:left-12 sm:flex sm:w-3/4 sm:px-10"></div>
-              <p className="case-studies-text text-left font-serif text-lg leading-relaxed tracking-wider text-[#0f141e] sm:w-full sm:px-2 sm:text-center">
+              <p className="case-studies-text text-left font-serif text-lg leading-relaxed tracking-wider text-[#0f141e] sm:w-full sm:px-6 sm:text-center">
                 This is a{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
                   modern website
@@ -183,7 +183,7 @@ export const Portfolio = (props: IAppProps) => {
             <div className="">
               <Image
                 src={PortfolioImg1}
-                className="z-50 w-96 scale-150 sm:mx-auto sm:w-2/3"
+                className="w-96 scale-150 sm:mx-auto sm:-mt-10 sm:w-2/3 sm:scale-125"
                 alt="project-img"
               ></Image>
             </div>
