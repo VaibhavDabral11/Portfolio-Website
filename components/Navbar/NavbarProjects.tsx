@@ -57,11 +57,14 @@ const NavbarProjects: FC = () => {
           }
         >
           <div className="z-40">
-            <Link href="/" className="font-semibold text-[#0f141e]">
+            <Link
+              href="/"
+              className="absolute -top-16 left-64 ml-2 mt-1 font-semibold text-[#0f141e]"
+            >
               Home
             </Link>
           </div>
-          <div className="my-1">
+          <div className="absolute -top-10 left-64 ml-2 mt-1">
             <Link
               href="#analysis-outer-section"
               className="font-semibold text-[#0f141e]"
@@ -69,7 +72,7 @@ const NavbarProjects: FC = () => {
               Branding
             </Link>
           </div>
-          <div>
+          <div className="absolute -top-4 left-64 ml-2 mt-1">
             <Link
               href="#see-next-work"
               className="font-semibold text-[#0f141e]"

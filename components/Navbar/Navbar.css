@@ -29,15 +29,15 @@
 }
 
 @media (max-width: 640px) {
-    .menu-bar-active {
-        display:block;
-        transition: 1s;
-    }
+  .menu-bar-active {
+    display: block;
+    transition: 1s;
+  }
 
-.menu-bar {
-        display:block;
-        transform: translateY(100rem);
-        opacity:0;
-        transition: 1s;
-    }
+  .menu-bar {
+    display: block;
+    transform: translateY(-10rem);
+    opacity: 0;
+    transition: 1s;
+  }
 }
