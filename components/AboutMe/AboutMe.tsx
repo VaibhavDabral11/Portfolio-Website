@@ -247,6 +247,14 @@ const AboutMe: FC = () => {
                     &nbsp;/&nbsp;
                   </span>
                   <h4 className="name-text text-lg font-bold">Jest</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">SQL</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">Docker</h4>
                 </div>
               </div>
             </div>
