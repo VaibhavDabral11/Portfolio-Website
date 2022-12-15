@@ -212,13 +212,17 @@ const AboutMe: FC = () => {
                   <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="name-text text-lg font-bold">NodeJs</h4>
+                  <h4 className="name-text text-lg font-bold">Figma</h4>
                   <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
 
                 <div className="flex items-center justify-center">
+                  <h4 className="name-text text-lg font-bold">NodeJs</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
                   <h4 className="name-text text-lg font-bold">GraphQL</h4>
                   <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
@@ -227,30 +231,26 @@ const AboutMe: FC = () => {
                   <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="name-text text-lg font-bold">AWS</h4>
-                  <span className="name-text font-semibold text-[#cfd0d2]">
-                    &nbsp;/&nbsp;
-                  </span>
-                  <h4 className="name-text text-lg font-bold">Figma</h4>
+                  <h4 className="name-text text-lg font-bold">SQL</h4>
                   <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <h4 className="name-text text-lg font-bold">Firebase</h4>
-                  <span className="name-text font-semibold text-[#cfd0d2]">
-                    &nbsp;/&nbsp;
-                  </span>
                   <h4 className="name-text text-lg font-bold">NextJs</h4>
                   <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="name-text text-lg font-bold">Jest</h4>
+                  <h4 className="name-text text-lg font-bold">AWS</h4>
                   <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
-                  <h4 className="name-text text-lg font-bold">SQL</h4>
+                  <h4 className="name-text text-lg font-bold">Firebase</h4>
+                  <span className="name-text font-semibold text-[#cfd0d2]">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <h4 className="name-text text-lg font-bold">Jest</h4>
                   <span className="name-text font-semibold text-[#cfd0d2]">
                     &nbsp;/&nbsp;
                   </span>
