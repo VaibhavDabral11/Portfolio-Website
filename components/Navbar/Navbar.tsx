@@ -51,7 +51,7 @@ const Navbar: FC = () => {
           className={
             active
               ? "menu-bar-active absolute left-4 top-6 z-40 mt-12 mb-5 hidden text-left"
-              : "menu-bar absolute left-4 mt-12 hidden text-left"
+              : "menu-bar-2 absolute left-4 mt-12 hidden text-left"
           }
         >
           <div className="z-40">

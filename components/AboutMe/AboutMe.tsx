@@ -18,6 +18,8 @@ import MongoDB from "../../images/mongodb-brand.png";
 import ReduxImg from "../../images/redux.png";
 import TailwindImg from "../../images/tailwind-logo.png";
 import NextjsImg from "../../images/nextjs-logo.png";
+import DockerImg from "../../images/docker.png";
+import JestImg from "../../images/jest-img.png";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import AOS from "aos";
@@ -264,89 +266,100 @@ const AboutMe: FC = () => {
             SKILLS
           </h4>
           <div
-            className="mx-4 flex cursor-pointer flex-wrap justify-evenly"
+            className="mx-4 flex cursor-pointer flex-wrap justify-center"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <Image
               src={HTMLImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10 "
               alt="html-logo"
             />
             <Image
               src={JavascriptImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="html-logo"
             />
             <Image
               src={SASSImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="html-logo"
             />
             <Image
               src={NodeImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="node-logo"
             />
             <Image
               src={TailwindImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="tailwind-logo"
             />
             <Image
               src={FigmaImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="figma-logo"
             />
             <Image
+              src={DockerImg}
+              className="case-studies-text case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              alt="docker-logo"
+            />
+            <Image
               src={FirebaseImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="firebase-logo"
             />
             <Image
               src={GitImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="git-logo"
             />
             <Image
               src={CSSImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="css-logo"
             />
             <Image
               src={GraphQL}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="graphql-logo"
             />
             <Image
               src={AWS}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="aws-logo"
             />
             <Image
               src={TypescriptImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="html-logo"
             />
             <Image
               src={ReactImg}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="react-logo"
             />
             <Image
               src={MongoDB}
-              className="case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="mongodb-logo"
             />
             <Image
               src={NextjsImg}
-              className="case-studies-text mt-4 mr-1 h-16 w-16 p-1 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text mt-4 mr-1 mr-3 h-16 w-16 p-1 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="nextjs-logo"
             />
             <Image
               src={ReduxImg}
-              className="case-studies-text case-studies-text mt-4 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              className="case-studies-text case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
               alt="redux-logo"
+            />
+
+            <Image
+              src={JestImg}
+              className="case-studies-text case-studies-text mt-4 mr-3 h-16 w-16 transition-all duration-300 hover:scale-110 sm:h-10 sm:w-10"
+              alt="jest-logo"
             />
           </div>
           <h2 className="waving-text"></h2>

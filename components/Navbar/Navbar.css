@@ -34,6 +34,13 @@
     transition: 1s;
   }
 
+  .menu-bar-2 {
+    display: block;
+    transform: translateX(-10rem);
+    opacity: 0;
+    transition: 1s;
+  }
+
   .menu-bar {
     display: block;
     transform: translateY(-10rem);
