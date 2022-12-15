@@ -65,8 +65,8 @@ export default function Home() {
               >
                 I&apos;m Yasindu, a frontend web developer with extensive
                 knowledge and experience in React, Javascript, Typescript, SASS,
-                TailwindCSS, Next Js, Node Js, MongoDB, AWS, SQL, GraphQL, Jest,
-                Docker etc...
+                TailwindCSS, Next Js, Node Js, MongoDB, AWS, Firebase, SQL,
+                GraphQL, Jest, Docker etc...
                 <br />
                 <br /> When I program, I&apos;m leveraging the work of millions
                 of other people, including code in libraries, compilers,
