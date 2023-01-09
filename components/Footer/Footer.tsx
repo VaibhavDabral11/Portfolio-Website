@@ -123,15 +123,6 @@ const Footer: FC = () => {
               <h1 className="name-text hidden text-lg font-bold sm:mt-4 sm:block">
                 Follow <RemoveIcon />
               </h1>
-              <h4 className="case-studies-text mt-3 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
-                <a
-                  href="https://twitter.com/yasindu_neth"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Twitter
-                </a>
-              </h4>
               <h4 className="case-studies-text mt-1 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
                 <a
                   href="https://www.linkedin.com/in/yasinduneth/"
@@ -139,6 +130,16 @@ const Footer: FC = () => {
                   rel="noreferrer"
                 >
                   LinkedIn
+                </a>
+              </h4>
+
+              <h4 className="case-studies-text mt-3 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
+                <a
+                  href="https://twitter.com/yasindu_neth"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Twitter
                 </a>
               </h4>
             </div>

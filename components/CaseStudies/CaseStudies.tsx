@@ -2,10 +2,8 @@ import { FC, useEffect } from "react";
 import Image from "next/image";
 import Project from "./Project";
 import Img1 from "../../images/website-main-dark.jpg";
-import Img4 from "../../images/nft-marketplace.jpg";
-import Img3 from "../../images/portfolio-img.jpg";
-import Img2 from "../../images/portfolio-app.jpg";
-import ProjectImg2 from "../../images/portfolio-app.jpg";
+import Img2 from "../../images/nft-marketplace.jpg";
+import Img3 from "../../images/portfolio-app.jpg";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -74,7 +72,7 @@ const LatestWork: FC = () => {
             <Project
               title="NFT_Marketplace"
               description="NFT Marketplace project made using the immense power of Solidity and Next.js."
-              img={Img4}
+              img={Img2}
               number={2}
               link="https://nft-marketplace-sovq9dcag-yasindunethmina.vercel.app/"
             />
@@ -90,7 +88,7 @@ const LatestWork: FC = () => {
             <Project
               title="Portfolio_Website"
               description="Amazing portfolio website with stunning & complex real-world projects!"
-              img={ProjectImg2}
+              img={Img3}
               number={3}
               link="https://www.yasindu.me/"
             />
@@ -125,13 +123,22 @@ const LatestWork: FC = () => {
               alt="project1"
             />
           </Link>
-          <Link href="/Portfolio">
+          <Link href="/NFT-Marketplace">
             <Image
               src={Img2}
               className="mt-12 w-full border-2"
               data-aos="fade-up"
               data-aos-once="false"
               alt="project2"
+            />
+          </Link>
+          <Link href="/Portfolio">
+            <Image
+              src={Img3}
+              className="mt-12 w-full border-2"
+              data-aos="fade-up"
+              data-aos-once="false"
+              alt="project3"
             />
           </Link>
         </div>
