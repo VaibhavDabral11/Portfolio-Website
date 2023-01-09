@@ -22,9 +22,9 @@
 </br>
 • Projects section to check all latest projects
 </br>
-• Description section for each project
+• Description section to explain details about each project
 </br>
-• Level Design showcase section
+• Level Design section used to showcase my previous experience
 </br>
 • Footer with Google Maps API 
 </br>
