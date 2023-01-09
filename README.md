@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+<br />
+<div align="center"><img src="./resources/Home.png" width="950" height="550"></div>
 
-## Getting Started
+#### Live Link: https://www.yasindu.me/
 
-First, run the development server:
+## Welcome to my Portfolio GitHub project! This project is built to showcase my skills and experience for my clients. This is built using the following technologies:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+• Next.js: A JavaScript framework for building server-rendered React applications.
+<br />
+• Tailwind CSS: A CSS framework for building user interfaces with utility-first styles.
+<br />
+• React Router: A JavaScript library intergrated to react for page routing.
+<br />
+• Vercel: Used for hosting.
+<br />
+• Jest: Used for testing purposes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Features
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+• Skills section showcase my all skills and experiences
+</br>
+• Projects section to check all latest projects
+</br>
+• Description section to explain details about each project
+</br>
+• Level Design section used to showcase my previous experience
+</br>
+• Footer with Google Maps API 
+</br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# Getting Started
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To get started with the Portfolio Project, follow these steps:
+</br>
+Clone the repository: git clone https://github.com/YasinduNethmina/portfolio-app.git
+Install the dependencies: npm install
+Start the development server: npm run dev
+The development server will start up and you can view the application at http://localhost:3000.
 
-## Learn More
+# Deployment
 
-To learn more about Next.js, take a look at the following resources:
+To deploy the Portfolio App to production, follow these steps:
+</br>
+Build the application: npm run build
+Deploy the built application to your preferred hosting provider.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We welcome contributions to the project! If you have an idea for a new feature or have found a bug, please open an issue on the GitHub repository. If you would like to contribute code, please fork the repository and submit a pull request.
 
-## Deploy on Vercel
+# License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See LICENSE for more information.
