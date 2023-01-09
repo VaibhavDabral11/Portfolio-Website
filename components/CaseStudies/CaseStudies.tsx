@@ -2,7 +2,7 @@ import { FC, useEffect } from "react";
 import Image from "next/image";
 import Project from "./Project";
 import Img1 from "../../images/website-main-dark.jpg";
-import Img4 from "../../images/coming-soon-img.png";
+import Img4 from "../../images/nft-marketplace.jpg";
 import Img3 from "../../images/portfolio-img.jpg";
 import Img2 from "../../images/portfolio-app.jpg";
 import ProjectImg2 from "../../images/portfolio-app.jpg";
@@ -67,6 +67,22 @@ const LatestWork: FC = () => {
 
         <div
           className="work2 absolute left-60 flex h-1/2 w-1/2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <Link href="/NFT-Marketplace">
+            <Project
+              title="NFT_Marketplace"
+              description="NFT Marketplace project made using the immense power of Solidity and Next.js."
+              img={Img4}
+              number={2}
+              link="https://nft-marketplace-sovq9dcag-yasindunethmina.vercel.app/"
+            />
+          </Link>
+        </div>
+
+        <div
+          className="work3 absolute right-60 flex h-1/2 w-1/2"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
@@ -75,24 +91,8 @@ const LatestWork: FC = () => {
               title="Portfolio_Website"
               description="Amazing portfolio website with stunning & complex real-world projects!"
               img={ProjectImg2}
-              number={2}
-              link="https://example.com"
-            />
-          </Link>
-        </div>
-
-        <div
-          className="work3 absolute right-60 flex h-1/2 w-1/2"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <Link href="/CryptoDora">
-            <Project
-              title="Coming_Soon..."
-              description="New amazing project coming soon!"
-              img={Img4}
               number={3}
-              link="https://example.com"
+              link="https://www.yasindu.me/"
             />
           </Link>
         </div>

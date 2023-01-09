@@ -90,6 +90,14 @@ const Footer: FC = () => {
               </h4>
               <h4 className="case-studies-text mt-1 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
                 <Link
+                  href="/heading-cryptodora-section"
+                  as={`/NFT-Marketplace/#heading-cryptodora-section`}
+                >
+                  NFT Marketplace
+                </Link>
+              </h4>
+              <h4 className="case-studies-text mt-1 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
+                <Link
                   href="/heading-portfolio-section"
                   as={`/Portfolio/#heading-portfolio-section`}
                 >
