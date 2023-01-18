@@ -36,7 +36,7 @@ export const CryptoDora = (props: IAppProps) => {
             className="cryptodora-img flex items-center justify-around sm:top-48 sm:mt-2 sm:flex-wrap sm:pt-10"
           >
             <div>
-              <h1 className="name-text inline-block text-6xl font-bold text-[#0f141e] sm:text-5xl">
+              <h1 className="name-text inline-block text-6xl font-bold text-[#0f141e] sm:text-4xl">
                 NFT_Marketplace
               </h1>
               <h4 className="name-text mt-4 text-center font-serif italic text-[#878a8f]">
