@@ -145,7 +145,7 @@ export const CryptoDora = (props: IAppProps) => {
           <div className="analysis-section z-50 flex w-full items-center justify-center sm:block">
             <div className="mr-40 w-1/3 sm:relative sm:-top-24 sm:m-0 sm:w-full">
               <h1 className="name-text text-left text-4xl font-bold text-[#0f141e] sm:w-full sm:text-center">
-                Build with Bored Apes in mind, with the Floor Price.
+                Built with Bored Apes in mind, with the Floor Price.
               </h1>
               <div className="my-8 h-1 w-1/4 bg-[#0f141e] sm:relative sm:left-12 sm:flex sm:w-3/4 sm:px-10"></div>
               <p className="case-studies-text text-left font-serif text-lg leading-relaxed tracking-wider text-[#0f141e] sm:w-full sm:px-6 sm:text-center">
