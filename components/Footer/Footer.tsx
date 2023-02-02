@@ -118,7 +118,7 @@ const Footer: FC = () => {
 
             <div>
               <h1 className="name-text text-lg font-bold sm:mt-4 sm:hidden">
-                Follow <br /> me on <RemoveIcon />
+                Follow <br /> me <RemoveIcon />
               </h1>
               <h1 className="name-text hidden text-lg font-bold sm:mt-4 sm:block">
                 Follow <RemoveIcon />
