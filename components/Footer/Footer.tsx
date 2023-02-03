@@ -40,7 +40,7 @@ const Footer: FC = () => {
                 rel="noreferrer"
               >
                 <h4 className="case-studies-text text-xs font-semibold transition-all duration-500 hover:scale-105 sm:my-1">
-                  Discord: ZeroDeathzZ#0001
+                  Discord: ZeroDeathzZ#9867
                 </h4>
               </a>
             </div>
